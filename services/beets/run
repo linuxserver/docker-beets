@@ -1,0 +1,4 @@
+#!/bin/bash
+umask 002
+
+/sbin/setuser abc beet web
