@@ -15,7 +15,7 @@ fi
 
 # process files
 echo "--------------------------"
-echo $(date)
+echo "$(date)"
 echo "Starting beets.sh for $(basename $1)"
 
 BEETSDIR=/config
