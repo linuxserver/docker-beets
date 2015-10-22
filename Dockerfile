@@ -2,7 +2,7 @@ FROM linuxserver/baseimage.python
 MAINTAINER smdion <me@seandion.com> ,Sparklyballs <sparklyballs@linuxserver.io>
 
 ENV BEETSDIR /config
-ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libyaml-dev mp3gain wget"
+ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libyaml-dev mp3gain"
 
 RUN add-apt-repository ppa:kirillshkrogalev/ffmpeg-next && \
 apt-get update -q && \
