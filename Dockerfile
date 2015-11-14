@@ -4,7 +4,7 @@ MAINTAINER smdion <me@seandion.com> ,Sparklyballs <sparklyballs@linuxserver.io>
 ENV BEETSDIR /config
 ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libyaml-dev mp3gain"
 
-RUN add-apt-repository ppa:kirillshkrogalev/ffmpeg-next && \
+RUN add-apt-repository ppa:mc3man/trusty-media && \
 apt-get update -q && \
 apt-get install $APTLIST -qy && \
 pip install -U pyacoustid && \
