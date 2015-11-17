@@ -2,7 +2,7 @@ FROM linuxserver/baseimage.python
 MAINTAINER smdion <me@seandion.com> ,Sparklyballs <sparklyballs@linuxserver.io>
 
 ENV BEETSDIR /config
-ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libyaml-dev mp3gain"
+ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libjpeg8-dev libopenjpeg-dev libpng12-dev libyaml-dev mp3gain"
 
 RUN add-apt-repository ppa:mc3man/trusty-media && \
 apt-get update -q && \
@@ -10,6 +10,7 @@ apt-get install $APTLIST -qy && \
 pip install -U pyacoustid && \
 pip install -U pylast && \
 pip install -U flask && \
+pip install -U pillow && \
 pip install -U beets && \
 apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
