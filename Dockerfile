@@ -4,6 +4,9 @@ MAINTAINER smdion <me@seandion.com> ,Sparklyballs <sparklyballs@linuxserver.io>
 ENV BEETSDIR /config
 ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libjpeg8-dev libopenjpeg-dev libpng12-dev libyaml-dev mp3gain"
 
+# unset the term from baseimage.
+ENV TERM=
+
 RUN add-apt-repository ppa:mc3man/trusty-media && \
 apt-get update -q && \
 apt-get install $APTLIST -qy && \
