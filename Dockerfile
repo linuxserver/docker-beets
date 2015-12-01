@@ -4,9 +4,6 @@ MAINTAINER smdion <me@seandion.com> ,Sparklyballs <sparklyballs@linuxserver.io>
 ENV BEETSDIR /config
 ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libjpeg8-dev libopenjpeg-dev libpng12-dev libyaml-dev mp3gain python2.7"
 
-# unset the term from baseimage.
-ENV TERM=
-
 RUN add-apt-repository ppa:fkrull/deadsnakes-python2.7 && \
 add-apt-repository ppa:mc3man/trusty-media && \
 apt-get update -q && \
