@@ -5,7 +5,7 @@ ENV BEETSDIR /config
 ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libjpeg8-dev libopenjpeg-dev libpng12-dev libyaml-dev mp3gain python2.7"
 
 RUN add-apt-repository ppa:fkrull/deadsnakes-python2.7 && \
-add-apt-repository ppa:mc3man/trusty-media && \
+add-apt-repository ppa:kirillshkrogalev/ffmpeg-next && \
 apt-get update -q && \
 apt-get install $APTLIST -qy && \
 pip install -U pyacoustid && \
