@@ -42,7 +42,7 @@ Edit the config file in /config
 
 
 ## Versions
-
++ **05.01.2016:** Change ffpmeg repository, other version crashes container
 + **06.11.2015:** Initial Release
 + **29.11.2015:** Take out term setting, causing issues with key entry for some users
  
