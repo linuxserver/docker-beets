@@ -12,7 +12,7 @@ pip install -U pyacoustid && \
 pip install -U pylast && \
 pip install -U flask && \
 pip install -U pillow && \
-pip install -U discogs && \
+pip install -U discogs-client && \
 pip install -U beets && \
 apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
