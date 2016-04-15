@@ -1,4 +1,4 @@
-plugins: fetchart embedart convert scrub replaygain lastgenre chroma web
+plugins: fetchart embedart convert scrub replaygain lastgenre chroma web discogs
 directory: /music
 library: /config/musiclibrary.blb
 art_filename: albumart
