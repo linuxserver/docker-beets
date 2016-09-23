@@ -40,7 +40,7 @@ RUN \
  /tmp/mp3gain-src/mp3gain.zip -L \
 	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.5.2/mp3gain-1_5_2_r2-src.zip && \
  cd /tmp/mp3gain-src && \
- unzip /tmp/mp3gain-src/mp3gain.zip && \
+ unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
  make && \
  make install && \
 
