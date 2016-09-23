@@ -24,7 +24,6 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 ```
 docker create \
 --name=beets \
--v /etc/localtime:/etc/localtime:ro \
 -v <path to data>:/config \
 -e PGID=<gid> -e PUID=<uid>  \
 -p 1234:1234 \
@@ -34,14 +33,13 @@ linuxserver/beets
 **Parameters**
 
 * `-p 8337` - the port(s)
-* `-v /etc/localtime` for timesync - *optional*
 * `-v /config` - Configuration files
 * `-v /music` - Music library location
 * `-v /downloads` - Non-processed music
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
 
-It is based on phusion-baseimage with ssh removed, for shell access whilst the container is running do `docker exec -it beets /bin/bash`.
+It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it beets /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -58,15 +56,16 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 Edit the config file in /config
 
-## Updates
+## Info
 
-* Upgrade to the latest version simply `docker restart beets`.
 * To monitor the logs of the container in realtime `docker logs -f beets`.
 
 
 ## Versions
 
++ **24.09.16:** Rebase to alpine linux.
 + **10.09.16:** Add layer badges to README.
 + **05.01.16:** Change ffpmeg repository, other version crashes container
 + **06.11.15:** Initial Release
 + **29.11.15:** Take out term setting, causing issues with key entry for some users
+
