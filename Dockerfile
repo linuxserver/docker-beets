@@ -1,29 +1,81 @@
-FROM linuxserver/baseimage.python
-MAINTAINER smdion <me@seandion.com> ,Sparklyballs <sparklyballs@linuxserver.io>
+FROM lsiobase/alpine
+MAINTAINER sparklyballs
 
-ENV BEETSDIR /config
-ENV APTLIST="ffmpeg lame libav-tools libchromaprint-tools libjpeg8-dev libopenjpeg-dev libpng12-dev libyaml-dev mp3gain python2.7"
+# environment settings
+ENV BEETSDIR="/config"
 
-# copy sources.list
-COPY sources.list /etc/apt/
+# install runtime packages
+RUN \
+ apk add --no-cache \
+	curl \
+	expat \
+	ffmpeg \
+	ffmpeg-libs \
+	gdbm \
+	jpeg \
+	lame \
+	libffi \
+	libpng \
+	openjpeg \
+	py-pip \
+	python \
+	py-unidecode \
+	sqlite-libs \
+	wget && \
 
-RUN add-apt-repository ppa:fkrull/deadsnakes-python2.7 && \
-add-apt-repository ppa:kirillshkrogalev/ffmpeg-next && \
-apt-get update -q && \
-apt-get install $APTLIST -qy && \
-pip install -U pyacoustid && \
-pip install -U pylast && \
-pip install -U flask && \
-pip install -U pillow && \
-pip install -U beets && \
-apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/* /root/.cache
+# install build packages
+ apk add --no-cache --virtual=build-dependencies \
+	cmake \
+	ffmpeg-dev \
+	g++ \
+	gcc \
+	git \
+	jpeg-dev \
+	libpng-dev \
+	make \
+	openjpeg-dev \
+	python-dev && \
 
-#Adding Custom files
-ADD init/ /etc/my_init.d/
-ADD services/ /etc/service/
-ADD defaults/ /defaults/
-RUN chmod -v +x /etc/service/*/run /etc/my_init.d/*.sh
+# compile mp3gain
+ mkdir -p \
+	/tmp/mp3gain-src && \
+ curl -o \
+ /tmp/mp3gain-src/mp3gain.zip -L \
+	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.5.2/mp3gain-1_5_2_r2-src.zip && \
+ cd /tmp/mp3gain-src && \
+ unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
+ make && \
+ make install && \
 
-# Volumes and Ports
-VOLUME /config /downloads /music
+# compile chromaprint
+ git clone https://bitbucket.org/acoustid/chromaprint.git \
+	/tmp/chromaprint && \
+ cd /tmp/chromaprint && \
+ cmake \
+	-DBUILD_EXAMPLES=ON . \
+	-DCMAKE_BUILD_TYPE=Release && \
+ make && \
+ make install && \
+
+# install pip packages
+ pip install --no-cache-dir -U \
+	beets \
+	flask \
+	pillow \
+	pip \
+	pyacoustid \
+	pylast && \
+
+# cleanup
+ apk del --purge \
+	build-dependencies && \
+ rm -rf \
+	/root/.cache \
+	/tmp/*
+
+# copy local files
+COPY root/ /
+
+# ports and volumes
 EXPOSE 8337
+VOLUME /config /downloads /music

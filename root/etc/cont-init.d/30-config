@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bash
+
+# copy config
+[[ ! -e /config/beets.sh ]] && \
+	cp /defaults/beets.sh /config/beets.sh
+[[ ! -e /config/config.yaml ]] && \
+	cp /defaults/config.yaml /config/config.yaml
+
+# permissions
+chown -R abc:abc \
+	/config
