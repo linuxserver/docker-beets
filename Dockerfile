@@ -25,12 +25,15 @@ RUN \
 
 # install build packages
  apk add --no-cache --virtual=build-dependencies \
-	gcc \
+	cmake \
+	ffmpeg-dev \
 	g++ \
+	gcc \
+	git \
 	jpeg-dev \
 	libpng-dev \
-	openjpeg-dev \
 	make \
+	openjpeg-dev \
 	python-dev && \
 
 # compile mp3gain
@@ -41,6 +44,16 @@ RUN \
 	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.5.2/mp3gain-1_5_2_r2-src.zip && \
  cd /tmp/mp3gain-src && \
  unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
+ make && \
+ make install && \
+
+# compile chromaprint
+ git clone https://bitbucket.org/acoustid/chromaprint.git \
+	/tmp/chromaprint && \
+ cd /tmp/chromaprint && \
+ cmake \
+	-DBUILD_EXAMPLES=ON . \
+	-DCMAKE_BUILD_TYPE=Release && \
  make && \
  make install && \
 
