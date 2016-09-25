@@ -44,6 +44,7 @@ RUN \
 	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.5.2/mp3gain-1_5_2_r2-src.zip && \
  cd /tmp/mp3gain-src && \
  unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
+ sed -i "s#/usr/local/bin#/usr/bin#g" /tmp/mp3gain-src/Makefile && \
  make && \
  make install && \
 
@@ -53,7 +54,8 @@ RUN \
  cd /tmp/chromaprint && \
  cmake \
 	-DBUILD_EXAMPLES=ON . \
-	-DCMAKE_BUILD_TYPE=Release && \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DCMAKE_INSTALL_PREFIX:PATH=/usr && \
  make && \
  make install && \
 
