@@ -1,5 +1,5 @@
 #!/usr/bin/with-contenv bash
-umask 002
+umask 022
 
 exec \
 	s6-setuidgid abc beet web
