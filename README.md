@@ -63,6 +63,7 @@ Edit the config file in /config
 
 ## Versions
 
++ **30.09.16:** Fix umask.
 + **24.09.16:** Rebase to alpine linux.
 + **10.09.16:** Add layer badges to README.
 + **05.01.16:** Change ffpmeg repository, other version crashes container
