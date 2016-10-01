@@ -3,6 +3,7 @@ MAINTAINER sparklyballs
 
 # environment settings
 ENV BEETSDIR="/config"
+ENV EDITOR="nano"
 
 # install runtime packages
 RUN \
@@ -16,6 +17,7 @@ RUN \
 	lame \
 	libffi \
 	libpng \
+	nano \
 	openjpeg \
 	py-pip \
 	python \
