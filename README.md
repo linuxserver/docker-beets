@@ -56,6 +56,8 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 Edit the config file in /config
 
+To edit the config from within the container use `beet config -e`
+
 ## Info
 
 * To monitor the logs of the container in realtime `docker logs -f beets`.
@@ -63,6 +65,8 @@ Edit the config file in /config
 
 ## Versions
 
++ **01.10.16:** Add nano and editor variable -
+to allow editing of the config from the container command line.
 + **30.09.16:** Fix umask.
 + **24.09.16:** Rebase to alpine linux.
 + **10.09.16:** Add layer badges to README.
