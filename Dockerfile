@@ -23,6 +23,7 @@ RUN \
 	python \
 	py-unidecode \
 	sqlite-libs \
+	sudo \
 	wget && \
 
 # install build packages
