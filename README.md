@@ -81,7 +81,7 @@ See [Beets][beetsurl] for more info.
 
 ## Versions
 
-+ **14-10-16:** Add version layer information.
++ **14.10.16:** Add version layer information.
 + **01.10.16:** Add nano and editor variable -
 to allow editing of the config from the container command line.
 + **30.09.16:** Fix umask.
