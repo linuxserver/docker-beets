@@ -59,12 +59,8 @@ RUN \
  make install && \
 
 # compile chromaprint
- mkdir -p \
+ git clone https://bitbucket.org/acoustid/chromaprint.git \
 	/tmp/chromaprint && \
- curl -o /tmp/chromaprint-src.tar.gz -L \
-	https://bitbucket.org/acoustid/chromaprint/downloads/chromaprint-1.4.tar.gz && \
- tar xf /tmp/chromaprint-src.tar.gz -C \
-	/tmp/chromaprint --strip-components=1 && \
  cd /tmp/chromaprint && \
  cmake \
 	-DBUILD_TOOLS=ON \
