@@ -18,16 +18,19 @@ RUN \
 	ffmpeg \
 	ffmpeg-libs \
 	gdbm \
+	gstreamer1 \
 	jpeg \
 	lame \
 	libffi \
 	libpng \
 	nano \
 	openjpeg \
+	py-gobject \
 	py-pip \
 	python \
 	py-unidecode \
 	sqlite-libs \
+	tar \
 	wget && \
 
 # install build packages
@@ -60,7 +63,7 @@ RUN \
 	/tmp/chromaprint && \
  cd /tmp/chromaprint && \
  cmake \
-	-DBUILD_EXAMPLES=ON . \
+	-DBUILD_TOOLS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DCMAKE_INSTALL_PREFIX:PATH=/usr && \
  make && \
