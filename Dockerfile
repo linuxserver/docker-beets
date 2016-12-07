@@ -18,16 +18,19 @@ RUN \
 	ffmpeg \
 	ffmpeg-libs \
 	gdbm \
+	gstreamer1 \
 	jpeg \
 	lame \
 	libffi \
 	libpng \
 	nano \
 	openjpeg \
+	py-gobject \
 	py-pip \
 	python \
 	py-unidecode \
 	sqlite-libs \
+	tar \
 	wget && \
 
 # install build packages
@@ -56,11 +59,15 @@ RUN \
  make install && \
 
 # compile chromaprint
- git clone https://bitbucket.org/acoustid/chromaprint.git \
+ mkdir -p \
 	/tmp/chromaprint && \
+ curl -o /tmp/chromaprint-src.tar.gz -L \
+	https://bitbucket.org/acoustid/chromaprint/downloads/chromaprint-1.4.tar.gz && \
+ tar xf /tmp/chromaprint-src.tar.gz -C \
+	/tmp/chromaprint --strip-components=1 && \
  cd /tmp/chromaprint && \
  cmake \
-	-DBUILD_EXAMPLES=ON . \
+	-DBUILD_TOOLS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DCMAKE_INSTALL_PREFIX:PATH=/usr && \
  make && \
