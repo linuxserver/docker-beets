@@ -76,6 +76,7 @@ RUN \
 	pillow \
 	pip \
 	pyacoustid \
+	beets-copyartifacts \	
 	pylast && \
 
 # cleanup
