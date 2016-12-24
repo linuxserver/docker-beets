@@ -66,7 +66,9 @@ To edit the config from within the container use `beet config -e`
 
 See [Beets][beetsurl] for more info.
 
-## Info
+Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin, [configuration details](https://github.com/sbarakat/beets-copyartifacts#configuration)
+
+ ## Info
 
 * To monitor the logs of the container in realtime `docker logs -f beets`.
 
