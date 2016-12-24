@@ -81,6 +81,7 @@ See [Beets][beetsurl] for more info.
 
 ## Versions
 
++ **24.12.16:** Add [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin.
 + **07.12.16:** Edit cmake options for chromaprint, should now build and install fpcalc, add gstreamer lib
 + **14.10.16:** Add version layer information.
 + **01.10.16:** Add nano and editor variable -
