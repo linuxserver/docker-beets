@@ -72,11 +72,11 @@ RUN \
 # install pip packages
  pip install --no-cache-dir -U \
 	beets \
+	beets-copyartifacts \
 	flask \
 	pillow \
 	pip \
 	pyacoustid \
-	beets-copyartifacts \	
 	pylast && \
 
 # cleanup

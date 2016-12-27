@@ -68,7 +68,7 @@ See [Beets][beetsurl] for more info.
 
 Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin, [configuration details](https://github.com/sbarakat/beets-copyartifacts#configuration)
 
- ## Info
+## Info
 
 * To monitor the logs of the container in realtime `docker logs -f beets`.
 
