@@ -18,6 +18,7 @@ RUN \
 	ffmpeg \
 	ffmpeg-libs \
 	gdbm \
+	gst-plugins-good1 \
 	gstreamer1 \
 	jpeg \
 	lame \
@@ -26,6 +27,7 @@ RUN \
 	nano \
 	openjpeg \
 	py-gobject \
+	py-gobject3 \
 	py-pip \
 	python \
 	py-unidecode \
