@@ -64,6 +64,8 @@ Edit the config file in /config
 
 To edit the config from within the container use `beet config -e`
 
+For a command prompt as user abc `docker exec -it -u abc beets bash`
+
 See [Beets][beetsurl] for more info.
 
 Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin, [configuration details](https://github.com/sbarakat/beets-copyartifacts#configuration)
@@ -83,6 +85,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 ## Versions
 
++ **16.01.17:** Add packages required for replaygain.
 + **24.12.16:** Add [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin.
 + **07.12.16:** Edit cmake options for chromaprint, should now build and install fpcalc, add gstreamer lib
 + **14.10.16:** Add version layer information.

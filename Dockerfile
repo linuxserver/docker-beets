@@ -6,10 +6,6 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-# environment settings
-ENV BEETSDIR="/config"
-ENV EDITOR="nano"
-
 # install runtime packages
 RUN \
  apk add --no-cache \
@@ -18,6 +14,7 @@ RUN \
 	ffmpeg \
 	ffmpeg-libs \
 	gdbm \
+	gst-plugins-good1 \
 	gstreamer1 \
 	jpeg \
 	lame \
@@ -25,7 +22,7 @@ RUN \
 	libpng \
 	nano \
 	openjpeg \
-	py-gobject \
+	py-gobject3 \
 	py-pip \
 	python \
 	py-unidecode \
@@ -85,6 +82,11 @@ RUN \
  rm -rf \
 	/root/.cache \
 	/tmp/*
+
+# environment settings
+ENV BEETSDIR="/config" \
+EDITOR="nano" \
+HOME="/config"
 
 # copy local files
 COPY root/ /
