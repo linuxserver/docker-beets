@@ -6,11 +6,6 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-# environment settings
-ENV BEETSDIR="/config" \
-EDITOR="nano" \
-HOME="/config"
-
 # install runtime packages
 RUN \
  apk add --no-cache \
@@ -87,6 +82,11 @@ RUN \
  rm -rf \
 	/root/.cache \
 	/tmp/*
+
+# environment settings
+ENV BEETSDIR="/config" \
+EDITOR="nano" \
+HOME="/config"
 
 # copy local files
 COPY root/ /
