@@ -26,7 +26,6 @@ RUN \
 	libpng \
 	nano \
 	openjpeg \
-	py-gobject \
 	py-gobject3 \
 	py-pip \
 	python \
