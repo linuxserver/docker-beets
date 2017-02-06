@@ -1,4 +1,4 @@
-FROM lsiobase/alpine
+FROM lsiobase/alpine:3.5
 MAINTAINER sparklyballs
 
 # set version label
@@ -22,10 +22,10 @@ RUN \
 	libpng \
 	nano \
 	openjpeg \
+	py2-pip \
+	py2-unidecode \
 	py-gobject3 \
-	py-pip \
-	python \
-	py-unidecode \
+	python2 \
 	sqlite-libs \
 	tar \
 	wget && \
@@ -41,7 +41,7 @@ RUN \
 	libpng-dev \
 	make \
 	openjpeg-dev \
-	python-dev && \
+	python2-dev && \
 
 # compile mp3gain
  mkdir -p \

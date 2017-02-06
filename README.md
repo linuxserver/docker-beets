@@ -85,6 +85,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 ## Versions
 
++ **06.02.17:** Rebase to alpine linux 3.5.
 + **16.01.17:** Add packages required for replaygain.
 + **24.12.16:** Add [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin.
 + **07.12.16:** Edit cmake options for chromaprint, should now build and install fpcalc, add gstreamer lib
