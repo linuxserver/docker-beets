@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.5
+FROM lsiobase/alpine:3.6
 MAINTAINER sparklyballs
 
 # set version label
@@ -6,8 +6,21 @@ ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 
-# install runtime packages
+# install build packages
 RUN \
+ apk add --no-cache --virtual=build-dependencies \
+	cmake \
+	ffmpeg-dev \
+	g++ \
+	gcc \
+	git \
+	jpeg-dev \
+	libpng-dev \
+	make \
+	openjpeg-dev \
+	python2-dev && \
+
+# install runtime packages
  apk add --no-cache \
 	curl \
 	expat \
@@ -22,26 +35,12 @@ RUN \
 	libpng \
 	nano \
 	openjpeg \
+	py2-gobject3 \
 	py2-pip \
-	py2-unidecode \
-	py-gobject3 \
 	python2 \
 	sqlite-libs \
 	tar \
 	wget && \
-
-# install build packages
- apk add --no-cache --virtual=build-dependencies \
-	cmake \
-	ffmpeg-dev \
-	g++ \
-	gcc \
-	git \
-	jpeg-dev \
-	libpng-dev \
-	make \
-	openjpeg-dev \
-	python2-dev && \
 
 # compile mp3gain
  mkdir -p \
@@ -74,7 +73,8 @@ RUN \
 	pillow \
 	pip \
 	pyacoustid \
-	pylast && \
+	pylast \
+	unidecode && \
 
 # cleanup
  apk del --purge \
