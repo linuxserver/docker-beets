@@ -74,7 +74,8 @@ RUN \
 	pip \
 	pyacoustid \
 	pylast \
-	unidecode && \
+	unidecode \
+	discogs_client && \
 
 # cleanup
  apk del --purge \
