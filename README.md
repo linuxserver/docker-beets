@@ -85,6 +85,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 ## Versions
 
++ **06.12.17:** Rebase to alpine linux 3.7.
 + **25.05.17:** Rebase to alpine linux 3.6.
 + **06.02.17:** Rebase to alpine linux 3.5.
 + **16.01.17:** Add packages required for replaygain.
