@@ -76,9 +76,9 @@ RUN \
  make install && \
  echo "**** install pip packages ****" && \
  pip install --no-cache-dir -U \
+	beautifulsoup4 \
 	beets \
 	beets-copyartifacts \
-	beautifulsoup4 \
 	flask \
 	pillow \
 	pip \
