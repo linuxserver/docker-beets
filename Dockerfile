@@ -78,6 +78,7 @@ RUN \
  pip install --no-cache-dir -U \
 	beets \
 	beets-copyartifacts \
+	beautifulsoup4 \
 	flask \
 	pillow \
 	pip \
