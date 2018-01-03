@@ -85,6 +85,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 ## Versions
 
++ **02.01.18:** Deprecate cpu_core routine lack of scaling.
 + **27.12.17:** Add beautifulsoup4 pip package.
 + **06.12.17:** Rebase to alpine linux 3.7.
 + **25.05.17:** Rebase to alpine linux 3.6.

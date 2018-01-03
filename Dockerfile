@@ -49,19 +49,7 @@ RUN \
  cd /tmp/mp3gain-src && \
  unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
  sed -i "s#/usr/local/bin#/usr/bin#g" /tmp/mp3gain-src/Makefile && \
- echo "**** attempt to set number of cores available for make to use ****" && \
- set -ex && \
- CPU_CORES=$( < /proc/cpuinfo grep -c processor ) || echo "failed cpu look up" && \
- if echo $CPU_CORES | grep -E  -q '^[0-9]+$'; then \
-	: ;\
- if [ "$CPU_CORES" -gt 7 ]; then \
-	CPU_CORES=$(( CPU_CORES  - 3 )); \
- elif [ "$CPU_CORES" -gt 5 ]; then \
-	CPU_CORES=$(( CPU_CORES  - 2 )); \
- elif [ "$CPU_CORES" -gt 3 ]; then \
-	CPU_CORES=$(( CPU_CORES  - 1 )); fi \
- else CPU_CORES="1"; fi && \
- make -j $CPU_CORES && \
+ make && \
  make install && \
  echo "**** compile chromaprint ****" && \
  git clone https://bitbucket.org/acoustid/chromaprint.git \
@@ -71,8 +59,7 @@ RUN \
 	-DBUILD_TOOLS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DCMAKE_INSTALL_PREFIX:PATH=/usr && \
- make -j $CPU_CORES && \
- set +ex && \
+ make && \
  make install && \
  echo "**** install pip packages ****" && \
  pip install --no-cache-dir -U \
