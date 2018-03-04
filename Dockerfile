@@ -17,6 +17,7 @@ RUN \
 	jpeg-dev \
 	libpng-dev \
 	make \
+	mpg123-dev \
 	openjpeg-dev \
 	python2-dev && \
  echo "**** install runtime packages ****" && \
@@ -32,6 +33,7 @@ RUN \
 	lame \
 	libffi \
 	libpng \
+	mpg123 \
 	nano \
 	openjpeg \
 	py2-gobject3 \
@@ -45,7 +47,7 @@ RUN \
 	/tmp/mp3gain-src && \
  curl -o \
  /tmp/mp3gain-src/mp3gain.zip -L \
-	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.5.2/mp3gain-1_5_2_r2-src.zip && \
+	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.6.1/mp3gain-1_6_1-src.zip && \
  cd /tmp/mp3gain-src && \
  unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
  sed -i "s#/usr/local/bin#/usr/bin#g" /tmp/mp3gain-src/Makefile && \
