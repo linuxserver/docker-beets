@@ -68,6 +68,7 @@ RUN \
 	beautifulsoup4 \
 	beets \
 	beets-copyartifacts \
+	discogs-client \
 	flask \
 	pillow \
 	pip \
