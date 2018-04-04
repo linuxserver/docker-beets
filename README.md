@@ -24,15 +24,17 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 ```
 docker create \
 --name=beets \
--v <path to data>:/config \
+-v <path to config>:/config \
+-v <path to music>:/music \
+-v <path to non-processed music>:/downloads \
 -e PGID=<gid> -e PUID=<uid>  \
--p 1234:1234 \
+-p 8337:8337 \
 linuxserver/beets
 ```
 
 ## Parameters
 
-`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
+`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side.
 For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
 So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
 http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.`
@@ -58,7 +60,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
 
-## Setting up the application 
+## Setting up the application
 
 Edit the config file in /config
 
@@ -74,7 +76,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 * To monitor the logs of the container in realtime `docker logs -f beets`.
 
-* container version number 
+* container version number
 
 `docker inspect -f '{{ index .Config.Labels "build_version" }}' beets`
 
