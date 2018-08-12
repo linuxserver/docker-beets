@@ -87,6 +87,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 ## Versions
 
++ **12.08.18:** Add requests pip package.
 + **04.03.18:** Upgrade mp3gain to 1.6.1.
 + **02.01.18:** Deprecate cpu_core routine lack of scaling.
 + **27.12.17:** Add beautifulsoup4 pip package.
