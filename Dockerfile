@@ -74,6 +74,7 @@ RUN \
 	pip \
 	pyacoustid \
 	pylast \
+	requests \
 	unidecode && \
  echo "**** cleanup ****" && \
  apk del --purge \
