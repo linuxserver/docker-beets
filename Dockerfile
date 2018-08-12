@@ -19,6 +19,8 @@ RUN \
 	make \
 	mpg123-dev \
 	openjpeg-dev \
+	libxml2-dev \
+	libxslt-dev \
 	python2-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
@@ -69,6 +71,7 @@ RUN \
 	beets \
 	beets-copyartifacts \
 	discogs-client \
+	gmusicapi \
 	flask \
 	pillow \
 	pip \
