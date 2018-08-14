@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.7
+FROM lsiobase/alpine:3.8
 
 # set version label
 ARG BUILD_DATE
@@ -19,7 +19,7 @@ RUN \
 	make \
 	mpg123-dev \
 	openjpeg-dev \
-	python2-dev && \
+	python3-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache \
 	curl \
@@ -36,12 +36,16 @@ RUN \
 	mpg123 \
 	nano \
 	openjpeg \
-	py2-gobject3 \
-	py2-pip \
-	python2 \
+	py3-gobject3 \
+	py3-pip \
+	python3 \
 	sqlite-libs \
 	tar \
 	wget && \
+ echo "**** create symlink for pip ****" && \
+ if \
+	[ ! -e /usr/bin/pip ]; then \
+	ln -s /usr/bin/pip3 /usr/bin/pip ; fi && \
  echo "**** compile mp3gain ****" && \
  mkdir -p \
 	/tmp/mp3gain-src && \
