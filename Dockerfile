@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.7
+FROM lsiobase/alpine:3.8
 
 # set version label
 ARG BUILD_DATE
@@ -38,6 +38,7 @@ RUN \
 	openjpeg \
 	py2-gobject3 \
 	py2-pip \
+	py2-pylast \
 	python2 \
 	sqlite-libs \
 	tar \
@@ -73,7 +74,6 @@ RUN \
 	pillow \
 	pip \
 	pyacoustid \
-	pylast \
 	requests \
 	unidecode && \
  echo "**** cleanup ****" && \
