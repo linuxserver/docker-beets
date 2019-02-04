@@ -87,6 +87,7 @@ Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) 
 
 ## Versions
 
++ **28.01.19:** Add pipeline logic and multi arch.
 + **15.08.18:** Rebase to alpine 3.8, use alpine repo version of pylast.
 + **12.08.18:** Add requests pip package.
 + **04.03.18:** Upgrade mp3gain to 1.6.1.
