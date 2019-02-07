@@ -12,6 +12,7 @@ RUN \
  apk add --no-cache --virtual=build-dependencies \
 	cmake \
 	ffmpeg-dev \
+	fftw-dev \
 	g++ \
 	gcc \
 	git \
@@ -27,6 +28,7 @@ RUN \
 	expat \
 	ffmpeg \
 	ffmpeg-libs \
+	fftw \
 	gdbm \
 	gst-plugins-good \
 	gstreamer \
