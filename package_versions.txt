@@ -64,7 +64,7 @@ libpciaccess libpciaccess-0.13.5-r1
 libdrm libdrm-2.4.92-r0
 libva libva-2.1.0-r1
 libvdpau libvdpau-1.1.1-r1
-libvorbis libvorbis-1.3.6-r1
+libvorbis libvorbis-1.3.6-r2
 libvpx libvpx-1.6.1-r0
 x264-libs x264-libs-20180304-r1
 x265 x265-2.7-r1
