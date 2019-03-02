@@ -77,7 +77,7 @@ mpg123 mpg123-1.25.10-r0
 openjpeg openjpeg-2.3.0-r1
 gdbm gdbm-1.13-r1
 sqlite-libs sqlite-libs-3.25.3-r0
-python2 python2-2.7.15-r1
+python3 python3-3.6.6-r0
 curl curl-7.61.1-r1
 ffmpeg ffmpeg-3.4.4-r1
 fftw fftw-3.3.6p2-r2
@@ -143,11 +143,9 @@ oniguruma oniguruma-6.8.2-r0
 jq jq-1.6_rc1-r1
 libmagic libmagic-5.32-r0
 nano nano-2.9.8-r0
-py2-cairo py2-cairo-1.16.3-r0
+py3-cairo py3-cairo-1.16.3-r0
 gobject-introspection gobject-introspection-1.56.1-r0
-py2-gobject3 py2-gobject3-3.28.2-r0
-py-setuptools py-setuptools-39.1.0-r0
-py2-pip py2-pip-10.0.1-r0
-py2-pylast py2-pylast-2.3.0-r0
+py3-gobject3 py3-gobject3-3.28.2-r0
+py3-pylast py3-pylast-2.3.0-r0
 tar tar-1.32-r0
 wget wget-1.20.1-r0
