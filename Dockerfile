@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.8
+FROM lsiobase/alpine:3.9
 
 # set version label
 ARG BUILD_DATE
@@ -9,7 +9,7 @@ LABEL maintainer="sparklyballs"
 
 RUN \
  echo "**** install build packages ****" && \
- apk add --no-cache --virtual=build-dependencies \
+ apk add --no-cache --virtual=build-dependencies --upgrade \
 	cmake \
 	ffmpeg-dev \
 	fftw-dev \
@@ -21,9 +21,9 @@ RUN \
 	make \
 	mpg123-dev \
 	openjpeg-dev \
-	python2-dev && \
+	python3-dev && \
  echo "**** install runtime packages ****" && \
- apk add --no-cache \
+ apk add --no-cache --upgrade \
 	curl \
 	expat \
 	ffmpeg \
@@ -40,10 +40,10 @@ RUN \
 	mpg123 \
 	nano \
 	openjpeg \
-	py2-gobject3 \
-	py2-pip \
-	py2-pylast \
-	python2 \
+	py3-gobject3 \
+	py3-pip \
+	py3-pylast \
+	python3 \
 	sqlite-libs \
 	tar \
 	wget && \
@@ -73,7 +73,7 @@ RUN \
 	BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json \
 	|jq -r '. | .info.version'); \
  fi && \
- pip install --no-cache-dir -U \
+ pip3 install --no-cache-dir -U \
 	beautifulsoup4 \
 	beets==${BEETS_VERSION} \
 	beets-copyartifacts \
