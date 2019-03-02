@@ -159,6 +159,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **01.03.19:** - Switch to python3.
 * **07.02.19:** - Add fftw-dev build dependency for chromaprint.
 * **28.01.19:** - Add pipeline logic and multi arch.
 * **15.08.18:** - Rebase to alpine 3.8, use alpine repo version of pylast.
