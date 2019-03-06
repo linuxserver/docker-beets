@@ -33,6 +33,7 @@ param_ports:
 
 # changelog
 changelogs:
+  - { date: "06.03.19:", desc: "Added gmusicapi python package" }
   - { date: "01.03.19:", desc: "Switch to python3." }
   - { date: "07.02.19:", desc: "Add fftw-dev build dependency for chromaprint." }
   - { date: "28.01.19:", desc: "Add pipeline logic and multi arch." }

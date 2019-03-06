@@ -17,11 +17,14 @@ RUN \
 	gcc \
 	git \
 	jpeg-dev \
+	libc-dev \
 	libpng-dev \
+	libxml2-dev \
 	make \
 	mpg123-dev \
 	openjpeg-dev \
-	python3-dev && \
+	python3-dev \
+	xmlsec-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
 	curl \
@@ -79,6 +82,7 @@ RUN \
 	beets-copyartifacts \
 	discogs-client \
 	flask \
+	gmusicapi \
 	pillow \
 	pip \
 	pyacoustid \
