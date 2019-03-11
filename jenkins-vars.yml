@@ -2,13 +2,15 @@
 
 # jenkins variables
 project_name: docker-beets
-external_type: pip_version
-release_type: stable
-release_tag: latest
-ls_branch: master
+external_type: github_commit
+release_type: prerelease
+release_tag: nightly
+ls_branch: nightly
 repo_vars:
   - BUILD_VERSION_ARG = 'BEETS_VERSION'
-  - EXT_PIP='beets'
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'beetbox'
+  - EXT_REPO = 'beets'
   - LS_USER = 'linuxserver'
   - LS_REPO = 'docker-beets'
   - CONTAINER_NAME = 'beets'
@@ -16,7 +18,7 @@ repo_vars:
   - DEV_DOCKERHUB_IMAGE = 'lsiodev/beets'
   - PR_DOCKERHUB_IMAGE = 'lspipepr/beets'
   - DIST_IMAGE = 'alpine'
-  - MULTIARCH='true'
+  - MULTIARCH='false'
   - CI='true'
   - CI_WEB='true'
   - CI_PORT='8337'
