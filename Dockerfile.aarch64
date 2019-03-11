@@ -206,6 +206,9 @@ LABEL maintainer="sparklyballs"
 COPY --from=strip-stage /build/all/usr/  /usr/
 COPY bandaid/aarch64/ /usr/lib/
 
+# Add qemu to build on x86_64 systems
+COPY qemu-aarch64-static /usr/bin
+
 # install runtime packages
 RUN \
  apk add --no-cache \
