@@ -41,6 +41,14 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v6-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable Beets Releases |
+| nightly | Built against head of Beets git, generally considered unstable but a likely choice for power users of the application. |
 
 ## Usage
 
@@ -159,6 +167,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **03.11.19:** - Swap copyartifacts for extrafiles, add gmusic-api, update endpoints with nightly tag.
 * **01.03.19:** - Switch to python3.
 * **07.02.19:** - Add fftw-dev build dependency for chromaprint.
 * **28.01.19:** - Add pipeline logic and multi arch.
