@@ -46,6 +46,10 @@ FROM lsiobase/alpine.armhf:${ALPINE_VER} as beets_build-stage
 
 ############## beets build stage ##############
 
+# copy artifacts from fetch stage
+COPY --from=fetch-stage /tmp/beets-src /tmp/beets-src
+COPY --from=fetch-stage /tmp/copyartifacts-src /tmp/copyartifacts-src
+
 # set workdir for beets install
 WORKDIR /tmp/beets-src
 
@@ -54,11 +58,6 @@ RUN \
  apk add --no-cache \
 	py3-setuptools \
 	python3-dev
-
-# copy artifacts from fetch stage and apply bandaid
-COPY --from=fetch-stage /tmp/beets-src /tmp/beets-src
-COPY --from=fetch-stage /tmp/copyartifacts-src /tmp/copyartifacts-src
-COPY bandaid/armhf/ /usr/lib/
 
 # build beets package
 RUN \
@@ -141,9 +140,6 @@ RUN \
 	py3-pip \
 	python3-dev
 
-# apply bandaid
-COPY bandaid/armhf/ /usr/lib/
-
 # install pip packages
 RUN \
  set -ex && \
@@ -202,9 +198,8 @@ ARG BEETS_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
-# copy artifacts strip stage and apply bandaid
+# copy artifacts strip stage
 COPY --from=strip-stage /build/all/usr/  /usr/
-COPY bandaid/armhf/ /usr/lib/
 
 # install runtime packages
 RUN \
