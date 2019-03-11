@@ -39,7 +39,7 @@ param_ports:
 
 # changelog
 changelogs:
-  - { date: "03.11.19:", desc: "Swap copyartifacts for extrafiles, add gmusic-api, update endpoints with nightly tag." }
+  - { date: "03.11.19:", desc: "Swap copyartifacts for extrafiles, update endpoints with nightly tag." }
   - { date: "01.03.19:", desc: "Switch to python3." }
   - { date: "07.02.19:", desc: "Add fftw-dev build dependency for chromaprint." }
   - { date: "28.01.19:", desc: "Add pipeline logic and multi arch." }

@@ -18,13 +18,10 @@ RUN \
 	git \
 	jpeg-dev \
 	libpng-dev \
-	libxml2-dev \
-	libxslt-dev \
 	make \
 	mpg123-dev \
 	openjpeg-dev \
-	python3-dev \
-	zlib-dev && \
+	python3-dev && \
  echo "**** install runtime packages ****" && \
  apk add --no-cache --upgrade \
 	curl \
@@ -40,8 +37,6 @@ RUN \
 	lame \
 	libffi \
 	libpng \
-	libxml2 \
-	libxslt \
 	mpg123 \
 	nano \
 	openjpeg \
@@ -51,8 +46,7 @@ RUN \
 	python3 \
 	sqlite-libs \
 	tar \
-	wget \
-	zlib && \
+	wget && \
  echo "**** compile mp3gain ****" && \
  mkdir -p \
 	/tmp/mp3gain-src && \
@@ -85,7 +79,6 @@ RUN \
 	beets-extrafiles \
 	discogs-client \
 	flask \
-	gmusicapi \
 	pillow \
 	pip \
 	pyacoustid \
