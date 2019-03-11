@@ -16,6 +16,12 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v6-latest"}
 
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable Beets Releases" }
+  - { tag: "nightly", desc: "Built against head of Beets git, generally considered unstable but a likely choice for power users of the application." }
+
 # container parameters
 common_param_env_vars_enabled: true #PGID, PUID, etc, you can set it to 'optional'
 param_container_name: "{{ project_name }}"
@@ -33,6 +39,7 @@ param_ports:
 
 # changelog
 changelogs:
+  - { date: "03.11.19:", desc: "Swap copyartifacts for extrafiles, add gmusic-api, update endpoints with nightly tag." }
   - { date: "01.03.19:", desc: "Switch to python3." }
   - { date: "07.02.19:", desc: "Add fftw-dev build dependency for chromaprint." }
   - { date: "28.01.19:", desc: "Add pipeline logic and multi arch." }
