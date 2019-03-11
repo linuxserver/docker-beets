@@ -21,7 +21,7 @@ pipeline {
     DEV_DOCKERHUB_IMAGE = 'lsiodev/beets'
     PR_DOCKERHUB_IMAGE = 'lspipepr/beets'
     DIST_IMAGE = 'alpine'
-    MULTIARCH='false'
+    MULTIARCH='true'
     CI='true'
     CI_WEB='true'
     CI_PORT='8337'
