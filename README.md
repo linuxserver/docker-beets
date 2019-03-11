@@ -167,7 +167,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
-* **03.11.19:** - Swap copyartifacts for extrafiles, add gmusic-api, update endpoints with nightly tag.
+* **03.11.19:** - Swap copyartifacts for extrafiles, update endpoints with nightly tag.
 * **01.03.19:** - Switch to python3.
 * **07.02.19:** - Add fftw-dev build dependency for chromaprint.
 * **28.01.19:** - Add pipeline logic and multi arch.
