@@ -1,5 +1,5 @@
 ARG ALPINE_VER="3.9"
-FROM lsiobase/alpine.arm64:${ALPINE_VER} as fetch-stage
+FROM lsiobase/alpine:arm64v8-${ALPINE_VER} as fetch-stage
 
 ############## fetch stage ##############
 
@@ -42,7 +42,7 @@ RUN \
  git clone https://bitbucket.org/acoustid/chromaprint.git /tmp/chromaprint-src && \
  git clone https://github.com/sbarakat/beets-copyartifacts.git /tmp/copyartifacts-src
 
-FROM lsiobase/alpine.arm64:${ALPINE_VER} as beets_build-stage
+FROM lsiobase/alpine:arm64v8-${ALPINE_VER} as beets_build-stage
 
 ############## beets build stage ##############
 
@@ -100,7 +100,7 @@ RUN \
  make && \
  make install
 
-FROM lsiobase/alpine.arm64:${ALPINE_VER} as chromaprint_build-stage
+FROM lsiobase/alpine:arm64v8-${ALPINE_VER} as chromaprint_build-stage
 
 ############## chromaprint build stage ##############
 
@@ -129,7 +129,7 @@ RUN \
  make && \
  make DESTDIR=/build/chromaprint install
 
-FROM lsiobase/alpine.arm64:${ALPINE_VER} as pip-stage
+FROM lsiobase/alpine:arm64v8-${ALPINE_VER} as pip-stage
 
 ############## pip packages install stage ##############
 
@@ -154,7 +154,7 @@ RUN \
 	pyyaml \
 	unidecode
 
-FROM lsiobase/alpine.arm64:${ALPINE_VER} as strip-stage
+FROM lsiobase/alpine:arm64v8-${ALPINE_VER} as strip-stage
 
 ############## strip packages stage ##############
 
@@ -191,7 +191,7 @@ RUN \
 		find /build/all/ -iname "${cleanfiles}" -exec rm -vf '{}' + \
 	; done
 
-FROM lsiobase/alpine.arm64:${ALPINE_VER}
+FROM lsiobase/alpine:arm64v8-${ALPINE_VER}
 
 ############## runtime stage ##############
 
@@ -205,9 +205,6 @@ LABEL maintainer="sparklyballs"
 # copy artifacts strip stage and apply bandaid
 COPY --from=strip-stage /build/all/usr/  /usr/
 COPY bandaid/aarch64/ /usr/lib/
-
-# Add qemu to build on x86_64 systems
-COPY qemu-aarch64-static /usr/bin
 
 # install runtime packages
 RUN \
