@@ -76,7 +76,7 @@ libsamplerate-0.1.9-r1
 libshout-2.4.1-r4
 libsndfile-1.0.28-r5
 libsoup-2.62.1-r0
-libssh2-1.8.1-r0
+libssh2-1.8.2-r0
 libstdc++-6.4.0-r9
 libtasn1-4.13-r0
 libtheora-1.1.1-r13
