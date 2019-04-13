@@ -39,6 +39,7 @@ param_ports:
 
 # changelog
 changelogs:
+  - { date: "12.04.19:", desc: "Rebase to Alpine 3.9." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "11.03.19:", desc: "Swap copyartifacts for extrafiles, update endpoints with nightly tag." }
   - { date: "01.03.19:", desc: "Switch to python3." }
