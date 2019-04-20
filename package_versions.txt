@@ -137,7 +137,7 @@ ssl_client-1.29.3-r10
 taglib-1.11.1-r1
 tar-1.32-r0
 tiff-4.0.10-r0
-tzdata-2018i-r0
+tzdata-2019a-r0
 v4l-utils-libs-1.16.2-r0
 wavpack-5.1.0-r7
 wayland-libs-client-1.16.0-r0
