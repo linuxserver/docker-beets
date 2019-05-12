@@ -29,6 +29,7 @@ RUN \
 	ffmpeg \
 	ffmpeg-libs \
 	fftw \
+	flac \
 	gdbm \
 	gst-plugins-good \
 	gstreamer \
@@ -51,13 +52,23 @@ RUN \
  mkdir -p \
 	/tmp/mp3gain-src && \
  curl -o \
- /tmp/mp3gain-src/mp3gain.zip -L \
+ /tmp/mp3gain-src/mp3gain.zip -sL \
 	https://sourceforge.net/projects/mp3gain/files/mp3gain/1.6.1/mp3gain-1_6_1-src.zip && \
  cd /tmp/mp3gain-src && \
  unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
  sed -i "s#/usr/local/bin#/usr/bin#g" /tmp/mp3gain-src/Makefile && \
  make && \
  make install && \
+ echo "**** compile mp3val ****" && \
+ mkdir -p \
+	/tmp/mp3val-src && \
+ curl -o \
+ /tmp/mp3val-src/mp3val.tar.gz -sL \
+	https://downloads.sourceforge.net/mp3val/mp3val-0.1.8-src.tar.gz && \
+ cd /tmp/mp3val-src && \
+ tar xzf /tmp/mp3val-src/mp3val.tar.gz --strip 1 && \
+ make -f Makefile.linux && \
+ cp -p mp3val /usr/bin && \
  echo "**** compile chromaprint ****" && \
  git clone https://bitbucket.org/acoustid/chromaprint.git \
 	/tmp/chromaprint && \
