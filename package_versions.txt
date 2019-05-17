@@ -129,7 +129,7 @@ python3-3.6.8-r2
 readline-7.0.003-r1
 scanelf-1.2.3-r0
 sdl2-2.0.9-r0
-shadow-4.5-r0
+shadow-4.5-r1
 shared-mime-info-1.10-r0
 speex-1.2.0-r0
 sqlite-libs-3.26.0-r3
