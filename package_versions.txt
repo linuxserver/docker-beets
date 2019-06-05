@@ -7,7 +7,7 @@ busybox-1.29.3-r10
 ca-certificates-20190108-r0
 ca-certificates-cacert-20190108-r0
 coreutils-8.30-r0
-curl-7.64.0-r1
+curl-7.64.0-r2
 expat-2.2.6-r0
 ffmpeg-4.0.2-r0
 ffmpeg-libs-4.0.2-r0
@@ -31,7 +31,7 @@ libbsd-0.8.6-r2
 libbz2-1.0.6-r6
 libc-utils-0.7.1-r0
 libcrypto1.1-1.1.1b-r1
-libcurl-7.64.0-r1
+libcurl-7.64.0-r2
 libdrm-2.4.96-r0
 libffi-3.2.1-r6
 libgcc-8.3.0-r0
