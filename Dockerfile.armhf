@@ -144,7 +144,9 @@ RUN \
 RUN \
  set -ex && \
  pip3 install --no-cache-dir -U \
+	confuse \
 	discogs-client \
+	mediafile \
 	mutagen \
 	pyacoustid \
 	pyyaml \
