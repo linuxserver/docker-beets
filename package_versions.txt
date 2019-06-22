@@ -11,7 +11,7 @@ cairo-gobject-1.16.0-r1
 cdparanoia-libs-10.2-r7
 coreutils-8.30-r0
 curl-7.64.0-r2
-dbus-libs-1.10.24-r1
+dbus-libs-1.10.28-r0
 eudev-libs-3.2.7-r0
 expat-2.2.6-r0
 ffmpeg-4.0.2-r0
@@ -27,7 +27,7 @@ fribidi-1.0.5-r0
 gdbm-1.13-r1
 gdk-pixbuf-2.36.11-r2
 giflib-5.1.4-r2
-glib-2.58.1-r2
+glib-2.58.1-r3
 glib-networking-2.56.1-r0
 gmp-6.1.2-r1
 gnutls-3.6.7-r0
