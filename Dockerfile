@@ -1,4 +1,4 @@
-ARG ALPINE_VER="3.9"
+ARG ALPINE_VER="3.10"
 FROM lsiobase/alpine:${ALPINE_VER} as fetch-stage
 
 ############## fetch stage ##############
