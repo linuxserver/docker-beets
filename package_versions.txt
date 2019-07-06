@@ -49,7 +49,7 @@ libattr-2.4.48-r0
 libavc1394-0.5.4-r2
 libblkid-2.33.2-r0
 libbsd-0.9.1-r0
-libbz2-1.0.6-r6
+libbz2-1.0.6-r7
 libc-utils-0.7.1-r0
 libcaca-0.99_beta19-r2
 libcrypto1.1-1.1.1c-r0
