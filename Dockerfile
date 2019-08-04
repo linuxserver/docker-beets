@@ -79,6 +79,18 @@ RUN \
 	-DCMAKE_INSTALL_PREFIX:PATH=/usr && \
  make && \
  make install && \
+ echo "**** install streaming_extractor_music ****" && \
+ mkdir -p \
+	/tmp/streaming_extractor_music && \
+ curl -o \
+ /tmp/streaming_extractor_music/streaming_extractor_music.tar.gz -sL \
+	ftp://ftp.acousticbrainz.org/pub/acousticbrainz/essentia-extractor-v2.1_beta2-linux-x86_64.tar.gz && \
+ cd /tmp/streaming_extractor_music && \
+ echo "2413b637c49421fbb417db8987dc4badac443dab streaming_extractor_music.tar.gz" \
+    | sha1sum --quiet -c - && \
+ tar -xzf streaming_extractor_music.tar.gz && \
+ mv streaming_extractor_music /usr/bin && \
+ chmod +x /usr/bin/streaming_extractor_music && \
  echo "**** install pip packages ****" && \
  if [ -z ${BEETS_VERSION+x} ]; then \
 	BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json \
