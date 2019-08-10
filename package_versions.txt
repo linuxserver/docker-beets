@@ -107,8 +107,8 @@ mesa-gbm-19.0.6-r0
 mesa-gl-19.0.6-r0
 mesa-glapi-19.0.6-r0
 mpg123-1.25.10-r0
-musl-1.1.22-r2
-musl-utils-1.1.22-r2
+musl-1.1.22-r3
+musl-utils-1.1.22-r3
 nano-4.3-r0
 ncurses-libs-6.1_p20190518-r0
 ncurses-terminfo-6.1_p20190518-r0
