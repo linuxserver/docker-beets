@@ -126,7 +126,7 @@ pixman-0.38.4-r0
 py3-cairo-1.16.3-r1
 py3-gobject3-3.32.1-r0
 py3-pylast-3.0.0-r1
-python3-3.7.3-r0
+python3-3.7.4-r0
 readline-8.0.0-r0
 scanelf-1.2.3-r0
 sdl2-2.0.10-r0
