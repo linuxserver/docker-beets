@@ -100,7 +100,7 @@ shadow-4.6-r2
 sqlite-libs-3.28.0-r1
 ssl_client-1.30.1-r3
 tar-1.32-r0
-tiff-4.0.10-r1
+tiff-4.0.10-r2
 tzdata-2019c-r0
 v4l-utils-libs-1.16.6-r0
 wayland-libs-client-1.17.0-r0
