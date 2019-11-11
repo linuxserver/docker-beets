@@ -17,7 +17,7 @@ fftw-long-double-libs-3.3.8-r0
 fftw-single-libs-3.3.8-r0
 fontconfig-2.13.1-r0
 freetype-2.10.0-r0
-fribidi-1.0.5-r1
+fribidi-1.0.5-r2
 gdbm-1.13-r1
 gmp-6.1.2-r1
 gnutls-3.6.8-r0
