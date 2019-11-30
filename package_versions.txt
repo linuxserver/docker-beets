@@ -75,7 +75,7 @@ libraw1394-2.1.2-r1
 libsamplerate-0.1.9-r1
 libshout-2.4.3-r1
 libsndfile-1.0.28-r8
-libsoup-2.66.2-r1
+libsoup-2.66.2-r2
 libssl1.1-1.1.1d-r0
 libstdc++-8.3.0-r0
 libtasn1-4.14-r0
@@ -137,7 +137,7 @@ sqlite-libs-3.28.0-r1
 ssl_client-1.30.1-r3
 taglib-1.11.1-r2
 tar-1.32-r0
-tiff-4.0.10-r2
+tiff-4.0.10-r3
 tzdata-2019c-r0
 v4l-utils-libs-1.16.6-r0
 wavpack-5.1.0-r8
