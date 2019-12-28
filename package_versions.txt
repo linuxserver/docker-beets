@@ -13,7 +13,7 @@ coreutils-8.31-r0
 curl-7.67.0-r0
 dbus-libs-1.12.16-r2
 eudev-libs-3.2.9-r1
-expat-2.2.9-r0
+expat-2.2.9-r1
 ffmpeg-4.2.1-r3
 ffmpeg-libs-4.2.1-r3
 fftw-3.3.8-r0
@@ -27,7 +27,7 @@ fribidi-1.0.8-r0
 gdbm-1.13-r1
 gdk-pixbuf-2.40.0-r0
 giflib-5.2.1-r0
-glib-2.62.3-r0
+glib-2.62.4-r0
 glib-networking-2.62.2-r0
 gmp-6.1.2-r1
 gnutls-3.6.10-r0
@@ -53,7 +53,7 @@ libbz2-1.0.8-r1
 libc-utils-0.7.2-r0
 libcaca-0.99_beta19-r3
 libcap-2.27-r0
-libcrypto1.1-1.1.1d-r2
+libcrypto1.1-1.1.1d-r3
 libcurl-7.67.0-r0
 libdrm-2.4.100-r0
 libdv-1.0.0-r3
@@ -77,7 +77,7 @@ libsamplerate-0.1.9-r1
 libshout-2.4.3-r1
 libsndfile-1.0.28-r8
 libsoup-2.68.3-r0
-libssl1.1-1.1.1d-r2
+libssl1.1-1.1.1d-r3
 libstdc++-9.2.0-r3
 libtasn1-4.15.0-r0
 libtheora-1.1.1-r14
@@ -132,7 +132,7 @@ python3-3.8.0-r0
 readline-8.0.1-r0
 scanelf-1.2.4-r0
 sdl2-2.0.10-r0
-shadow-4.7-r0
+shadow-4.7-r1
 shared-mime-info-1.15-r0
 speex-1.2.0-r0
 sqlite-libs-3.30.1-r1
