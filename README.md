@@ -114,6 +114,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-v /music` | Music library |
 | `-v /downloads` | Non processed music |
 
+
 ## Environment variables from files (Docker secrets)
 
 You can set any environment variable from a file by using a special prepend `FILE__`. 
