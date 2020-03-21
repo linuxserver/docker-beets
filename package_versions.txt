@@ -34,14 +34,14 @@ libcrypto1.1-1.1.1d-r3
 libcurl-7.67.0-r0
 libdrm-2.4.100-r0
 libffi-3.2.1-r6
-libgcc-9.2.0-r3
+libgcc-9.2.0-r4
 libjpeg-turbo-2.0.4-r0
 libmagic-5.37-r1
 libogg-1.3.4-r0
 libpciaccess-0.16-r0
 libpng-1.6.37-r1
 libssl1.1-1.1.1d-r3
-libstdc++-9.2.0-r3
+libstdc++-9.2.0-r4
 libtasn1-4.15.0-r0
 libtheora-1.1.1-r14
 libtls-standalone-2.9.1-r0
