@@ -63,8 +63,8 @@ libgudev-233-r0
 libid3tag-0.15.1b-r7
 libiec61883-1.2.0-r2
 libintl-0.20.1-r2
-libjpeg-turbo-2.0.4-r0
-libjpeg-turbo-utils-2.0.4-r0
+libjpeg-turbo-2.0.4-r1
+libjpeg-turbo-utils-2.0.4-r1
 libmagic-5.37-r1
 libmount-2.34-r1
 libogg-1.3.4-r0
