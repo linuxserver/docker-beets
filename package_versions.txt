@@ -14,8 +14,8 @@ curl-7.67.0-r0
 dbus-libs-1.12.16-r3
 eudev-libs-3.2.9-r1
 expat-2.2.9-r1
-ffmpeg-4.2.1-r3
-ffmpeg-libs-4.2.1-r3
+ffmpeg-4.2.4-r0
+ffmpeg-libs-4.2.4-r0
 fftw-3.3.8-r0
 fftw-double-libs-3.3.8-r0
 fftw-long-double-libs-3.3.8-r0
@@ -129,7 +129,7 @@ pkgconf-1.6.3-r0
 procps-3.3.16-r0
 py3-gobject3-3.34.0-r1
 py3-pylast-3.1.0-r1
-python3-3.8.2-r0
+python3-3.8.2-r1
 readline-8.0.1-r0
 scanelf-1.2.4-r0
 sdl2-2.0.10-r0
