@@ -215,6 +215,7 @@ RUN \
 	jq \
 	lame \
 	nano \
+	imagemagick \
 	py3-beautifulsoup4 \
 	py3-flask \
 	py3-jellyfish \
