@@ -39,6 +39,7 @@ param_ports:
 
 # changelog
 changelogs:
+  - { date: "27.10.20:", desc: "Add requests_oauthlib pip package for beatport plugin." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "12.05.19:", desc: "Add flac and mp3val binaries required for badfiles plugin." }
