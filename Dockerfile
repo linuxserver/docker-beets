@@ -1,5 +1,5 @@
 ARG ALPINE_VER="3.12"
-FROM lsiobase/alpine:${ALPINE_VER} as fetch-stage
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as fetch-stage
 
 ############## fetch stage ##############
 
@@ -42,7 +42,7 @@ RUN \
  git clone https://bitbucket.org/acoustid/chromaprint.git /tmp/chromaprint-src && \
  git clone https://github.com/sbarakat/beets-copyartifacts.git /tmp/copyartifacts-src
 
-FROM lsiobase/alpine:${ALPINE_VER} as beets_build-stage
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as beets_build-stage
 
 ############## beets build stage ##############
 
@@ -73,7 +73,7 @@ RUN \
  set -ex && \
  python3 setup.py install --prefix=/usr --root=/build/beets
 
-FROM alpine:${ALPINE_VER} as mp3gain_build-stage
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as mp3gain_build-stage
 
 ############## mp3gain build stage ##############
 
@@ -99,7 +99,7 @@ RUN \
  make && \
  make install
 
-FROM lsiobase/alpine:${ALPINE_VER} as chromaprint_build-stage
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as chromaprint_build-stage
 
 ############## chromaprint build stage ##############
 
@@ -128,7 +128,7 @@ RUN \
  make && \
  make DESTDIR=/build/chromaprint install
 
-FROM lsiobase/alpine:${ALPINE_VER} as pip-stage
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as pip-stage
 
 ############## pip packages install stage ##############
 
@@ -153,7 +153,7 @@ RUN \
 	pyyaml \
 	unidecode
 
-FROM lsiobase/alpine:${ALPINE_VER} as strip-stage
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as strip-stage
 
 ############## strip packages stage ##############
 
@@ -190,7 +190,7 @@ RUN \
 		find /build/all/ -iname "${cleanfiles}" -exec rm -vf '{}' + \
 	; done
 
-FROM lsiobase/alpine:${ALPINE_VER}
+FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER}
 
 ############## runtime stage ##############
 
