@@ -107,7 +107,7 @@ py3-ordered-set-4.0.1-r0
 py3-packaging-20.4-r0
 py3-parsing-2.4.7-r0
 py3-pep517-0.8.2-r0
-py3-pillow-7.1.2-r0
+py3-pillow-7.1.2-r1
 py3-pip-20.1.1-r0
 py3-progress-1.5-r0
 py3-pylast-3.2.1-r0
