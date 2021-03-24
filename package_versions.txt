@@ -22,7 +22,7 @@ freetype-2.10.4-r0
 fribidi-1.0.9-r0
 gdbm-1.13-r1
 gmp-6.2.0-r0
-gnutls-3.6.15-r0
+gnutls-3.6.15-r1
 jq-1.6-r1
 lame-3.100-r0
 lcms2-2.9-r1
