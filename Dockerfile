@@ -1,4 +1,4 @@
-ARG ALPINE_VER="3.12"
+ARG ALPINE_VER="3.13"
 FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as fetch-stage
 
 ############## fetch stage ##############
