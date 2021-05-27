@@ -76,7 +76,7 @@ For a command prompt as user abc `docker exec -it -u abc beets bash`
 
 See [Beets](http://beets.io/) for more info.
 
-Contains [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin, [configuration details](https://github.com/sbarakat/beets-copyartifacts#configuration)
+Contains [beets-extrafiles](https://github.com/Holzhaus/beets-extrafiles) plugin, [configuration details](https://github.com/Holzhaus/beets-extrafiles#usage)
 
 ## Usage
 
