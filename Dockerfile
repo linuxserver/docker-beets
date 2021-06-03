@@ -244,6 +244,8 @@ RUN \
 	ffmpeg \
 	fftw \
 	flac \
+	gst-plugins-good \
+	gstreamer \
 	mpg123 \
 	nano \
 	jq \
@@ -251,6 +253,7 @@ RUN \
 	nano \
 	py3-beautifulsoup4 \
 	py3-flask \
+	py3-gobject3 \
 	py3-jellyfish \
 	py3-munkres \
 	py3-musicbrainzngs \
