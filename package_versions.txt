@@ -56,7 +56,7 @@ libbz2-1.0.8-r1
 libc-utils-0.7.2-r3
 libcaca-0.99_beta19-r3
 libcap-2.27-r0
-libcrypto1.1-1.1.1k-r0
+libcrypto1.1-1.1.1l-r0
 libcurl-7.78.0-r0
 libdav1d-0.7.0-r0
 libdrm-2.4.102-r0
@@ -87,7 +87,7 @@ libshout-2.4.3-r1
 libsndfile-1.0.28-r8
 libsoup-2.70.0-r0
 libssh-0.9.4-r1
-libssl1.1-1.1.1k-r0
+libssl1.1-1.1.1l-r0
 libstdc++-9.3.0-r2
 libtasn1-4.16.0-r1
 libtheora-1.1.1-r14
