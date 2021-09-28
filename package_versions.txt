@@ -193,7 +193,7 @@ taglib-1.11.1-r3
 tar-1.32-r2
 tdb-libs-1.4.3-r0
 tiff-4.1.0-r0
-tzdata-2021a-r0
+tzdata-2021b-r0
 v4l-utils-libs-1.20.0-r0
 wavpack-5.4.0-r0
 wayland-libs-client-1.18.0-r4
