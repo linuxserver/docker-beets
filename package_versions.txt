@@ -1,5 +1,5 @@
 alpine-baselayout-3.2.0-r7
-alpine-keys-2.2-r0
+alpine-keys-2.4-r0
 alsa-lib-1.2.2-r0
 aom-libs-1.0.0-r1
 apk-tools-2.10.8-r0
@@ -193,7 +193,7 @@ taglib-1.11.1-r3
 tar-1.32-r2
 tdb-libs-1.4.3-r0
 tiff-4.1.0-r0
-tzdata-2021c-r0
+tzdata-2021d-r0
 v4l-utils-libs-1.20.0-r0
 wavpack-5.4.0-r0
 wayland-libs-client-1.18.0-r4
