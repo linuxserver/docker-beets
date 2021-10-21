@@ -141,7 +141,7 @@ ssl_client-1.31.1-r10
 taglib-1.11.1-r2
 tar-1.32-r2
 tiff-4.1.0-r0
-tzdata-2021c-r0
+tzdata-2021d-r0
 v4l-utils-libs-1.18.0-r0
 wavpack-5.1.0-r8
 wayland-libs-client-1.17.0-r0
