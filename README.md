@@ -244,6 +244,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **15.01.22:** - Rebasing to alpine 3.15.
 * **19.12.19:** - Rebasing to alpine 3.11.
 * **28.06.19:** - Rebasing to alpine 3.10.
 * **12.05.19:** - Add flac and mp3val binaries required for badfiles plugin.
