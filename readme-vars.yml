@@ -52,6 +52,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "15.01.22:", desc: "Rebasing to alpine 3.15." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
   - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
   - { date: "12.05.19:", desc: "Add flac and mp3val binaries required for badfiles plugin." }
