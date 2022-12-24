@@ -1,4 +1,6 @@
-ARG ALPINE_VER="3.15"
+# syntax=docker/dockerfile:1
+
+ARG ALPINE_VER="3.17"
 FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-${ALPINE_VER} as fetch-stage
 
 ############## fetch stage ##############
@@ -10,11 +12,7 @@ ARG MP3VAL_VER="0.1.8"
 # install fetch packages
 RUN \
   apk add --no-cache \
-    bash \
-    curl \
-    git \
-    jq \
-    unzip
+    git
 
 # set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
@@ -27,18 +25,18 @@ RUN \
     /tmp/mp3gain-src \
     /tmp/mp3val-src && \
   if [ -z ${BEETS_VERSION+x} ] ; then \
-  BEETS_RAW_COMMIT=$(curl -sX GET "https://api.github.com/repos/beetbox/beets/commits/master" \
+    BEETS_RAW_COMMIT=$(curl -sX GET "https://api.github.com/repos/beetbox/beets/commits/master" \
     | jq -r .sha) && \
-  BEETS_VERSION="${BEETS_RAW_COMMIT:0:7}"; \
+    BEETS_VERSION="${BEETS_RAW_COMMIT:0:7}"; \
   fi && \
   curl -o \
-  /tmp/beets.tar.gz -sL \
+    /tmp/beets.tar.gz -sL \
     "https://github.com/sampsyo/beets/archive/${BEETS_VERSION}.tar.gz" && \
   curl -o \
-  /tmp/mp3gain.zip -sL \
+    /tmp/mp3gain.zip -sL \
     "https://sourceforge.net/projects/mp3gain/files/mp3gain/${MP3GAIN_VER}/mp3gain-${MP3GAIN_VER//./_}-src.zip" && \
   curl -o \
-  /tmp/mp3val.tar.gz -sL \
+    /tmp/mp3val.tar.gz -sL \
     "https://downloads.sourceforge.net/mp3val/mp3val-${MP3VAL_VER}-src.tar.gz" && \
   tar xf \
     /tmp/beets.tar.gz -C \
@@ -94,8 +92,7 @@ WORKDIR /tmp/mp3gain-src
 # install build packages
 RUN \
   apk add --no-cache \
-    g++ \
-    make \
+    build-base \
     mpg123-dev
 
 # build package
@@ -120,8 +117,7 @@ WORKDIR /tmp/mp3val-src
 # install build packages
 RUN \
   apk add --no-cache \
-    g++ \
-    make
+    build-base
 
 # build package
 RUN \
@@ -144,11 +140,10 @@ WORKDIR /tmp/chromaprint-src
 # install build packages
 RUN \
   apk add --no-cache \
+    build-base \
     cmake \
     ffmpeg-dev \
-    fftw-dev \
-    g++ \
-    make
+    fftw-dev
 
 # build package
 RUN \
@@ -167,16 +162,18 @@ FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-${ALPINE_VER} as pip-stage
 # install build packages
 RUN \
   apk add --no-cache \
-    g++ \
-    make \
-    py3-pip \
+    build-base \
+    cargo \
     python3-dev
 
 # install pip packages
 RUN \
   set -ex && \
-  python3 -m pip install --upgrade pip && \  
-  pip3 install --no-cache-dir -U --find-links https://wheel-index.linuxserver.io/alpine/ \
+  python3 -m ensurepip && \
+  pip3 install -U --no-cache-dir \
+    pip \
+    wheel && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
     confuse \
     discogs-client \
     enum34 \
@@ -231,7 +228,6 @@ COPY --from=strip-stage /build/all/usr/  /usr/
 # install runtime packages
 RUN \
   apk add --no-cache \
-    curl \
     ffmpeg \
     fftw \
     flac \
@@ -239,7 +235,6 @@ RUN \
     gstreamer \
     mpg123 \
     nano \
-    jq \
     lame \
     nano \
     py3-beautifulsoup4 \
@@ -249,15 +244,12 @@ RUN \
     py3-munkres \
     py3-musicbrainzngs \
     py3-pillow \
-    py3-pip \
     py3-pylast \
     py3-requests \
     py3-setuptools \
     py3-six \
     python3 \
-    sqlite-libs \
-    tar \
-    wget
+    sqlite-libs
 
 # environment settings
 ENV BEETSDIR="/config" \
