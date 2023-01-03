@@ -192,7 +192,7 @@ COPY --from=beets_build-stage /build/beets/usr/ /build/all//usr/
 COPY --from=chromaprint_build-stage /build/chromaprint/usr/ /build/all//usr/
 COPY --from=mp3gain_build-stage /build/mp3gain/usr/ /build/all//usr/
 COPY --from=mp3val_build-stage /build/mp3val/usr/ /build/all//usr/
-COPY --from=pip-stage /usr/lib/python3.9/site-packages /build/all/usr/lib/python3.9/site-packages
+COPY --from=pip-stage /usr/lib/python3.10/site-packages /build/all/usr/lib/python3.10/site-packages
 
 # install strip packages
 RUN \
