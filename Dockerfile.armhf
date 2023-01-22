@@ -184,7 +184,8 @@ RUN \
     mutagen \
     pyacoustid \
     pyyaml \
-    unidecode
+    unidecode \
+    beetcamp
 
 FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-${ALPINE_VER} as strip-stage
 
