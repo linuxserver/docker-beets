@@ -135,7 +135,7 @@ p11-kit-0.24.0-r1
 pango-1.48.10-r0
 pcre-8.45-r1
 pixman-0.40.0-r4
-pkgconf-1.8.0-r0
+pkgconf-1.8.1-r0
 procps-3.3.17-r0
 py3-appdirs-1.4.4-r2
 py3-beautifulsoup4-4.9.3-r1
