@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf | ✅ | arm32v7-\<version tag\> |
 
 ## Version Tags
 
@@ -66,7 +66,6 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable Beets Releases |
 | nightly | ✅ | Built against head of Beets git, generally considered unstable but a likely choice for power users of the application. |
-
 ## Application Setup
 
 Edit the config file in /config
@@ -95,7 +94,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Etc/UTC
     volumes:
       - </path/to/appdata/config>:/config
       - </path/to/music/library>:/music
@@ -112,13 +111,14 @@ docker run -d \
   --name=beets \
   -e PUID=1000 \
   -e PGID=1000 \
-  -e TZ=Europe/London \
+  -e TZ=Etc/UTC \
   -p 8337:8337 \
   -v </path/to/appdata/config>:/config \
   -v </path/to/music/library>:/music \
   -v </path/to/ingest>:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/beets:latest
+
 ```
 
 ## Parameters
@@ -130,7 +130,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-p 8337` | Application WebUI |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
-| `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London. |
+| `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-v /config` | Configuration files. |
 | `-v /music` | Music library |
 | `-v /downloads` | Non processed music |
