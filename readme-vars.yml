@@ -33,7 +33,7 @@ param_ports:
 
 # changelog
 changelogs:
-  - { date: "24.12.22:", desc: "Rebasing to alpine 3.17." }
+  - { date: "24.12.22:", desc: "Rebase to Alpine 3.17, migrate to s6v3, install chromaprint from Alpine repos, add beetcamp plugin." }
   - { date: "15.01.22:", desc: "Rebase to Alpine 3.15." }
   - { date: "02.06.21:", desc: "Add back gstreamer packages." }
   - { date: "24.05.21:", desc: "Add missing changes from master branch." }

@@ -45,7 +45,6 @@ RUN \
   tar xf \
     /tmp/mp3val.tar.gz -C \
     /tmp/mp3val-src --strip-components=1 && \
-  git clone https://bitbucket.org/acoustid/chromaprint.git /tmp/chromaprint-src && \
   git clone https://github.com/Holzhaus/beets-extrafiles.git /tmp/extrafiles-src
 
 FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as beets_build-stage
@@ -127,34 +126,6 @@ RUN \
   make -f Makefile.linux && \
   cp -p mp3val /build/mp3val/usr/bin
 
-FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as chromaprint_build-stage
-
-############## chromaprint build stage ##############
-
-# copy artifacts from fetch stage
-COPY --from=fetch-stage /tmp/chromaprint-src /tmp/chromaprint-src
-
-# set workdir
-WORKDIR /tmp/chromaprint-src
-
-# install build packages
-RUN \
-  apk add --no-cache \
-    build-base \
-    cmake \
-    ffmpeg-dev \
-    fftw-dev
-
-# build package
-RUN \
-  set -ex && \
-  cmake \
-    -DBUILD_TOOLS=ON \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_INSTALL_PREFIX:PATH=/usr && \
-  make && \
-  make DESTDIR=/build/chromaprint install
-
 FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as pip-stage
 
 ############## pip packages install stage ##############
@@ -174,6 +145,7 @@ RUN \
     pip \
     wheel && \
   pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
+    beetcamp \
     confuse \
     discogs-client \
     enum34 \
@@ -189,7 +161,6 @@ FROM ghcr.io/linuxserver/baseimage-alpine:${ALPINE_VER} as strip-stage
 
 # copy artifacts build stages
 COPY --from=beets_build-stage /build/beets/usr/ /build/all//usr/
-COPY --from=chromaprint_build-stage /build/chromaprint/usr/ /build/all//usr/
 COPY --from=mp3gain_build-stage /build/mp3gain/usr/ /build/all//usr/
 COPY --from=mp3val_build-stage /build/mp3val/usr/ /build/all//usr/
 COPY --from=pip-stage /usr/lib/python3.10/site-packages /build/all/usr/lib/python3.10/site-packages
@@ -228,6 +199,7 @@ COPY --from=strip-stage /build/all/usr/  /usr/
 # install runtime packages
 RUN \
   apk add --no-cache \
+    chromaprint \
     ffmpeg \
     fftw \
     flac \
@@ -236,7 +208,6 @@ RUN \
     mpg123 \
     nano \
     lame \
-    nano \
     py3-beautifulsoup4 \
     py3-flask \
     py3-gobject3 \
