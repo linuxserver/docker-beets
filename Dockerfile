@@ -13,11 +13,13 @@ RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies --upgrade \
     build-base \
+    cairo-dev \
     cargo \
     cmake \
     ffmpeg-dev \
     fftw-dev \
     git \
+    gobject-introspection-dev \
     jpeg-dev \
     libpng-dev \
     mpg123-dev \
@@ -25,9 +27,9 @@ RUN \
     python3-dev && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache --upgrade \
+    chromaprint \
     expat \
     ffmpeg \
-    ffmpeg-libs \
     fftw \
     flac \
     gdbm \
@@ -40,8 +42,6 @@ RUN \
     mpg123 \
     nano \
     openjpeg \
-    py3-gobject3 \
-    py3-pylast \
     python3 \
     sqlite-libs && \
   echo "**** compile mp3gain ****" && \
@@ -49,7 +49,7 @@ RUN \
     /tmp/mp3gain-src && \
   curl -o \
     /tmp/mp3gain-src/mp3gain.zip -sL \
-    https://sourceforge.net/projects/mp3gain/files/mp3gain/1.6.1/mp3gain-1_6_1-src.zip && \
+    https://sourceforge.net/projects/mp3gain/files/mp3gain/1.6.2/mp3gain-1_6_2-src.zip && \
   cd /tmp/mp3gain-src && \
   unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
   sed -i "s#/usr/local/bin#/usr/bin#g" /tmp/mp3gain-src/Makefile && \
@@ -65,16 +65,6 @@ RUN \
   tar xzf /tmp/mp3val-src/mp3val.tar.gz --strip 1 && \
   make -f Makefile.linux && \
   cp -p mp3val /usr/bin && \
-  echo "**** compile chromaprint ****" && \
-  git clone https://bitbucket.org/acoustid/chromaprint.git \
-    /tmp/chromaprint && \
-  cd /tmp/chromaprint && \
-  cmake \
-    -DBUILD_TOOLS=ON \
-    -DCMAKE_BUILD_TYPE=Release \
-    -DCMAKE_INSTALL_PREFIX:PATH=/usr && \
-  make && \
-  make install && \
   echo "**** install pip packages ****" && \
   if [ -z ${BEETS_VERSION+x} ]; then \
     BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json |jq -r '. | .info.version'); \
@@ -87,10 +77,13 @@ RUN \
     beautifulsoup4 \
     beets==${BEETS_VERSION} \
     beets-extrafiles \
+    beetcamp \
     discogs-client \
     flask \
+    PyGObject \
     pillow \
     pyacoustid \
+    pylast \
     requests \
     unidecode && \
   echo "**** cleanup ****" && \
