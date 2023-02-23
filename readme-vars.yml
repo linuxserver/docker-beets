@@ -24,9 +24,9 @@ param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "</path/to/appdata/config>", desc: "Configuration files." }
-  - { vol_path: "/music", vol_host_path: "</path/to/music/library>", desc: "Music library" }
-  - { vol_path: "/downloads", vol_host_path: "</path/to/ingest>", desc: "Non processed music" }
+  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files." }
+  - { vol_path: "/music", vol_host_path: "/path/to/music/library", desc: "Music library" }
+  - { vol_path: "/downloads", vol_host_path: "/path/to/ingest", desc: "Non processed music" }
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8337", internal_port: "8337", port_desc: "Application WebUI" }
