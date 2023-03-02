@@ -1,215 +1,272 @@
-alpine-baselayout-3.2.0-r18
-alpine-keys-2.4-r1
-alsa-lib-1.2.5.1-r1
-aom-libs-3.2.0-r0
-apk-tools-2.12.7-r3
-bash-5.1.16-r0
-brotli-libs-1.0.9-r5
-busybox-1.34.1-r7
-ca-certificates-20220614-r0
-ca-certificates-bundle-20220614-r0
-cairo-1.16.0-r5
-cairo-gobject-1.16.0-r5
-cdparanoia-libs-10.2-r9
-coreutils-9.0-r2
-curl-7.80.0-r6
-dbus-libs-1.12.24-r0
-eudev-libs-3.2.11_pre1-r0
-expat-2.5.0-r0
-ffmpeg-4.4.1-r2
-ffmpeg-libs-4.4.1-r2
-fftw-3.3.10-r0
-fftw-double-libs-3.3.10-r0
-fftw-long-double-libs-3.3.10-r0
-fftw-single-libs-3.3.10-r0
-flac-1.3.4-r0
-fontconfig-2.13.1-r4
-freetype-2.11.1-r2
-fribidi-1.0.11-r0
-gdbm-1.22-r0
-gdk-pixbuf-2.42.8-r0
-glib-2.70.1-r0
-glib-networking-2.70.0-r0
-gmp-6.2.1-r1
-gnutls-3.7.1-r2
-gobject-introspection-1.70.0-r1
-graphene-1.10.6-r1
-graphite2-1.3.14-r0
-gsettings-desktop-schemas-41.0-r0
-gst-plugins-base-1.18.5-r0
-gst-plugins-good-1.18.5-r0
-gstreamer-1.18.5-r0
-harfbuzz-3.0.0-r2
-jack-1.9.19-r2
-jq-1.6-r1
-lame-3.100-r0
-lcms2-2.12-r1
-libacl-2.2.53-r0
-libass-0.15.2-r0
-libasyncns-0.8-r1
-libattr-2.5.1-r1
-libavc1394-0.5.4-r2
-libblkid-2.37.4-r0
-libbsd-0.11.3-r1
-libbz2-1.0.8-r1
-libc-utils-0.7.2-r3
-libcaca-0.99_beta20-r0
-libcap-2.61-r0
-libcrypto1.1-1.1.1t-r1
-libcurl-7.80.0-r6
-libdav1d-0.9.2-r0
-libdrm-2.4.109-r0
-libdv-1.0.0-r6
-libffi-3.4.2-r1
-libgcc-10.3.1_git20211027-r0
-libgomp-10.3.1_git20211027-r0
-libgudev-237-r0
-libidn2-2.3.2-r0
-libiec61883-1.2.0-r2
-libimagequant-2.16.0-r0
-libintl-0.21-r0
-libjpeg-turbo-2.1.2-r0
-libltdl-2.4.6-r7
-libmd-1.0.3-r0
-libmount-2.37.4-r0
-libogg-1.3.5-r0
-libpciaccess-0.16-r0
-libpng-1.6.37-r1
-libproc-3.3.17-r0
-libproxy-0.4.17-r1
-libpsl-0.21.1-r0
-libpulse-15.0-r2
-libraw1394-2.1.2-r2
-libretls-3.3.4-r3
-libsamplerate-0.1.9-r1
-libshout-2.4.5-r2
-libsndfile-1.0.31-r1
-libsoup-2.74.0-r0
-libsrt-1.4.2-r1
-libssh-0.9.6-r1
-libssl1.1-1.1.1t-r1
-libstdc++-10.3.1_git20211027-r0
-libtasn1-4.18.0-r1
-libtheora-1.1.1-r16
-libunistring-0.9.10-r1
-libuuid-2.37.4-r0
-libva-2.13.0-r0
-libvdpau-1.4-r0
-libvorbis-1.3.7-r0
-libvpx-1.10.0-r0
-libwebp-1.2.2-r0
-libx11-1.7.3.1-r0
-libxau-1.0.9-r0
-libxcb-1.14-r2
-libxdamage-1.1.5-r1
-libxdmcp-1.1.3-r0
-libxext-1.3.4-r0
-libxfixes-6.0.0-r0
-libxft-2.3.4-r0
-libxml2-2.9.14-r2
-libxrender-0.9.10-r3
-libxshmfence-1.3-r1
-libxv-1.0.11-r2
-libxxf86vm-1.1.4-r2
-linux-pam-1.5.2-r0
-mesa-21.2.6-r0
-mesa-egl-21.2.6-r0
-mesa-gbm-21.2.6-r0
-mesa-gl-21.2.6-r0
-mesa-glapi-21.2.6-r0
-mpdecimal-2.5.1-r1
-mpg123-1.29.2-r0
-mpg123-libs-1.29.2-r0
-musl-1.2.2-r7
-musl-utils-1.2.2-r7
-nano-5.9-r0
-ncurses-libs-6.3_p20211120-r1
-ncurses-terminfo-base-6.3_p20211120-r1
-nettle-3.7.3-r0
-nghttp2-libs-1.46.0-r0
-oniguruma-6.9.7.1-r0
-openjpeg-2.4.0-r2
-opus-1.3.1-r1
-orc-0.4.32-r0
-p11-kit-0.24.0-r1
-pango-1.48.10-r0
-pcre-8.45-r1
-pixman-0.40.0-r4
-pkgconf-1.8.1-r0
-procps-3.3.17-r0
-py3-appdirs-1.4.4-r2
-py3-beautifulsoup4-4.9.3-r1
-py3-cachecontrol-0.12.10-r0
-py3-certifi-2020.12.5-r1
-py3-charset-normalizer-2.0.7-r0
-py3-click-8.0.1-r0
-py3-colorama-0.4.4-r1
-py3-contextlib2-21.6.0-r1
-py3-distlib-0.3.3-r0
-py3-distro-1.6.0-r0
-py3-flask-2.0.2-r0
-py3-gobject3-3.42.0-r1
-py3-html5lib-1.1-r1
-py3-idna-3.3-r0
-py3-itsdangerous-2.0.1-r0
-py3-jellyfish-0.8.2-r2
-py3-jinja2-3.0.1-r0
-py3-lockfile-0.12.2-r4
-py3-markupsafe-2.0.1-r0
-py3-msgpack-1.0.2-r1
-py3-munkres-1.1.4-r1
-py3-musicbrainzngs-0.7.1-r1
-py3-olefile-0.46-r5
-py3-ordered-set-4.0.2-r2
-py3-packaging-20.9-r1
-py3-parsing-2.4.7-r2
-py3-pep517-0.12.0-r0
-py3-pillow-8.4.0-r3
-py3-pip-20.3.4-r1
-py3-progress-1.6-r0
-py3-pylast-3.3.0-r2
-py3-requests-2.26.0-r1
-py3-retrying-1.3.3-r2
-py3-setuptools-52.0.0-r4
-py3-six-1.16.0-r0
-py3-soupsieve-2.3.1-r0
-py3-toml-0.10.2-r2
-py3-tomli-1.2.2-r0
-py3-urllib3-1.26.7-r0
-py3-webencodings-0.5.1-r4
-py3-werkzeug-2.0.2-r0
-python3-3.9.16-r0
-readline-8.1.1-r0
-s6-ipcserver-2.11.0.0-r0
-scanelf-1.3.3-r0
-sdl2-2.0.16-r4
-shadow-4.8.1-r1
-shared-mime-info-2.1-r2
-skalibs-2.11.0.0-r0
-soxr-0.1.3-r2
-speex-1.2.0-r0
-speexdsp-1.2.0-r0
-sqlite-libs-3.36.0-r0
-ssl_client-1.34.1-r7
-taglib-1.12-r0
-tar-1.34-r1
-tdb-libs-1.4.5-r0
-tiff-4.4.0-r0
-tzdata-2022f-r1
-utmps-0.1.0.3-r0
-v4l-utils-libs-1.22.1-r1
-vidstab-1.1.0-r1
-vulkan-loader-1.2.196-r0
-wavpack-5.4.0-r0
-wayland-libs-client-1.19.0-r1
-wayland-libs-cursor-1.19.0-r1
-wayland-libs-egl-1.19.0-r1
-wayland-libs-server-1.19.0-r1
-wget-1.21.2-r2
-x264-libs-20210613-r0
-x265-libs-3.5-r0
-xvidcore-1.3.7-r1
-xz-5.2.5-r1
-xz-libs-5.2.5-r1
-zlib-1.2.12-r3
-zstd-libs-1.5.0-r0
+NAME                       VERSION                TYPE   
+CacheControl               0.12.10                python  
+Flask                      2.0.2                  python  
+Jinja2                     3.0.1                  python  
+MarkupSafe                 2.0.1                  python  
+Pillow                     8.4.0                  python  
+PyGObject                  3.42.0                 python  
+PyYAML                     6.0                    python  
+Unidecode                  1.3.6                  python  
+Werkzeug                   2.0.2                  python  
+alpine-baselayout          3.2.0-r18              apk     
+alpine-keys                2.4-r1                 apk     
+alsa-lib                   1.2.5.1-r1             apk     
+aom-libs                   3.2.0-r0               apk     
+apk-tools                  2.12.7-r3              apk     
+appdirs                    1.4.4                  python  
+audioread                  3.0.0                  python  
+bash                       5.1.16-r0              apk     
+beautifulsoup4             4.9.3                  python  
+beets                      1.6.1                  python  
+beets-extrafiles           0.0.7                  python  
+brotli-libs                1.0.9-r5               apk     
+busybox                    1.34.1                 binary  
+busybox                    1.34.1-r7              apk     
+ca-certificates            20220614-r0            apk     
+ca-certificates-bundle     20220614-r0            apk     
+cairo                      1.16.0-r5              apk     
+cairo-gobject              1.16.0-r5              apk     
+cdparanoia-libs            10.2-r9                apk     
+certifi                    2020.12.5              python  
+charset-normalizer         2.0.7                  python  
+click                      8.0.1                  python  
+colorama                   0.4.4                  python  
+confuse                    2.0.0                  python  
+contextlib2                21.6.0                 python  
+coreutils                  9.0-r2                 apk     
+curl                       7.80.0-r6              apk     
+dbus-libs                  1.12.24-r0             apk     
+discogs-client             2.3.0                  python  
+distlib                    0.3.3                  python  
+distro                     1.6.0                  python  
+enum34                     1.1.10                 python  
+eudev-libs                 3.2.11_pre1-r0         apk     
+expat                      2.5.0-r0               apk     
+ffmpeg                     4.4.1-r2               apk     
+ffmpeg-libs                4.4.1-r2               apk     
+fftw                       3.3.10-r0              apk     
+fftw-double-libs           3.3.10-r0              apk     
+fftw-long-double-libs      3.3.10-r0              apk     
+fftw-single-libs           3.3.10-r0              apk     
+flac                       1.3.4-r0               apk     
+fontconfig                 2.13.1-r4              apk     
+freetype                   2.11.1-r2              apk     
+fribidi                    1.0.11-r0              apk     
+gdbm                       1.22-r0                apk     
+gdk-pixbuf                 2.42.8-r0              apk     
+glib                       2.70.1-r0              apk     
+glib-networking            2.70.0-r0              apk     
+gmp                        6.2.1-r1               apk     
+gnutls                     3.7.1-r2               apk     
+gobject-introspection      1.70.0-r1              apk     
+graphene                   1.10.6-r1              apk     
+graphite2                  1.3.14-r0              apk     
+gsettings-desktop-schemas  41.0-r0                apk     
+gst-plugins-base           1.18.5-r0              apk     
+gst-plugins-good           1.18.5-r0              apk     
+gstreamer                  1.18.5-r0              apk     
+harfbuzz                   3.0.0-r2               apk     
+html5lib                   1.1                    python  
+idna                       3.3                    python  
+itsdangerous               2.0.1                  python  
+jack                       1.9.19-r2              apk     
+jellyfish                  0.8.2                  python  
+jq                         1.6-r1                 apk     
+lame                       3.100-r0               apk     
+lcms2                      2.12-r1                apk     
+libacl                     2.2.53-r0              apk     
+libass                     0.15.2-r0              apk     
+libasyncns                 0.8-r1                 apk     
+libattr                    2.5.1-r1               apk     
+libavc1394                 0.5.4-r2               apk     
+libblkid                   2.37.4-r0              apk     
+libbsd                     0.11.3-r1              apk     
+libbz2                     1.0.8-r1               apk     
+libc-utils                 0.7.2-r3               apk     
+libcaca                    0.99_beta20-r0         apk     
+libcap                     2.61-r0                apk     
+libcrypto1.1               1.1.1t-r1              apk     
+libcurl                    7.80.0-r6              apk     
+libdav1d                   0.9.2-r0               apk     
+libdrm                     2.4.109-r0             apk     
+libdv                      1.0.0-r6               apk     
+libffi                     3.4.2-r1               apk     
+libgcc                     10.3.1_git20211027-r0  apk     
+libgomp                    10.3.1_git20211027-r0  apk     
+libgudev                   237-r0                 apk     
+libidn2                    2.3.2-r0               apk     
+libiec61883                1.2.0-r2               apk     
+libimagequant              2.16.0-r0              apk     
+libintl                    0.21-r0                apk     
+libjpeg-turbo              2.1.2-r0               apk     
+libltdl                    2.4.6-r7               apk     
+libmd                      1.0.3-r0               apk     
+libmount                   2.37.4-r0              apk     
+libogg                     1.3.5-r0               apk     
+libpciaccess               0.16-r0                apk     
+libpng                     1.6.37-r1              apk     
+libproc                    3.3.17-r0              apk     
+libproxy                   0.4.17-r1              apk     
+libpsl                     0.21.1-r0              apk     
+libpulse                   15.0-r2                apk     
+libraw1394                 2.1.2-r2               apk     
+libretls                   3.3.4-r3               apk     
+libsamplerate              0.1.9-r1               apk     
+libshout                   2.4.5-r2               apk     
+libsndfile                 1.0.31-r1              apk     
+libsoup                    2.74.0-r0              apk     
+libsrt                     1.4.2-r1               apk     
+libssh                     0.9.6-r1               apk     
+libssl1.1                  1.1.1t-r1              apk     
+libstdc++                  10.3.1_git20211027-r0  apk     
+libtasn1                   4.18.0-r1              apk     
+libtheora                  1.1.1-r16              apk     
+libunistring               0.9.10-r1              apk     
+libuuid                    2.37.4-r0              apk     
+libva                      2.13.0-r0              apk     
+libvdpau                   1.4-r0                 apk     
+libvorbis                  1.3.7-r0               apk     
+libvpx                     1.10.0-r0              apk     
+libwebp                    1.2.2-r0               apk     
+libx11                     1.7.3.1-r0             apk     
+libxau                     1.0.9-r0               apk     
+libxcb                     1.14-r2                apk     
+libxdamage                 1.1.5-r1               apk     
+libxdmcp                   1.1.3-r0               apk     
+libxext                    1.3.4-r0               apk     
+libxfixes                  6.0.0-r0               apk     
+libxft                     2.3.4-r0               apk     
+libxml2                    2.9.14-r2              apk     
+libxrender                 0.9.10-r3              apk     
+libxshmfence               1.3-r1                 apk     
+libxv                      1.0.11-r2              apk     
+libxxf86vm                 1.1.4-r2               apk     
+linux-pam                  1.5.2-r0               apk     
+lockfile                   0.12.2                 python  
+mediafile                  0.11.0                 python  
+mesa                       21.2.6-r0              apk     
+mesa-egl                   21.2.6-r0              apk     
+mesa-gbm                   21.2.6-r0              apk     
+mesa-gl                    21.2.6-r0              apk     
+mesa-glapi                 21.2.6-r0              apk     
+mpdecimal                  2.5.1-r1               apk     
+mpg123                     1.29.2-r0              apk     
+mpg123-libs                1.29.2-r0              apk     
+msgpack                    1.0.2                  python  
+munkres                    1.1.4                  python  
+musicbrainzngs             0.7.1                  python  
+musl                       1.2.2-r7               apk     
+musl-utils                 1.2.2-r7               apk     
+mutagen                    1.46.0                 python  
+nano                       5.9-r0                 apk     
+ncurses-libs               6.3_p20211120-r1       apk     
+ncurses-terminfo-base      6.3_p20211120-r1       apk     
+nettle                     3.7.3-r0               apk     
+nghttp2-libs               1.46.0-r0              apk     
+oauthlib                   3.2.2                  python  
+olefile                    0.46                   python  
+oniguruma                  6.9.7.1-r0             apk     
+openjpeg                   2.4.0-r2               apk     
+opus                       1.3.1-r1               apk     
+orc                        0.4.32-r0              apk     
+ordered-set                4.0.2                  python  
+p11-kit                    0.24.0-r1              apk     
+packaging                  20.9                   python  
+pango                      1.48.10-r0             apk     
+pcre                       8.45-r1                apk     
+pep517                     0.12.0                 python  
+pip                        20.3.4                 python  
+pip                        23.0.1                 python  
+pixman                     0.40.0-r4              apk     
+pkgconf                    1.8.1-r0               apk     
+procps                     3.3.17-r0              apk     
+progress                   1.6                    python  
+py3-appdirs                1.4.4-r2               apk     
+py3-beautifulsoup4         4.9.3-r1               apk     
+py3-cachecontrol           0.12.10-r0             apk     
+py3-certifi                2020.12.5-r1           apk     
+py3-charset-normalizer     2.0.7-r0               apk     
+py3-click                  8.0.1-r0               apk     
+py3-colorama               0.4.4-r1               apk     
+py3-contextlib2            21.6.0-r1              apk     
+py3-distlib                0.3.3-r0               apk     
+py3-distro                 1.6.0-r0               apk     
+py3-flask                  2.0.2-r0               apk     
+py3-gobject3               3.42.0-r1              apk     
+py3-html5lib               1.1-r1                 apk     
+py3-idna                   3.3-r0                 apk     
+py3-itsdangerous           2.0.1-r0               apk     
+py3-jellyfish              0.8.2-r2               apk     
+py3-jinja2                 3.0.1-r0               apk     
+py3-lockfile               0.12.2-r4              apk     
+py3-markupsafe             2.0.1-r0               apk     
+py3-msgpack                1.0.2-r1               apk     
+py3-munkres                1.1.4-r1               apk     
+py3-musicbrainzngs         0.7.1-r1               apk     
+py3-olefile                0.46-r5                apk     
+py3-ordered-set            4.0.2-r2               apk     
+py3-packaging              20.9-r1                apk     
+py3-parsing                2.4.7-r2               apk     
+py3-pep517                 0.12.0-r0              apk     
+py3-pillow                 8.4.0-r3               apk     
+py3-pip                    20.3.4-r1              apk     
+py3-progress               1.6-r0                 apk     
+py3-pylast                 3.3.0-r2               apk     
+py3-requests               2.26.0-r1              apk     
+py3-retrying               1.3.3-r2               apk     
+py3-setuptools             52.0.0-r4              apk     
+py3-six                    1.16.0-r0              apk     
+py3-soupsieve              2.3.1-r0               apk     
+py3-toml                   0.10.2-r2              apk     
+py3-tomli                  1.2.2-r0               apk     
+py3-urllib3                1.26.7-r0              apk     
+py3-webencodings           0.5.1-r4               apk     
+py3-werkzeug               2.0.2-r0               apk     
+pyacoustid                 1.2.2                  python  
+pylast                     3.3.0                  python  
+pyparsing                  2.4.7                  python  
+python                     3.9.16                 binary  
+python3                    3.9.16-r0              apk     
+readline                   8.1.1-r0               apk     
+requests                   2.26.0                 python  
+retrying                   1.3.3                  python  
+s6-ipcserver               2.11.0.0-r0            apk     
+scanelf                    1.3.3-r0               apk     
+sdl2                       2.0.16-r4              apk     
+setuptools                 52.0.0                 python  
+shadow                     4.8.1-r1               apk     
+shared-mime-info           2.1-r2                 apk     
+six                        1.16.0                 python  
+skalibs                    2.11.0.0-r0            apk     
+soupsieve                  2.3.1                  python  
+soxr                       0.1.3-r2               apk     
+speex                      1.2.0-r0               apk     
+speexdsp                   1.2.0-r0               apk     
+sqlite-libs                3.36.0-r0              apk     
+ssl_client                 1.34.1-r7              apk     
+taglib                     1.12-r0                apk     
+tar                        1.34-r1                apk     
+tdb-libs                   1.4.5-r0               apk     
+tiff                       4.4.0-r0               apk     
+toml                       0.10.2                 python  
+tomli                      1.2.2                  python  
+tzdata                     2022f-r1               apk     
+urllib3                    1.26.7                 python  
+utmps                      0.1.0.3-r0             apk     
+v4l-utils-libs             1.22.1-r1              apk     
+vidstab                    1.1.0-r1               apk     
+vulkan-loader              1.2.196-r0             apk     
+wavpack                    5.4.0-r0               apk     
+wayland-libs-client        1.19.0-r1              apk     
+wayland-libs-cursor        1.19.0-r1              apk     
+wayland-libs-egl           1.19.0-r1              apk     
+wayland-libs-server        1.19.0-r1              apk     
+webencodings               0.5.1                  python  
+wget                       1.21.2-r2              apk     
+x264-libs                  20210613-r0            apk     
+x265-libs                  3.5-r0                 apk     
+xvidcore                   1.3.7-r1               apk     
+xz                         5.2.5-r1               apk     
+xz-libs                    5.2.5-r1               apk     
+zlib                       1.2.12-r3              apk     
+zstd-libs                  1.5.0-r0               apk     
