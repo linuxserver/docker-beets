@@ -76,9 +76,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - </path/to/appdata/config>:/config
-      - </path/to/music/library>:/music
-      - </path/to/ingest>:/downloads
+      - /path/to/appdata/config:/config
+      - /path/to/music/library:/music
+      - /path/to/ingest:/downloads
     ports:
       - 8337:8337
     restart: unless-stopped
@@ -93,9 +93,9 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 8337:8337 \
-  -v </path/to/appdata/config>:/config \
-  -v </path/to/music/library>:/music \
-  -v </path/to/ingest>:/downloads \
+  -v /path/to/appdata/config:/config \
+  -v /path/to/music/library:/music \
+  -v /path/to/ingest:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/beets:nightly
 
@@ -224,6 +224,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.12.22:** - Rebase to Alpine 3.17, migrate to s6v3, install chromaprint from Alpine repos, add beetcamp plugin.
 * **15.01.22:** - Rebase to Alpine 3.15.
 * **02.06.21:** - Add back gstreamer packages.
 * **24.05.21:** - Add missing changes from master branch.
