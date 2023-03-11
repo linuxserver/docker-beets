@@ -204,7 +204,7 @@ taglib                  1.13-r0                apk
 tdb-libs                1.4.7-r0               apk     
 tiff                    4.4.0-r1               apk     
 tzdata                  2022f-r1               apk     
-urllib3                 1.26.14                python  
+urllib3                 1.26.15                python  
 utmps-libs              0.1.2.0-r1             apk     
 v4l-utils-libs          1.22.1-r2              apk     
 vidstab                 1.1.0-r2               apk     
