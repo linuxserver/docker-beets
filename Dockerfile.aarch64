@@ -33,6 +33,7 @@ RUN \
     fftw \
     flac \
     gdbm \
+    gobject-introspection \
     gst-plugins-good \
     gstreamer \
     jpeg \
