@@ -52,6 +52,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.03.23:", desc: "Add requests_oauthlib required for [beatport plugin](https://beets.readthedocs.io/en/stable/plugins/beatport.html)." }
   - { date: "24.02.23:", desc: "Rebase to Alpine 3.17, migrate to s6v3, install chromaprint from Alpine repos, add beetcamp plugin." }
   - { date: "15.01.22:", desc: "Rebasing to alpine 3.15." }
   - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
