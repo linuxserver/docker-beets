@@ -100,6 +100,7 @@ RUN \
     pyacoustid \
     pylast \
     requests \
+    requests_oauthlib \
     unidecode && \
   echo "**** cleanup ****" && \
   apk del --purge \
