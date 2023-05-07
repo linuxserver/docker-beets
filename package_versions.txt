@@ -26,12 +26,12 @@ brotli-libs             1.0.9-r9               apk
 busybox                 1.35.0                 binary  
 busybox                 1.35.0-r29             apk     
 busybox-binsh           1.35.0-r29             apk     
-ca-certificates         20220614-r4            apk     
-ca-certificates-bundle  20220614-r4            apk     
+ca-certificates         20230506-r0            apk     
+ca-certificates-bundle  20230506-r0            apk     
 cairo                   1.17.6-r3              apk     
 cairo-gobject           1.17.6-r3              apk     
 cdparanoia-libs         10.2-r11               apk     
-certifi                 2022.12.7              python  
+certifi                 2023.5.7               python  
 charset-normalizer      3.1.0                  python  
 chromaprint             1.5.1-r2               apk     
 cjson                   1.7.15-r3              apk     
