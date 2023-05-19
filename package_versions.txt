@@ -67,8 +67,8 @@ gst-plugins-good        1.20.6-r0              apk
 gstreamer               1.20.6-r0              apk     
 h11                     0.14.0                 python  
 harfbuzz                5.3.1-r1               apk     
-httpcore                0.17.0                 python  
-httpx                   0.24.0                 python  
+httpcore                0.17.1                 python  
+httpx                   0.24.1                 python  
 hwdata-pci              0.364-r0               apk     
 idna                    3.4                    python  
 itsdangerous            2.1.2                  python  
@@ -87,9 +87,9 @@ libbsd                  0.11.7-r0              apk
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
 libcaca                 0.99_beta20-r0         apk     
-libcap2                 2.66-r0                apk     
+libcap2                 2.66-r1                apk     
 libcrypto3              3.0.8-r4               apk     
-libcurl                 8.0.1-r0               apk     
+libcurl                 8.1.0-r1               apk     
 libdav1d                1.0.0-r2               apk     
 libdrm                  2.4.114-r0             apk     
 libdv                   1.0.0-r7               apk     
@@ -155,7 +155,7 @@ mpg123                  1.31.1-r0              apk
 mpg123-libs             1.31.1-r0              apk     
 munkres                 1.1.4                  python  
 musicbrainzngs          0.7.1                  python  
-musl                    1.2.3-r4               apk     
+musl                    1.2.3-r5               apk     
 musl-utils              1.2.3-r4               apk     
 mutagen                 1.46.0                 python  
 nano                    7.0-r0                 apk     
