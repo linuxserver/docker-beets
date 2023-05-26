@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.17
+FROM ghcr.io/linuxserver/baseimage-alpine:arm64v8-3.18
 
 # set version label
 ARG BUILD_DATE
@@ -11,7 +11,7 @@ LABEL maintainer="aptalca"
 
 RUN \
   echo "**** install build packages ****" && \
-  apk add --no-cache --virtual=build-dependencies --upgrade \
+  apk add --no-cache --virtual=build-dependencies \
     build-base \
     cairo-dev \
     cargo \
@@ -26,7 +26,7 @@ RUN \
     openjpeg-dev \
     python3-dev && \
   echo "**** install runtime packages ****" && \
-  apk add --no-cache --upgrade \
+  apk add --no-cache \
     chromaprint \
     expat \
     ffmpeg \
@@ -78,9 +78,9 @@ RUN \
   tar xzf /tmp/mp3val-src/mp3val.tar.gz --strip 1 && \
   make -f Makefile.linux && \
   cp -p mp3val /usr/bin && \
-  echo "**** install pip ****" && \
-  python3 -m ensurepip && \
-  pip3 install -U --no-cache-dir \
+  echo "**** install pip packages ****" && \
+  python3 -m venv /lsiopy && \
+  pip install -U --no-cache-dir \
     pip \
     setuptools \
     wheel && \
@@ -89,7 +89,7 @@ RUN \
   python3 setup.py build && \
   python3 setup.py install --prefix=/usr --root=/ && \
   echo "**** install pip packages ****" && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
     beautifulsoup4 \
     beets-extrafiles \
     beetcamp \
