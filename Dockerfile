@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
 ARG BUILD_DATE
@@ -11,7 +11,7 @@ LABEL maintainer="aptalca"
 
 RUN \
   echo "**** install build packages ****" && \
-  apk add --no-cache --virtual=build-dependencies --upgrade \
+  apk add --no-cache --virtual=build-dependencies \
     build-base \
     cairo-dev \
     cargo \
@@ -26,7 +26,7 @@ RUN \
     openjpeg-dev \
     python3-dev && \
   echo "**** install runtime packages ****" && \
-  apk add --no-cache --upgrade \
+  apk add --no-cache \
     chromaprint \
     expat \
     ffmpeg \
@@ -70,11 +70,11 @@ RUN \
   if [ -z ${BEETS_VERSION+x} ]; then \
     BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json |jq -r '. | .info.version'); \
   fi && \
-  python3 -m ensurepip && \
-  pip3 install -U --no-cache-dir \
+  python3 -m venv /lsiopy && \
+  pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
     beautifulsoup4 \
     beets==${BEETS_VERSION} \
     beets-extrafiles \

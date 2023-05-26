@@ -6,6 +6,7 @@ external_type: pip_version
 release_type: stable
 release_tag: latest
 ls_branch: master
+build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'BEETS_VERSION'
   - EXT_PIP='beets'
