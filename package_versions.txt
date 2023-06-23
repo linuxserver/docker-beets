@@ -10,7 +10,7 @@ Werkzeug                2.3.6                  python
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
-alpine-release          3.17.3-r0              apk     
+alpine-release          3.17.4-r0              apk     
 alsa-lib                1.2.8-r0               apk     
 anyio                   3.7.0                  python  
 aom-libs                3.5.0-r0               apk     
@@ -74,7 +74,7 @@ hwdata-pci              0.364-r0               apk
 idna                    3.4                    python  
 itsdangerous            2.1.2                  python  
 jack                    1.9.21-r0              apk     
-jellyfish               0.11.2                 python  
+jellyfish               1.0.0                  python  
 jpeg                    9e-r0                  apk     
 jq                      1.6-r2                 apk     
 lame                    3.100-r2               apk     
@@ -180,7 +180,7 @@ pixman                  0.42.2-r0              apk
 pkgconf                 1.9.4-r0               apk     
 procps                  3.3.17-r2              apk     
 pyacoustid              1.2.2                  python  
-pycairo                 1.23.0                 python  
+pycairo                 1.24.0                 python  
 pycountry               22.3.5                 python  
 pylast                  5.2.0                  python  
 python                  3.10.12                binary  
