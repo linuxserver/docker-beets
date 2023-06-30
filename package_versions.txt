@@ -205,7 +205,7 @@ ssl_client              1.35.0-r29             apk
 svt-av1-libs            1.3.0-r0               apk     
 taglib                  1.13-r0                apk     
 tdb-libs                1.4.6-r0               apk     
-tiff                    4.4.0-r3               apk     
+tiff                    4.4.0-r4               apk     
 tzdata                  2023c-r0               apk     
 urllib3                 2.0.3                  python  
 utmps-libs              0.1.2.0-r1             apk     
