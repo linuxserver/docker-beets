@@ -12,7 +12,7 @@ alpine-baselayout-data  3.4.0-r0               apk
 alpine-keys             2.4-r1                 apk     
 alpine-release          3.17.4-r0              apk     
 alsa-lib                1.2.8-r0               apk     
-anyio                   3.7.0                  python  
+anyio                   3.7.1                  python  
 aom-libs                3.5.0-r0               apk     
 apk-tools               2.12.10-r1             apk     
 audioread               3.0.0                  python  
@@ -68,7 +68,7 @@ gst-plugins-good        1.20.6-r0              apk
 gstreamer               1.20.6-r0              apk     
 h11                     0.14.0                 python  
 harfbuzz                5.3.1-r1               apk     
-httpcore                0.17.2                 python  
+httpcore                0.17.3                 python  
 httpx                   0.24.1                 python  
 hwdata-pci              0.364-r0               apk     
 idna                    3.4                    python  
