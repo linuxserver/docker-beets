@@ -32,10 +32,10 @@ cairo                   1.17.6-r3              apk
 cairo-gobject           1.17.6-r3              apk     
 cdparanoia-libs         10.2-r11               apk     
 certifi                 2023.5.7               python  
-charset-normalizer      3.1.0                  python  
+charset-normalizer      3.2.0                  python  
 chromaprint             1.5.1-r2               apk     
 cjson                   1.7.15-r3              apk     
-click                   8.1.4                  python  
+click                   8.1.5                  python  
 confuse                 2.0.1                  python  
 coreutils               9.1-r0                 apk     
 curl                    8.1.2-r0               apk     
