@@ -82,7 +82,7 @@ RUN \
     discogs-client \
     flask \
     PyGObject \
-    pillow \
+    Pillow==9.5.0 \
     pyacoustid \
     pylast \
     requests \
