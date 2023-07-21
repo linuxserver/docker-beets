@@ -4,7 +4,7 @@ Jinja2                  3.1.2                  python
 MarkupSafe              2.1.3                  python  
 Pillow                  10.0.0                 python  
 PyGObject               3.44.1                 python  
-PyYAML                  6.0                    python  
+PyYAML                  6.0.1                  python  
 Unidecode               1.3.6                  python  
 Werkzeug                2.3.6                  python  
 alpine-baselayout       3.4.0-r0               apk     
@@ -35,7 +35,7 @@ certifi                 2023.5.7               python
 charset-normalizer      3.2.0                  python  
 chromaprint             1.5.1-r2               apk     
 cjson                   1.7.15-r3              apk     
-click                   8.1.5                  python  
+click                   8.1.6                  python  
 confuse                 2.0.1                  python  
 coreutils               9.1-r0                 apk     
 curl                    8.1.2-r0               apk     
@@ -89,8 +89,8 @@ libbz2                  1.0.8-r4               apk
 libc-utils              0.7.2-r3               apk     
 libcaca                 0.99_beta20-r0         apk     
 libcap2                 2.66-r1                apk     
-libcrypto3              3.0.9-r1               apk     
-libcurl                 8.1.2-r0               apk     
+libcrypto3              3.0.9-r3               apk     
+libcurl                 8.2.0-r1               apk     
 libdav1d                1.0.0-r2               apk     
 libdrm                  2.4.114-r0             apk     
 libdv                   1.0.0-r7               apk     
@@ -119,7 +119,7 @@ libsndfile              1.1.0-r2               apk
 libsodium               1.0.18-r2              apk     
 libsrt                  1.5.1-r0               apk     
 libssh                  0.10.5-r0              apk     
-libssl3                 3.0.9-r1               apk     
+libssl3                 3.0.9-r3               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libtasn1                4.19.0-r0              apk     
 libtheora               1.1.1-r16              apk     
@@ -164,7 +164,7 @@ ncurses-libs            6.3_p20221119-r1       apk
 ncurses-terminfo-base   6.3_p20221119-r1       apk     
 netcat-openbsd          1.130-r4               apk     
 nettle                  3.8.1-r0               apk     
-nghttp2-libs            1.51.0-r0              apk     
+nghttp2-libs            1.51.0-r1              apk     
 numactl                 2.0.16-r1              apk     
 oauthlib                3.2.2                  python  
 oniguruma               6.9.8-r0               apk     
@@ -175,7 +175,7 @@ ordered-set             4.1.0                  python
 p11-kit                 0.24.1-r1              apk     
 pango                   1.50.13-r0             apk     
 pcre2                   10.42-r0               apk     
-pip                     23.1.2                 python  
+pip                     23.2                   python  
 pixman                  0.42.2-r0              apk     
 pkgconf                 1.9.4-r0               apk     
 procps                  3.3.17-r2              apk     
@@ -207,7 +207,7 @@ taglib                  1.13-r0                apk
 tdb-libs                1.4.6-r0               apk     
 tiff                    4.4.0-r4               apk     
 tzdata                  2023c-r0               apk     
-urllib3                 2.0.3                  python  
+urllib3                 2.0.4                  python  
 utmps-libs              0.1.2.0-r1             apk     
 v4l-utils-libs          1.22.1-r2              apk     
 vidstab                 1.1.0-r2               apk     
