@@ -90,7 +90,7 @@ libc-utils              0.7.2-r3               apk
 libcaca                 0.99_beta20-r0         apk     
 libcap2                 2.66-r1                apk     
 libcrypto3              3.0.9-r3               apk     
-libcurl                 8.2.0-r1               apk     
+libcurl                 8.2.1-r0               apk     
 libdav1d                1.0.0-r2               apk     
 libdrm                  2.4.114-r0             apk     
 libdv                   1.0.0-r7               apk     
