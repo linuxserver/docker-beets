@@ -24,7 +24,6 @@ beets                       1.6.1                  python
 beets-extrafiles            0.0.7                  python  
 blinker                     1.6.2                  python  
 brotli-libs                 1.0.9-r9               apk     
-busybox                     1.35.0                 binary  
 busybox                     1.35.0-r29             apk     
 busybox-binsh               1.35.0-r29             apk     
 ca-certificates             20230506-r0            apk     
@@ -184,6 +183,7 @@ pyacoustid                  1.2.2                  python
 pycairo                     1.24.0                 python  
 pycountry                   22.3.5                 python  
 pylast                      5.2.0                  python  
+python                      3.10.12                binary  
 python3                     3.10.12-r0             apk     
 readline                    8.2.0-r0               apk     
 requests                    2.31.0                 python  
