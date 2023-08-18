@@ -7,11 +7,11 @@ PyGObject                   3.44.1                 python
 PyYAML                      6.0.1                  python  
 Simple Launcher Executable  1.1.0.14               dotnet  
 Unidecode                   1.3.6                  python  
-Werkzeug                    2.3.6                  python  
+Werkzeug                    2.3.7                  python  
 alpine-baselayout           3.4.0-r0               apk     
 alpine-baselayout-data      3.4.0-r0               apk     
 alpine-keys                 2.4-r1                 apk     
-alpine-release              3.17.4-r0              apk     
+alpine-release              3.17.5-r0              apk     
 alsa-lib                    1.2.8-r0               apk     
 anyio                       3.7.1                  python  
 aom-libs                    3.5.0-r0               apk     
@@ -24,7 +24,6 @@ beets                       1.6.0                  python
 beets-extrafiles            0.0.7                  python  
 blinker                     1.6.2                  python  
 brotli-libs                 1.0.9-r9               apk     
-busybox                     1.35.0                 binary  
 busybox                     1.35.0-r29             apk     
 busybox-binsh               1.35.0-r29             apk     
 ca-certificates             20230506-r0            apk     
@@ -36,14 +35,14 @@ certifi                     2023.7.22              python
 charset-normalizer          3.2.0                  python  
 chromaprint                 1.5.1-r2               apk     
 cjson                       1.7.15-r3              apk     
-click                       8.1.6                  python  
+click                       8.1.7                  python  
 confuse                     2.0.1                  python  
 coreutils                   9.1-r0                 apk     
 curl                        8.2.1-r0               apk     
 dbus-libs                   1.14.8-r0              apk     
 discogs-client              2.3.0                  python  
 eudev-libs                  3.2.11-r4              apk     
-exceptiongroup              1.1.2                  python  
+exceptiongroup              1.1.3                  python  
 expat                       2.5.0-r0               apk     
 ffmpeg                      5.1.3-r0               apk     
 ffmpeg-libs                 5.1.3-r0               apk     
@@ -184,7 +183,6 @@ pyacoustid                  1.2.2                  python
 pycairo                     1.24.0                 python  
 pycountry                   22.3.5                 python  
 pylast                      5.2.0                  python  
-python                      3.10.12                binary  
 python3                     3.10.12-r0             apk     
 readline                    8.2.0-r0               apk     
 requests                    2.31.0                 python  
