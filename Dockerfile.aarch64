@@ -36,6 +36,7 @@ RUN \
     gobject-introspection \
     gst-plugins-good \
     gstreamer \
+    imagemagick \
     jpeg \
     lame \
     libffi \
@@ -96,7 +97,6 @@ RUN \
     discogs-client \
     flask \
     PyGObject \
-    Pillow==9.5.0 \
     pyacoustid \
     pylast \
     requests \
