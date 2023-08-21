@@ -6,61 +6,57 @@ project_url: "http://beets.io/"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/beets-icon.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a music library manager and not, for the most part, a music player. It does include a simple player plugin and an experimental Web-based player, but it generally leaves actual sound-reproduction to specialized tools."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 project_blurb_optional_extras_enabled: false
 project_blurb_optional_extras: []
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # container parameters
 common_param_env_vars_enabled: true #PGID, PUID, etc, you can set it to 'optional'
 param_container_name: "{{ project_name }}"
 param_usage_include_env: true
 param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London." }
+  - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files." }
-  - { vol_path: "/music", vol_host_path: "/path/to/music/library", desc: "Music library" }
-  - { vol_path: "/downloads", vol_host_path: "/path/to/ingest", desc: "Non processed music" }
+  - {vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files."}
+  - {vol_path: "/music", vol_host_path: "/path/to/music/library", desc: "Music library"}
+  - {vol_path: "/downloads", vol_host_path: "/path/to/ingest", desc: "Non processed music"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8337", internal_port: "8337", port_desc: "Application WebUI" }
-
+  - {external_port: "8337", internal_port: "8337", port_desc: "Application WebUI"}
 # changelog
 changelogs:
-  - { date: "25.08.23:", desc: "Rebase to Alpine 3.18, pin Pillow to 9.5.0." }
-  - { date: "25.03.23:", desc: "Add requests_oauthlib required for [beatport plugin](https://beets.readthedocs.io/en/stable/plugins/beatport.html)." }
-  - { date: "24.12.22:", desc: "Rebase to Alpine 3.17, migrate to s6v3, install chromaprint from Alpine repos, add beetcamp plugin." }
-  - { date: "15.01.22:", desc: "Rebase to Alpine 3.15." }
-  - { date: "02.06.21:", desc: "Add back gstreamer packages." }
-  - { date: "24.05.21:", desc: "Add missing changes from master branch." }
-  - { date: "01.06.20:", desc: "Rebasing to alpine 3.12." }
-  - { date: "19.12.19:", desc: "Rebasing to alpine 3.11." }
-  - { date: "28.06.19:", desc: "Rebasing to alpine 3.10." }
-  - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
-  - { date: "01.03.19:", desc: "Switch to python3." }
-  - { date: "07.02.19:", desc: "Add fftw-dev build dependency for chromaprint." }
-  - { date: "28.01.19:", desc: "Add pipeline logic and multi arch." }
-  - { date: "15.08.18:", desc: "Rebase to alpine 3.8, use alpine repo version of pylast." }
-  - { date: "12.08.18:", desc: "Add requests pip package." }
-  - { date: "04.03.18:", desc: "Upgrade mp3gain to 1.6.1." }
-  - { date: "02.01.18:", desc: "Deprecate cpu_core routine lack of scaling." }
-  - { date: "27.12.17:", desc: "Add beautifulsoup4 pip package." }
-  - { date: "06.12.17:", desc: "Rebase to alpine linux 3.7." }
-  - { date: "25.05.17:", desc: "Rebase to alpine linux 3.6." }
-  - { date: "06.02.17:", desc: "Rebase to alpine linux 3.5." }
-  - { date: "16.01.17:", desc: "Add packages required for replaygain." }
-  - { date: "24.12.16:", desc: "Add [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin." }
-  - { date: "07.12.16:", desc: "Edit cmake options for chromaprint, should now build and install fpcalc, add gstreamer lib" }
-  - { date: "14.10.16:", desc: "Add version layer information." }
-  - { date: "01.10.16:", desc: "Add nano and editor variable to allow editing of the config from the container command line." }
-  - { date: "30.09.16:", desc: "Fix umask." }
-  - { date: "24.09.16:", desc: "Rebase to alpine linux." }
-  - { date: "10.09.16:", desc: "Add layer badges to README." }
-  - { date: "05.01.16:", desc: "Change ffpmeg repository, other version crashes container" }
-  - { date: "06.11.15:", desc: "Initial Release" }
-  - { date: "29.11.15:", desc: "Take out term setting, causing issues with key entry for some users" }
+  - {date: "03.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
+  - {date: "25.03.23:", desc: "Add requests_oauthlib required for [beatport plugin](https://beets.readthedocs.io/en/stable/plugins/beatport.html)."}
+  - {date: "24.12.22:", desc: "Rebase to Alpine 3.17, migrate to s6v3, install chromaprint from Alpine repos, add beetcamp plugin."}
+  - {date: "15.01.22:", desc: "Rebase to Alpine 3.15."}
+  - {date: "02.06.21:", desc: "Add back gstreamer packages."}
+  - {date: "24.05.21:", desc: "Add missing changes from master branch."}
+  - {date: "01.06.20:", desc: "Rebasing to alpine 3.12."}
+  - {date: "19.12.19:", desc: "Rebasing to alpine 3.11."}
+  - {date: "28.06.19:", desc: "Rebasing to alpine 3.10."}
+  - {date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag."}
+  - {date: "01.03.19:", desc: "Switch to python3."}
+  - {date: "07.02.19:", desc: "Add fftw-dev build dependency for chromaprint."}
+  - {date: "28.01.19:", desc: "Add pipeline logic and multi arch."}
+  - {date: "15.08.18:", desc: "Rebase to alpine 3.8, use alpine repo version of pylast."}
+  - {date: "12.08.18:", desc: "Add requests pip package."}
+  - {date: "04.03.18:", desc: "Upgrade mp3gain to 1.6.1."}
+  - {date: "02.01.18:", desc: "Deprecate cpu_core routine lack of scaling."}
+  - {date: "27.12.17:", desc: "Add beautifulsoup4 pip package."}
+  - {date: "06.12.17:", desc: "Rebase to alpine linux 3.7."}
+  - {date: "25.05.17:", desc: "Rebase to alpine linux 3.6."}
+  - {date: "06.02.17:", desc: "Rebase to alpine linux 3.5."}
+  - {date: "16.01.17:", desc: "Add packages required for replaygain."}
+  - {date: "24.12.16:", desc: "Add [beets-copyartifacts](https://github.com/sbarakat/beets-copyartifacts) plugin."}
+  - {date: "07.12.16:", desc: "Edit cmake options for chromaprint, should now build and install fpcalc, add gstreamer lib"}
+  - {date: "14.10.16:", desc: "Add version layer information."}
+  - {date: "01.10.16:", desc: "Add nano and editor variable to allow editing of the config from the container command line."}
+  - {date: "30.09.16:", desc: "Fix umask."}
+  - {date: "24.09.16:", desc: "Rebase to alpine linux."}
+  - {date: "10.09.16:", desc: "Add layer badges to README."}
+  - {date: "05.01.16:", desc: "Change ffpmeg repository, other version crashes container"}
+  - {date: "06.11.15:", desc: "Initial Release"}
+  - {date: "29.11.15:", desc: "Take out term setting, causing issues with key entry for some users"}
