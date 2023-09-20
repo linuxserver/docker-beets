@@ -20,7 +20,6 @@ avahi-libs                  0.8-r13                 apk
 bash                        5.2.15-r5               apk     
 beautifulsoup4              4.12.2                  python  
 beetcamp                    0.17.2                  python  
-beets                       1.6.0                   python  
 beets                       1.6.1                   python  
 beets-extrafiles            0.0.7                   python  
 blinker                     1.6.2                   python  
@@ -90,7 +89,7 @@ imagemagick-libs            7.1.1.13-r0             apk
 itsdangerous                2.1.2                   python  
 jack                        1.9.22-r4               apk     
 jbig2dec                    0.19-r3                 apk     
-jellyfish                   1.0.0                   python  
+jellyfish                   1.0.1                   python  
 jpeg                        9e-r1                   apk     
 jq                          1.6-r3                  apk     
 lame                        3.100-r5                apk     
@@ -245,8 +244,9 @@ svt-av1-libs                1.6.0-r0                apk
 taglib                      1.13.1-r0               apk     
 tdb-libs                    1.4.8-r1                apk     
 tiff                        4.5.1-r0                apk     
+typing_extensions           4.8.0                   python  
 tzdata                      2023c-r1                apk     
-urllib3                     2.0.4                   python  
+urllib3                     2.0.5                   python  
 utmps-libs                  0.1.2.1-r1              apk     
 v4l-utils-libs              1.24.1-r0               apk     
 vidstab                     1.1.1-r0                apk     
