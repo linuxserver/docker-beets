@@ -39,7 +39,7 @@ cjson                       1.7.15-r4               apk
 click                       8.1.7                   python  
 confuse                     2.0.1                   python  
 coreutils                   9.3-r1                  apk     
-cups-libs                   2.4.6-r0                apk     
+cups-libs                   2.4.7-r0                apk     
 curl                        8.2.1-r0                apk     
 dbus-libs                   1.14.8-r0               apk     
 discogs-client              2.3.0                   python  
