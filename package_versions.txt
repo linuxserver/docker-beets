@@ -209,7 +209,7 @@ ordered-set                 4.1.0                   python
 p11-kit                     0.24.1-r2               apk     
 pango                       1.50.14-r1              apk     
 pcre2                       10.42-r1                apk     
-pip                         23.2.1                  python  
+pip                         23.3                    python  
 pixman                      0.42.2-r1               apk     
 pkgconf                     1.9.5-r0                apk     
 procps-ng                   4.0.4-r0                apk     
