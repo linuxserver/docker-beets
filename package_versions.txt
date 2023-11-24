@@ -81,9 +81,9 @@ gstreamer                  1.22.7-r0               apk
 h11                        0.14.0                  python  
 harfbuzz                   7.3.0-r0                apk     
 httpcore                   1.0.2                   python  
-httpx                      0.25.1                  python  
+httpx                      0.25.2                  python  
 hwdata-pci                 0.370-r0                apk     
-idna                       3.4                     python  
+idna                       3.5                     python  
 imagemagick                7.1.1.13-r1             apk     
 imagemagick-libs           7.1.1.13-r1             apk     
 itsdangerous               2.1.2                   python  
