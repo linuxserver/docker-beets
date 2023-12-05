@@ -94,6 +94,7 @@ RUN \
   typing-extensions \
   unidecode && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
+  pip install -U --no-cache-dir git+https://github.com/geigerzaehler/beets-check.git@master && \
   echo "**** cleanup ****" && \
   apk del --purge \
   build-dependencies && \
