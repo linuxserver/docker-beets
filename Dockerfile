@@ -86,6 +86,7 @@ RUN \
   flask==2.1.3 \
   flask-cors \
   PyGObject \
+  Werkzeug==2.3.7 \
   pyacoustid \
   pylast \
   requests \
