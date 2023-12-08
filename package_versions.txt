@@ -40,7 +40,7 @@ click                      8.1.7                   python
 confuse                    2.0.1                   python  
 coreutils                  9.3-r1                  apk     
 cups-libs                  2.4.7-r0                apk     
-curl                       8.4.0-r0                apk     
+curl                       8.5.0-r0                apk     
 dbus-libs                  1.14.8-r0               apk     
 discogs-client             2.3.0                   python  
 eudev-libs                 3.2.11-r8               apk     
@@ -108,7 +108,7 @@ libc-utils                 0.7.2-r5                apk
 libcaca                    0.99_beta20-r0          apk     
 libcap2                    2.69-r0                 apk     
 libcrypto3                 3.1.4-r1                apk     
-libcurl                    8.4.0-r0                apk     
+libcurl                    8.5.0-r0                apk     
 libdav1d                   1.2.1-r0                apk     
 libde265                   1.0.12-r0               apk     
 libdrm                     2.4.115-r4              apk     
@@ -216,7 +216,7 @@ procps-ng                  4.0.4-r0                apk
 pyacoustid                 1.3.0                   python  
 pyc                        0.1-r0                  apk     
 pycairo                    1.25.1                  python  
-pycountry                  22.3.5                  python  
+pycountry                  23.12.7                 python  
 pylast                     5.2.0                   python  
 python3                    3.11.6-r0               apk     
 python3-pyc                3.11.6-r0               apk     
