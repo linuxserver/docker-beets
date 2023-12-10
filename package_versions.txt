@@ -91,7 +91,7 @@ jack                       1.9.22-r4               apk
 jbig2dec                   0.19-r3                 apk     
 jellyfish                  1.0.3                   python  
 jpeg                       9e-r1                   apk     
-jq                         1.6-r3                  apk     
+jq                         1.6-r4                  apk     
 lame                       3.100-r5                apk     
 lame-libs                  3.100-r5                apk     
 lcms2                      2.15-r2                 apk     
@@ -244,7 +244,7 @@ svt-av1-libs               1.6.0-r0                apk
 taglib                     1.13.1-r0               apk     
 tdb-libs                   1.4.8-r1                apk     
 tiff                       4.5.1-r0                apk     
-typing_extensions          4.8.0                   python  
+typing_extensions          4.9.0                   python  
 tzdata                     2023c-r1                apk     
 urllib3                    2.1.0                   python  
 utmps-libs                 0.1.2.1-r1              apk     
