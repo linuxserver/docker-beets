@@ -86,7 +86,7 @@ itsdangerous               2.1.2                   python
 jack                       1.9.22-r4               apk     
 jellyfish                  1.0.3                   python  
 jpeg                       9e-r1                   apk     
-jq                         1.6-r3                  apk     
+jq                         1.6-r4                  apk     
 lame                       3.100-r5                apk     
 lame-libs                  3.100-r5                apk     
 lcms2                      2.15-r2                 apk     
@@ -207,7 +207,7 @@ procps-ng                  4.0.4-r0                apk
 pyacoustid                 1.3.0                   python  
 pyc                        0.1-r0                  apk     
 pycairo                    1.25.1                  python  
-pycountry                  23.12.7                 python  
+pycountry                  23.12.11                python  
 pylast                     5.2.0                   python  
 python3                    3.11.6-r0               apk     
 python3-pyc                3.11.6-r0               apk     
