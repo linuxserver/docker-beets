@@ -12,7 +12,7 @@ alpine-baselayout-data     3.4.3-r1                apk
 alpine-keys                2.4-r1                  apk     
 alpine-release             3.18.5-r0               apk     
 alsa-lib                   1.2.9-r1                apk     
-anyio                      4.1.0                   python  
+anyio                      4.2.0                   python  
 aom-libs                   3.6.1-r0                apk     
 apk-tools                  2.14.0-r2               apk     
 audioread                  3.0.1                   python  
@@ -209,7 +209,7 @@ ordered-set                4.1.0                   python
 p11-kit                    0.24.1-r2               apk     
 pango                      1.50.14-r1              apk     
 pcre2                      10.42-r1                apk     
-pip                        23.3.1                  python  
+pip                        23.3.2                  python  
 pixman                     0.42.2-r1               apk     
 pkgconf                    1.9.5-r0                apk     
 procps-ng                  4.0.4-r0                apk     
