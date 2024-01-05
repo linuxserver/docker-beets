@@ -245,7 +245,7 @@ taglib                     1.13.1-r0               apk
 tdb-libs                   1.4.8-r1                apk     
 tiff                       4.5.1-r0                apk     
 typing_extensions          4.9.0                   python  
-tzdata                     2023c-r1                apk     
+tzdata                     2023d-r0                apk     
 urllib3                    2.1.0                   python  
 utmps-libs                 0.1.2.1-r1              apk     
 v4l-utils-libs             1.24.1-r0               apk     
