@@ -35,7 +35,7 @@ certifi                    2023.11.17              python
 charset-normalizer         3.3.2                   python  
 chromaprint                1.5.1-r6                apk     
 chromaprint-libs           1.5.1-r6                apk     
-cjson                      1.7.15-r4               apk     
+cjson                      1.7.17-r0               apk     
 click                      8.1.7                   python  
 confuse                    2.0.1                   python  
 coreutils                  9.3-r1                  apk     
@@ -107,7 +107,7 @@ libbz2                     1.0.8-r5                apk
 libc-utils                 0.7.2-r5                apk     
 libcaca                    0.99_beta20-r0          apk     
 libcap2                    2.69-r0                 apk     
-libcrypto3                 3.1.4-r1                apk     
+libcrypto3                 3.1.4-r3                apk     
 libcurl                    8.5.0-r0                apk     
 libdav1d                   1.2.1-r0                apk     
 libde265                   1.0.15-r0               apk     
@@ -151,7 +151,7 @@ libsodium                  1.0.18-r3               apk
 libsoup3                   3.4.2-r0                apk     
 libsrt                     1.5.2-r0                apk     
 libssh                     0.10.5-r0               apk     
-libssl3                    3.1.4-r1                apk     
+libssl3                    3.1.4-r3                apk     
 libstdc++                  12.2.1_git20220924-r10  apk     
 libtasn1                   4.19.0-r1               apk     
 libtheora                  1.1.1-r17               apk     
