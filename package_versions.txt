@@ -1,5 +1,5 @@
 NAME                       VERSION                 TYPE   
-Flask                      3.0.0                   python  
+Flask                      3.0.1                   python  
 Jinja2                     3.1.3                   python  
 MarkupSafe                 2.1.3                   python  
 Pillow                     9.5.0                   python  
@@ -18,7 +18,7 @@ aom-libs                   3.6.1-r0                apk
 apk-tools                  2.14.0-r2               apk     
 audioread                  3.0.1                   python  
 bash                       5.2.15-r5               apk     
-beautifulsoup4             4.12.2                  python  
+beautifulsoup4             4.12.3                  python  
 beetcamp                   0.17.2                  python  
 beets                      1.6.0                   python  
 beets-extrafiles           0.0.7                   python  
@@ -35,7 +35,7 @@ certifi                    2023.11.17              python
 charset-normalizer         3.3.2                   python  
 chromaprint                1.5.1-r6                apk     
 chromaprint-libs           1.5.1-r6                apk     
-cjson                      1.7.15-r4               apk     
+cjson                      1.7.17-r0               apk     
 click                      8.1.7                   python  
 confuse                    2.0.1                   python  
 coreutils                  9.3-r1                  apk     
@@ -68,14 +68,14 @@ glib                       2.76.4-r0               apk
 glib-networking            2.76.1-r0               apk     
 glslang-libs               1.3.243.0-r1            apk     
 gmp                        6.2.1-r3                apk     
-gnutls                     3.8.0-r2                apk     
+gnutls                     3.8.3-r0                apk     
 gobject-introspection      1.76.1-r3               apk     
 graphene                   1.10.8-r2               apk     
 graphite2                  1.3.14-r5               apk     
 gsettings-desktop-schemas  44.0-r0                 apk     
-gst-plugins-base           1.22.7-r0               apk     
-gst-plugins-good           1.22.7-r0               apk     
-gstreamer                  1.22.7-r0               apk     
+gst-plugins-base           1.22.8-r0               apk     
+gst-plugins-good           1.22.8-r0               apk     
+gstreamer                  1.22.8-r0               apk     
 h11                        0.14.0                  python  
 harfbuzz                   7.3.0-r0                apk     
 httpcore                   1.0.2                   python  
@@ -102,7 +102,7 @@ libbz2                     1.0.8-r5                apk
 libc-utils                 0.7.2-r5                apk     
 libcaca                    0.99_beta20-r0          apk     
 libcap2                    2.69-r0                 apk     
-libcrypto3                 3.1.4-r1                apk     
+libcrypto3                 3.1.4-r3                apk     
 libcurl                    8.5.0-r0                apk     
 libdav1d                   1.2.1-r0                apk     
 libdrm                     2.4.115-r4              apk     
@@ -142,7 +142,7 @@ libsodium                  1.0.18-r3               apk
 libsoup3                   3.4.2-r0                apk     
 libsrt                     1.5.2-r0                apk     
 libssh                     0.10.5-r0               apk     
-libssl3                    3.1.4-r1                apk     
+libssl3                    3.1.4-r3                apk     
 libstdc++                  12.2.1_git20220924-r10  apk     
 libtasn1                   4.19.0-r1               apk     
 libtheora                  1.1.1-r17               apk     
@@ -229,7 +229,7 @@ soxr                       0.1.3-r5                apk
 speex                      1.2.1-r1                apk     
 speexdsp                   1.2.1-r1                apk     
 spirv-tools                1.3.243.0-r1            apk     
-sqlite-libs                3.41.2-r2               apk     
+sqlite-libs                3.41.2-r3               apk     
 ssl_client                 1.36.1-r5               apk     
 svt-av1-libs               1.6.0-r0                apk     
 taglib                     1.13.1-r0               apk     
