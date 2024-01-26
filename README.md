@@ -74,7 +74,7 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - /path/to/appdata/config:/config
+      - /path/to/beets/config:/config
       - /path/to/music/library:/music
       - /path/to/ingest:/downloads
     ports:
@@ -91,7 +91,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 8337:8337 \
-  -v /path/to/appdata/config:/config \
+  -v /path/to/beets/config:/config \
   -v /path/to/music/library:/music \
   -v /path/to/ingest:/downloads \
   --restart unless-stopped \
@@ -108,7 +108,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-v /config` | Configuration files. |
+| `-v /config` | Persistent config files |
 | `-v /music` | Music library |
 | `-v /downloads` | Non processed music |
 
@@ -273,6 +273,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.12.23:** - Rebase to Alpine 3.19.
 * **25.08.23:** - Rebase to Alpine 3.18, switch from Pillow to Imagemagick.
 * **03.07.23:** - Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)
 * **25.03.23:** - Add requests_oauthlib required for [beatport plugin](https://beets.readthedocs.io/en/stable/plugins/beatport.html).
