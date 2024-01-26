@@ -20,7 +20,7 @@ param_env_vars:
   - {env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London."}
 param_usage_include_vols: true
 param_volumes:
-  - {vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "Configuration files."}
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
   - {vol_path: "/music", vol_host_path: "/path/to/music/library", desc: "Music library"}
   - {vol_path: "/downloads", vol_host_path: "/path/to/ingest", desc: "Non processed music"}
 param_usage_include_ports: true
@@ -28,6 +28,7 @@ param_ports:
   - {external_port: "8337", internal_port: "8337", port_desc: "Application WebUI"}
 # changelog
 changelogs:
+  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - {date: "25.08.23:", desc: "Rebase to Alpine 3.18, switch from Pillow to Imagemagick."}
   - {date: "03.07.23:", desc: "Deprecate armhf. As announced [here](https://www.linuxserver.io/blog/a-farewell-to-arm-hf)"}
   - {date: "25.03.23:", desc: "Add requests_oauthlib required for [beatport plugin](https://beets.readthedocs.io/en/stable/plugins/beatport.html)."}
