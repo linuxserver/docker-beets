@@ -37,8 +37,8 @@ brotli-libs                   1.1.0-r1               apk
 busybox                       1.36.1-r15             apk                          
 busybox-binsh                 1.36.1-r15             apk                          
 c-ares                        1.24.0-r1              apk                          
-ca-certificates               20230506-r0            apk                          
-ca-certificates-bundle        20230506-r0            apk                          
+ca-certificates               20240226-r0            apk                          
+ca-certificates-bundle        20240226-r0            apk                          
 cairo                         1.18.0-r0              apk                          
 cairo-gobject                 1.18.0-r0              apk                          
 cdparanoia-libs               10.2-r14               apk                          
@@ -303,7 +303,7 @@ rayon                         1.7.0                  rust-crate
 rayon-core                    1.11.0                 rust-crate                   
 readline                      8.2.1-r2               apk                          
 requests                      2.31.0                 python                       
-requests-oauthlib             1.4.0                  python                       
+requests-oauthlib             2.0.0                  python                       
 rust_hawktracer               0.7.0                  rust-crate                   
 rust_hawktracer_normal_macro  0.4.1                  rust-crate                   
 rust_hawktracer_proc_macro    0.4.1                  rust-crate                   
