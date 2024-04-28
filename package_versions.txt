@@ -32,7 +32,7 @@ bitstream-io                  1.6.0                  rust-crate
 bitstream-io                  1.7.0                  rust-crate                   
 bitvec                        1.0.1                  rust-crate                   
 bitvec_helpers                3.1.2                  rust-crate                   
-blinker                       1.7.0                  python                       
+blinker                       1.8.0                  python                       
 brotli-libs                   1.1.0-r1               apk                          
 busybox                       1.36.1-r15             apk                          
 busybox-binsh                 1.36.1-r15             apk                          
