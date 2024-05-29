@@ -14,7 +14,7 @@ alpine-release                3.19.1-r0              apk
 alsa-lib                      1.2.10-r0              apk                          
 anyhow                        1.0.71                 rust-crate                   
 anyhow                        1.0.75                 rust-crate                   
-anyio                         4.3.0                  python                       
+anyio                         4.4.0                  python                       
 aom-libs                      3.7.1-r0               apk                          
 apk-tools                     2.14.4-r0              apk                          
 arg_enum_proc_macro           0.3.2                  rust-crate                   
@@ -132,7 +132,7 @@ itertools                     0.10.5                 rust-crate
 itsdangerous                  2.2.0                  python                       
 ivf                           0.1.2                  rust-crate                   
 jack                          1.9.22-r4              apk                          
-jellyfish                     1.0.3                  python                       
+jellyfish                     1.0.4                  python                       
 jpeg                          9e-r1                  apk                          
 jq                            1.7.1-r0               apk                          
 lab                           0.11.0                 rust-crate                   
@@ -305,7 +305,7 @@ rav1e-libs                    0.6.6-r2               apk
 rayon                         1.7.0                  rust-crate                   
 rayon-core                    1.11.0                 rust-crate                   
 readline                      8.2.1-r2               apk                          
-requests                      2.32.2                 python                       
+requests                      2.32.3                 python                       
 requests-oauthlib             2.0.0                  python                       
 rust_hawktracer               0.7.0                  rust-crate                   
 rust_hawktracer_normal_macro  0.4.1                  rust-crate                   
