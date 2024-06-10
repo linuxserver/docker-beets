@@ -275,7 +275,7 @@ orc                           0.4.34-r0              apk
 ordered-set                   4.1.0                  python                       
 os_str_bytes                  6.5.0                  rust-crate                   
 p11-kit                       0.25.3-r0              apk                          
-packaging                     24.0                   python                       
+packaging                     24.1                   python                       
 pango                         1.51.0-r0              apk                          
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
