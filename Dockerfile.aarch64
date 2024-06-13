@@ -87,8 +87,7 @@ RUN \
     wheel && \
   echo "**** install beets ****" && \
   cd /tmp/beets && \
-  python3 setup.py build && \
-  python3 setup.py install --prefix=/lsiopy --root=/ && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.19/ . && \
   echo "**** install pip packages ****" && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.19/ \
     beautifulsoup4 \
