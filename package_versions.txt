@@ -268,7 +268,7 @@ orc                           0.4.34-r0              apk
 ordered-set                   4.1.0                  python                       
 os_str_bytes                  6.5.0                  rust-crate                   
 p11-kit                       0.25.3-r0              apk                          
-packaging                     24.0                   python                       
+packaging                     24.1                   python                       
 pango                         1.51.0-r0              apk                          
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
@@ -339,7 +339,7 @@ terminal_size                 0.2.6                  rust-crate
 thiserror                     1.0.40                 rust-crate                   
 thiserror-impl                1.0.40                 rust-crate                   
 tiff                          4.6.0-r0               apk                          
-typing_extensions             4.12.1                 python                       
+typing_extensions             4.12.2                 python                       
 tzdata                        2024a-r0               apk                          
 unicode-ident                 1.0.8                  rust-crate                   
 unicode-width                 0.1.10                 rust-crate                   
