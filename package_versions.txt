@@ -4,6 +4,7 @@ Jinja2                        3.1.4                  python
 MarkupSafe                    2.1.5                  python                       
 PyGObject                     3.48.2                 python                       
 PyYAML                        6.0.1                  python                       
+Pygments                      2.18.0                 python                       
 Simple Launcher               1.1.0.14               dotnet      (+5 duplicates)  
 Unidecode                     1.3.8                  python                       
 Werkzeug                      3.0.3                  python                       
@@ -95,6 +96,7 @@ flac                          1.4.3-r1               apk
 fontconfig                    2.14.2-r4              apk                          
 freetype                      2.13.2-r0              apk                          
 fribidi                       1.0.13-r0              apk                          
+funcy                         2.0                    python                       
 funty                         2.0.0                  rust-crate                   
 gdbm                          1.23-r1                apk                          
 gdk-pixbuf                    2.42.10-r6             apk                          
@@ -231,8 +233,10 @@ lilv-libs                     0.24.22-r0             apk
 linux-pam                     1.5.3-r7               apk                          
 linux-raw-sys                 0.3.7                  rust-crate                   
 log                           0.4.17                 rust-crate                   
+markdown-it-py                3.0.0                  python                       
 maybe-rayon                   0.1.1                  rust-crate                   
 mbedtls                       2.28.8-r0              apk                          
+mdurl                         0.1.2                  python                       
 mediafile                     0.12.0                 python                       
 memchr                        2.5.0                  rust-crate                   
 memoffset                     0.8.0                  rust-crate                   
@@ -245,6 +249,7 @@ minimal-lexical               0.2.1                  rust-crate
 mpdecimal                     2.5.1-r2               apk                          
 mpg123                        1.32.3-r0              apk                          
 mpg123-libs                   1.32.3-r0              apk                          
+multimethod                   1.11.2                 python                       
 munkres                       1.1.4                  python                       
 musicbrainzngs                0.7.1                  python                       
 musl                          1.2.4_git20230717-r4   apk                          
@@ -282,6 +287,7 @@ pcre2                         10.42-r2               apk
 pip                           24.0                   python                       
 pixman                        0.42.2-r2              apk                          
 pkgconf                       2.1.0-r0               apk                          
+platformdirs                  4.2.2                  python                       
 ppv-lite86                    0.2.17                 rust-crate                   
 proc-macro-error              1.0.4                  rust-crate                   
 proc-macro-error-attr         1.0.4                  rust-crate                   
@@ -307,6 +313,8 @@ rayon-core                    1.11.0                 rust-crate
 readline                      8.2.1-r2               apk                          
 requests                      2.32.3                 python                       
 requests-oauthlib             2.0.0                  python                       
+rich                          13.7.1                 python                       
+rich-tables                   0.5.1                  python                       
 rust_hawktracer               0.7.0                  rust-crate                   
 rust_hawktracer_normal_macro  0.4.1                  rust-crate                   
 rust_hawktracer_proc_macro    0.4.1                  rust-crate                   
@@ -335,6 +343,7 @@ speex                         1.2.1-r2               apk
 speexdsp                      1.2.1-r2               apk                          
 spirv-tools                   1.3.261.1-r0           apk                          
 sqlite-libs                   3.44.2-r0              apk                          
+sqlparse                      0.5.0                  python                       
 sratom                        0.6.16-r0              apk                          
 ssl_client                    1.36.1-r19             apk                          
 syn                           1.0.109                rust-crate                   
