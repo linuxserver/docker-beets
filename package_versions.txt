@@ -279,7 +279,7 @@ packaging                     24.1                   python
 pango                         1.51.0-r0              apk                          
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
-pip                           24.0                   python                       
+pip                           24.1                   python                       
 pixman                        0.42.2-r2              apk                          
 pkgconf                       2.1.0-r0               apk                          
 ppv-lite86                    0.2.17                 rust-crate                   
@@ -289,7 +289,7 @@ proc-macro2                   1.0.57                 rust-crate
 procps-ng                     4.0.4-r0               apk                          
 pyacoustid                    1.3.0                  python                       
 pyc                           3.11.9-r0              apk                          
-pycairo                       1.26.0                 python                       
+pycairo                       1.26.1                 python                       
 pycountry                     24.6.1                 python                       
 pylast                        5.3.0                  python                       
 python3                       3.11.9-r0              apk                          
