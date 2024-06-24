@@ -10,7 +10,7 @@ Werkzeug                      3.0.3                  python
 alpine-baselayout             3.4.3-r2               apk                          
 alpine-baselayout-data        3.4.3-r2               apk                          
 alpine-keys                   2.4-r1                 apk                          
-alpine-release                3.19.1-r0              apk                          
+alpine-release                3.19.2-r0              apk                          
 alsa-lib                      1.2.10-r0              apk                          
 anyhow                        1.0.71                 rust-crate                   
 anyhow                        1.0.75                 rust-crate                   
@@ -346,7 +346,6 @@ terminal_size                 0.2.6                  rust-crate
 thiserror                     1.0.40                 rust-crate                   
 thiserror-impl                1.0.40                 rust-crate                   
 tiff                          4.6.0-r0               apk                          
-typing_extensions             4.12.2                 python                       
 tzdata                        2024a-r0               apk                          
 unicode-ident                 1.0.8                  rust-crate                   
 unicode-width                 0.1.10                 rust-crate                   
