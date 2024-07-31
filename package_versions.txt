@@ -1,16 +1,9 @@
 NAME                          VERSION                TYPE                        
-Flask                         3.0.3                  python                       
-Jinja2                        3.1.4                  python                       
-MarkupSafe                    2.1.5                  python                       
-PyGObject                     3.48.2                 python                       
-PyYAML                        6.0.1                  python                       
 Simple Launcher               1.1.0.14               dotnet      (+5 duplicates)  
-Unidecode                     1.3.8                  python                       
-Werkzeug                      3.0.3                  python                       
 alpine-baselayout             3.4.3-r2               apk                          
 alpine-baselayout-data        3.4.3-r2               apk                          
 alpine-keys                   2.4-r1                 apk                          
-alpine-release                3.19.2-r0              apk                          
+alpine-release                3.19.3-r0              apk                          
 alsa-lib                      1.2.10-r0              apk                          
 anyhow                        1.0.71                 rust-crate                   
 anyhow                        1.0.75                 rust-crate                   
@@ -23,7 +16,7 @@ audioread                     3.0.1                  python
 autocommand                   2.2.2                  python                       
 av-metrics                    0.9.0                  rust-crate                   
 av1-grain                     0.2.2                  rust-crate                   
-backports.tarfile             1.2.0                  python                       
+backports-tarfile             1.2.0                  python                       
 bash                          5.2.21-r0              apk                          
 beautifulsoup4                4.12.3                 python                       
 beetcamp                      0.19.1                 python                       
@@ -70,7 +63,7 @@ crossbeam-deque               0.8.3                  rust-crate
 crossbeam-epoch               0.9.14                 rust-crate                   
 crossbeam-queue               0.3.8                  rust-crate                   
 crossbeam-utils               0.8.15                 rust-crate                   
-curl                          8.5.0-r0               apk                          
+curl                          8.9.0-r0               apk                          
 dbus-libs                     1.14.10-r0             apk                          
 discogs-client                2.3.0                  python                       
 dolby_vision                  3.2.0                  rust-crate                   
@@ -94,6 +87,7 @@ fftw-long-double-libs         3.3.10-r5              apk
 fftw-single-libs              3.3.10-r5              apk                          
 findutils                     4.9.0-r5               apk                          
 flac                          1.4.3-r1               apk                          
+flask                         3.0.3                  python                       
 fontconfig                    2.14.2-r4              apk                          
 freetype                      2.13.2-r0              apk                          
 fribidi                       1.0.13-r0              apk                          
@@ -127,8 +121,8 @@ imagemagick-libs              7.1.1.32-r0            apk
 imagemagick-pango             7.1.1.32-r0            apk                          
 imagemagick-tiff              7.1.1.32-r0            apk                          
 imagemagick-webp              7.1.1.32-r0            apk                          
-importlib_metadata            8.0.0                  python                       
-importlib_resources           6.4.0                  python                       
+importlib-metadata            8.0.0                  python                       
+importlib-resources           6.4.0                  python                       
 inflect                       7.3.1                  python                       
 interpolate_name              0.2.3                  rust-crate                   
 io-lifetimes                  1.0.10                 rust-crate                   
@@ -137,10 +131,11 @@ itertools                     0.10.5                 rust-crate
 itsdangerous                  2.2.0                  python                       
 ivf                           0.1.2                  rust-crate                   
 jack                          1.9.22-r4              apk                          
-jaraco.context                5.3.0                  python                       
-jaraco.functools              4.0.1                  python                       
-jaraco.text                   3.12.1                 python                       
-jellyfish                     1.0.4                  python                       
+jaraco-context                5.3.0                  python                       
+jaraco-functools              4.0.1                  python                       
+jaraco-text                   3.12.1                 python                       
+jellyfish                     1.1.0                  python                       
+jinja2                        3.1.4                  python                       
 jpeg                          9e-r1                  apk                          
 jq                            1.7.1-r0               apk                          
 lab                           0.11.0                 rust-crate                   
@@ -163,7 +158,7 @@ libc                          0.2.149                rust-crate
 libc-utils                    0.7.2-r5               apk                          
 libcap2                       2.69-r1                apk                          
 libcrypto3                    3.1.6-r2               apk                          
-libcurl                       8.5.0-r0               apk                          
+libcurl                       8.9.0-r0               apk                          
 libdav1d                      1.3.0-r1               apk                          
 libdovi                       3.2.0-r1               apk                          
 libdrm                        2.4.118-r0             apk                          
@@ -239,6 +234,7 @@ lilv-libs                     0.24.22-r0             apk
 linux-pam                     1.5.3-r7               apk                          
 linux-raw-sys                 0.3.7                  rust-crate                   
 log                           0.4.17                 rust-crate                   
+markupsafe                    2.1.5                  python                       
 maybe-rayon                   0.1.1                  rust-crate                   
 mbedtls                       2.28.8-r0              apk                          
 mediafile                     0.12.0                 python                       
@@ -289,7 +285,7 @@ packaging                     24.1                   python      (+1 duplicate)
 pango                         1.51.0-r0              apk                          
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
-pip                           24.1.2                 python                       
+pip                           24.2                   python                       
 pixman                        0.42.2-r2              apk                          
 pkgconf                       2.1.0-r0               apk                          
 platformdirs                  4.2.2                  python                       
@@ -302,10 +298,12 @@ pyacoustid                    1.3.0                  python
 pyc                           3.11.9-r0              apk                          
 pycairo                       1.26.1                 python                       
 pycountry                     24.6.1                 python                       
+pygobject                     3.48.2                 python                       
 pylast                        5.3.0                  python                       
 python3                       3.11.9-r0              apk                          
 python3-pyc                   3.11.9-r0              apk                          
 python3-pycache-pyc0          3.11.9-r0              apk                          
+pyyaml                        6.0.1                  python                       
 quote                         1.0.27                 rust-crate                   
 radium                        0.7.0                  rust-crate                   
 rand                          0.8.5                  rust-crate                   
@@ -329,7 +327,7 @@ sdl2                          2.28.5-r0              apk
 serd-libs                     0.32.0-r0              apk                          
 serde                         1.0.163                rust-crate                   
 serde_derive                  1.0.163                rust-crate                   
-setuptools                    71.1.0                 python                       
+setuptools                    72.1.0                 python                       
 shaderc                       2023.7-r0              apk                          
 shadow                        4.14.2-r0              apk                          
 shared-mime-info              2.4-r0                 apk                          
@@ -359,10 +357,11 @@ thiserror-impl                1.0.40                 rust-crate
 tiff                          4.6.0-r0               apk                          
 tomli                         2.0.1                  python                       
 typeguard                     4.3.0                  python                       
-typing_extensions             4.12.2                 python                       
+typing-extensions             4.12.2                 python                       
 tzdata                        2024a-r0               apk                          
 unicode-ident                 1.0.8                  rust-crate                   
 unicode-width                 0.1.10                 rust-crate                   
+unidecode                     1.3.8                  python                       
 urllib3                       2.2.2                  python                       
 utmps-libs                    0.1.2.2-r0             apk                          
 v4l-utils-libs                1.24.1-r1              apk                          
@@ -374,6 +373,7 @@ wayland-libs-client           1.22.0-r4              apk
 wayland-libs-cursor           1.22.0-r4              apk                          
 wayland-libs-egl              1.22.0-r4              apk                          
 wayland-libs-server           1.22.0-r4              apk                          
+werkzeug                      3.0.3                  python                       
 wheel                         0.43.0                 python      (+1 duplicate)   
 wyz                           0.5.1                  rust-crate                   
 x264-libs                     0.164_git20231001-r0   apk                          
