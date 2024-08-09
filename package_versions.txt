@@ -17,7 +17,7 @@ av-metrics                    0.9.0                  rust-crate
 av1-grain                     0.2.2                  rust-crate                   
 bash                          5.2.21-r0              apk                          
 beautifulsoup4                4.12.3                 python                       
-beetcamp                      0.19.1                 python                       
+beetcamp                      0.19.2                 python                       
 beets                         2.0.0                  python                       
 beets-extrafiles              0.0.7                  python                       
 bitflags                      1.3.2                  rust-crate                   
@@ -285,7 +285,7 @@ pylast                        5.3.0                  python
 python3                       3.11.9-r0              apk                          
 python3-pyc                   3.11.9-r0              apk                          
 python3-pycache-pyc0          3.11.9-r0              apk                          
-pyyaml                        6.0.1                  python                       
+pyyaml                        6.0.2                  python                       
 quote                         1.0.27                 rust-crate                   
 radium                        0.7.0                  rust-crate                   
 rand                          0.8.5                  rust-crate                   
@@ -354,7 +354,7 @@ wayland-libs-cursor           1.22.0-r4              apk
 wayland-libs-egl              1.22.0-r4              apk                          
 wayland-libs-server           1.22.0-r4              apk                          
 werkzeug                      3.0.3                  python                       
-wheel                         0.43.0                 python                       
+wheel                         0.44.0                 python                       
 wyz                           0.5.1                  rust-crate                   
 x264-libs                     0.164_git20231001-r0   apk                          
 x265-libs                     3.5-r4                 apk                          
