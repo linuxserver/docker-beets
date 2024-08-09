@@ -303,7 +303,7 @@ pylast                        5.3.0                  python
 python3                       3.11.9-r0              apk                          
 python3-pyc                   3.11.9-r0              apk                          
 python3-pycache-pyc0          3.11.9-r0              apk                          
-pyyaml                        6.0.1                  python                       
+pyyaml                        6.0.2                  python                       
 quote                         1.0.27                 rust-crate                   
 radium                        0.7.0                  rust-crate                   
 rand                          0.8.5                  rust-crate                   
