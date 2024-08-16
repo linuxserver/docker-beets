@@ -327,7 +327,7 @@ sdl2                          2.28.5-r0              apk
 serd-libs                     0.32.0-r0              apk                          
 serde                         1.0.163                rust-crate                   
 serde_derive                  1.0.163                rust-crate                   
-setuptools                    72.1.0                 python                       
+setuptools                    72.2.0                 python                       
 shaderc                       2023.7-r0              apk                          
 shadow                        4.14.2-r0              apk                          
 shared-mime-info              2.4-r0                 apk                          
@@ -338,7 +338,7 @@ six                           1.16.0                 python
 skalibs                       2.14.0.1-r0            apk                          
 sniffio                       1.3.1                  python                       
 sord-libs                     0.16.16-r0             apk                          
-soupsieve                     2.5                    python                       
+soupsieve                     2.6                    python                       
 soxr                          0.1.3-r7               apk                          
 speex                         1.2.1-r2               apk                          
 speexdsp                      1.2.1-r2               apk                          
