@@ -320,7 +320,7 @@ six                           1.16.0                 python
 skalibs                       2.14.0.1-r0            apk                          
 sniffio                       1.3.1                  python                       
 sord-libs                     0.16.16-r0             apk                          
-soupsieve                     2.5                    python                       
+soupsieve                     2.6                    python                       
 soxr                          0.1.3-r7               apk                          
 speex                         1.2.1-r2               apk                          
 speexdsp                      1.2.1-r2               apk                          
