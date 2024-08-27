@@ -111,7 +111,7 @@ h11                           0.14.0                 python
 harfbuzz                      8.3.0-r0               apk                          
 heck                          0.4.1                  rust-crate                   
 httpcore                      1.0.5                  python                       
-httpx                         0.27.0                 python                       
+httpx                         0.27.2                 python                       
 hwdata-pci                    0.377.2-r0             apk                          
 idna                          3.8                    python                       
 imagemagick                   7.1.1.32-r0            apk                          
