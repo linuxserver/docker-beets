@@ -5,6 +5,8 @@
 cp -n /defaults/beets.sh /config/beets.sh
 cp -n /defaults/config.yaml /config/config.yaml
 
+chmod +x /config/beets.sh
+
 # permissions
 lsiown -R abc:abc \
     /config
