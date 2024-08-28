@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.19
+FROM ghcr.io/linuxserver/baseimage-alpine:3.20
 
 # set version label
 ARG BUILD_DATE
@@ -36,6 +36,7 @@ RUN \
     gobject-introspection \
     gst-plugins-good \
     gstreamer \
+    imagemagick \
     jpeg \
     lame \
     libffi \
@@ -74,7 +75,7 @@ RUN \
   pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.19/ \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ \
     beautifulsoup4 \
     beets==${BEETS_VERSION} \
     beets-extrafiles \
@@ -82,12 +83,12 @@ RUN \
     discogs-client \
     flask \
     PyGObject \
-    Pillow==9.5.0 \
     pyacoustid \
     pylast \
     requests \
     requests_oauthlib \
     unidecode && \
+  printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
