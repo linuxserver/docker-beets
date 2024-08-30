@@ -25,7 +25,7 @@ cairo                      1.18.0-r0              apk
 cairo-gobject              1.18.0-r0              apk                      
 catatonit                  0.2.0-r0               apk                      
 cdparanoia-libs            10.2-r14               apk                      
-certifi                    2024.7.4               python                   
+certifi                    2024.8.30              python                   
 charset-normalizer         3.3.2                  python                   
 chromaprint                1.5.1-r7               apk                      
 chromaprint-libs           1.5.1-r7               apk                      
