@@ -80,7 +80,7 @@ RUN \
     beets==${BEETS_VERSION} \
     beets-extrafiles \
     beetcamp \
-    discogs-client \
+    python3-discogs-client \
     flask \
     PyGObject \
     pyacoustid \
