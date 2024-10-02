@@ -87,6 +87,7 @@ RUN \
     pylast \
     requests \
     requests_oauthlib \
+    typing-extensions \
     unidecode && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
