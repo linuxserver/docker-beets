@@ -80,7 +80,7 @@ gst-plugins-good           1.24.3-r0              apk
 gstreamer                  1.24.3-r0              apk                      
 h11                        0.14.0                 python                   
 harfbuzz                   8.5.0-r0               apk                      
-httpcore                   1.0.5                  python                   
+httpcore                   1.0.6                  python                   
 httpx                      0.27.2                 python                   
 hwdata-pci                 0.382-r0               apk                      
 idna                       3.10                   python                   
