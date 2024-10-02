@@ -18,7 +18,7 @@ blinker                    1.8.2                  python
 brotli-libs                1.1.0-r2               apk                      
 busybox                    1.36.1-r29             apk                      
 busybox-binsh              1.36.1-r29             apk                      
-c-ares                     1.28.1-r0              apk                      
+c-ares                     1.33.1-r0              apk                      
 ca-certificates            20240705-r0            apk                      
 ca-certificates-bundle     20240705-r0            apk                      
 cairo                      1.18.0-r0              apk                      
@@ -38,7 +38,6 @@ coreutils-fmt              9.5-r1                 apk
 coreutils-sha512sum        9.5-r1                 apk                      
 curl                       8.9.1-r2               apk                      
 dbus-libs                  1.14.10-r1             apk                      
-discogs-client             2.3.0                  python                   
 duktape                    2.7.0-r1               apk                      
 eudev-libs                 3.2.14-r2              apk                      
 expat                      2.6.3-r0               apk                      
@@ -78,7 +77,7 @@ gst-plugins-good           1.24.3-r0              apk
 gstreamer                  1.24.3-r0              apk                      
 h11                        0.14.0                 python                   
 harfbuzz                   8.5.0-r0               apk                      
-httpcore                   1.0.5                  python                   
+httpcore                   1.0.6                  python                   
 httpx                      0.27.2                 python                   
 hwdata-pci                 0.382-r0               apk                      
 idna                       3.10                   python                   
@@ -231,7 +230,9 @@ pycairo                    1.27.0                 python
 pycountry                  24.6.1                 python                   
 pygobject                  3.50.0                 python                   
 pylast                     5.3.0                  python                   
+python-dateutil            2.9.0.post0            python                   
 python3                    3.12.6-r0              apk                      
+python3-discogs-client     2.7                    python                   
 python3-pyc                3.12.6-r0              apk                      
 python3-pycache-pyc0       3.12.6-r0              apk                      
 pyyaml                     6.0.2                  python                   
