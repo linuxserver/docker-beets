@@ -274,6 +274,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.10.24:** - Add packages required for Discogs plugin. 
 * **28.08.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **25.08.23:** - Rebase to Alpine 3.18, switch from Pillow to Imagemagick.
