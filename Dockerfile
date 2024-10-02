@@ -93,13 +93,14 @@ RUN \
     beautifulsoup4 \
     beets-extrafiles \
     beetcamp \
-    discogs-client \
+    python3-discogs-client \
     flask \
     PyGObject \
     pyacoustid \
     pylast \
     requests \
     requests_oauthlib \
+    typing-extensions \
     unidecode && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
