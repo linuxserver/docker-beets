@@ -5,7 +5,7 @@ alpine-baselayout-data     3.6.5-r0               apk
 alpine-keys                2.4-r1                 apk                      
 alpine-release             3.20.3-r0              apk                      
 alsa-lib                   1.2.11-r0              apk                      
-anyio                      4.6.0                  python                   
+anyio                      4.6.2.post1            python                   
 aom-libs                   3.9.1-r0               apk                      
 apk-tools                  2.14.4-r0              apk                      
 audioread                  3.0.1                  python                   
@@ -183,8 +183,8 @@ libxxf86vm                 1.1.5-r6               apk
 libzmq                     4.3.5-r2               apk                      
 lilv-libs                  0.24.24-r1             apk                      
 linux-pam                  1.6.0-r0               apk                      
-markupsafe                 3.0.1                  python                   
-mbedtls                    3.6.1-r0               apk                      
+markupsafe                 3.0.2                  python                   
+mbedtls                    3.6.2-r0               apk                      
 mediafile                  0.12.0                 python                   
 mesa                       24.0.9-r1              apk                      
 mesa-egl                   24.0.9-r1              apk                      
