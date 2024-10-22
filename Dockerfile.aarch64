@@ -92,7 +92,7 @@ RUN \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ \
     beautifulsoup4 \
     beets-extrafiles \
-    beetcamp \
+    beetcamp==0.19.2 \
     python3-discogs-client \
     flask \
     PyGObject \

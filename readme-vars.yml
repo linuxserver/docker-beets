@@ -23,6 +23,7 @@ param_ports:
   - {external_port: "8337", internal_port: "8337", port_desc: "Application WebUI"}
 # changelog
 changelogs:
+  - {date: "22.10.24:", desc: "Pin beetcamp to 0.19.2 until upstream requirements fixed."}
   - {date: "01.10.24:", desc: "Add packages required for Discogs plugin."}
   - {date: "28.08.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
