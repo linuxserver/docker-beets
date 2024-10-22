@@ -274,6 +274,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **22.10.24:** - Pin beetcamp to 0.19.2 until upstream requirements fixed.
 * **01.10.24:** - Add packages required for Discogs plugin.
 * **28.08.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
