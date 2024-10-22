@@ -13,8 +13,8 @@ autocommand                2.2.2                  python
 backports-tarfile          1.2.0                  python                   
 bash                       5.2.26-r0              apk                      
 beautifulsoup4             4.12.3                 python                   
-beetcamp                   0.19.3                 python                   
-beets                      1.6.0                  python                   
+beetcamp                   0.19.2                 python                   
+beets                      2.0.0                  python                   
 beets-extrafiles           0.0.7                  python                   
 blinker                    1.8.2                  python                   
 brotli-libs                1.1.0-r2               apk                      
@@ -231,7 +231,6 @@ p11-kit                    0.25.3-r0              apk
 packaging                  24.1                   python  (+1 duplicate)   
 pango                      1.52.2-r0              apk                      
 pcre2                      10.43-r0               apk                      
-pillow                     11.0.0                 python                   
 pip                        24.2                   python                   
 pixman                     0.43.2-r0              apk                      
 pkgconf                    2.2.0-r0               apk                      
