@@ -289,7 +289,7 @@ wayland-libs-client        1.22.0-r4              apk
 wayland-libs-cursor        1.22.0-r4              apk                      
 wayland-libs-egl           1.22.0-r4              apk                      
 wayland-libs-server        1.22.0-r4              apk                      
-werkzeug                   3.0.5                  python                   
+werkzeug                   3.0.6                  python                   
 wheel                      0.43.0                 python                   
 wheel                      0.44.0                 python                   
 x264-libs                  0.164_git20231001-r0   apk                      
