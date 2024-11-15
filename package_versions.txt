@@ -59,7 +59,7 @@ fftw-single-libs           3.3.10-r5              apk
 filetype                   1.2.0                  python                   
 findutils                  4.9.0-r5               apk                      
 flac                       1.4.3-r1               apk                      
-flask                      3.0.3                  python                   
+flask                      3.1.0                  python                   
 fontconfig                 2.15.0-r1              apk                      
 freetype                   2.13.2-r0              apk                      
 fribidi                    1.0.15-r0              apk                      
@@ -245,7 +245,7 @@ pygobject                  3.50.0                 python
 pylast                     5.3.0                  python                   
 python-dateutil            2.9.0.post0            python                   
 python3                    3.12.7-r0              apk                      
-python3-discogs-client     2.7                    python                   
+python3-discogs-client     2.7.1                  python                   
 python3-pyc                3.12.7-r0              apk                      
 python3-pycache-pyc0       3.12.7-r0              apk                      
 pyyaml                     6.0.2                  python                   
