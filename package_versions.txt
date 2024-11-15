@@ -57,7 +57,7 @@ fftw-single-libs           3.3.10-r5              apk
 filetype                   1.2.0                  python                   
 findutils                  4.9.0-r5               apk                      
 flac                       1.4.3-r1               apk                      
-flask                      3.0.3                  python                   
+flask                      3.1.0                  python                   
 fontconfig                 2.15.0-r1              apk                      
 freetype                   2.13.2-r0              apk                      
 fribidi                    1.0.15-r0              apk                      
@@ -73,12 +73,12 @@ gobject-introspection      1.80.1-r2              apk
 graphene                   1.10.8-r4              apk                      
 graphite2                  1.3.14-r6              apk                      
 gsettings-desktop-schemas  46.0-r0                apk                      
-gst-plugins-base           1.24.3-r0              apk                      
-gst-plugins-good           1.24.3-r0              apk                      
-gstreamer                  1.24.3-r0              apk                      
+gst-plugins-base           1.24.9-r0              apk                      
+gst-plugins-good           1.24.9-r0              apk                      
+gstreamer                  1.24.9-r0              apk                      
 h11                        0.14.0                 python                   
 harfbuzz                   8.5.0-r0               apk                      
-httpcore                   1.0.6                  python                   
+httpcore                   1.0.7                  python                   
 httpx                      0.27.2                 python                   
 hwdata-pci                 0.382-r0               apk                      
 idna                       3.10                   python                   
@@ -131,10 +131,10 @@ libjxl                     0.10.2-r0              apk
 libltdl                    2.4.7-r3               apk                      
 libmd                      1.1.0-r0               apk                      
 libmount                   2.40.1-r1              apk                      
-libncursesw                6.4_p20240420-r1       apk                      
+libncursesw                6.4_p20240420-r2       apk                      
 libogg                     1.3.5-r5               apk                      
 libopenmpt                 0.7.7-r0               apk                      
-libpanelw                  6.4_p20240420-r1       apk                      
+libpanelw                  6.4_p20240420-r2       apk                      
 libpciaccess               0.18.1-r0              apk                      
 libplacebo                 6.338.2-r1             apk                      
 libpng                     1.6.44-r0              apk                      
@@ -201,7 +201,7 @@ musl                       1.2.5-r0               apk
 musl-utils                 1.2.5-r0               apk                      
 mutagen                    1.47.0                 python                   
 nano                       8.0-r0                 apk                      
-ncurses-terminfo-base      6.4_p20240420-r1       apk                      
+ncurses-terminfo-base      6.4_p20240420-r2       apk                      
 netcat-openbsd             1.226-r0               apk                      
 nettle                     3.9.1-r0               apk                      
 nghttp2-libs               1.62.1-r0              apk                      
@@ -234,7 +234,7 @@ pygobject                  3.50.0                 python
 pylast                     5.3.0                  python                   
 python-dateutil            2.9.0.post0            python                   
 python3                    3.12.7-r0              apk                      
-python3-discogs-client     2.7                    python                   
+python3-discogs-client     2.7.1                  python                   
 python3-pyc                3.12.7-r0              apk                      
 python3-pycache-pyc0       3.12.7-r0              apk                      
 pyyaml                     6.0.2                  python                   
@@ -276,7 +276,7 @@ wayland-libs-cursor        1.22.0-r4              apk
 wayland-libs-egl           1.22.0-r4              apk                      
 wayland-libs-server        1.22.0-r4              apk                      
 werkzeug                   3.1.3                  python                   
-wheel                      0.44.0                 python                   
+wheel                      0.45.0                 python                   
 x264-libs                  0.164_git20231001-r0   apk                      
 x265-libs                  3.6-r0                 apk                      
 xvidcore                   1.3.7-r2               apk                      
