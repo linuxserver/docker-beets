@@ -12,7 +12,7 @@ audioread                  3.0.1                  python
 bash                       5.2.26-r0              apk                      
 beautifulsoup4             4.12.3                 python                   
 beetcamp                   0.20.0                 python                   
-beets                      2.0.0                  python                   
+beets                      2.1.0                  python                   
 beets-extrafiles           0.0.7                  python                   
 blinker                    1.9.0                  python                   
 brotli-libs                1.1.0-r2               apk                      
@@ -97,6 +97,7 @@ jpeg                       9e-r1                  apk
 jq                         1.7.1-r0               apk                      
 lame                       3.100-r5               apk                      
 lame-libs                  3.100-r5               apk                      
+langdetect                 1.0.9                  python                   
 lcms2                      2.16-r0                apk                      
 libSvtAv1Enc               2.0.0-r1               apk                      
 libacl                     2.3.2-r0               apk                      
@@ -225,6 +226,7 @@ pillow                     11.0.0                 python
 pip                        24.3.1                 python                   
 pixman                     0.43.2-r0              apk                      
 pkgconf                    2.2.0-r0               apk                      
+platformdirs               4.3.6                  python                   
 procps-ng                  4.0.4-r0               apk                      
 pyacoustid                 1.3.0                  python                   
 pyc                        3.12.7-r0              apk                      
