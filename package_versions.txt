@@ -12,7 +12,7 @@ audioread                  3.0.1                  python
 bash                       5.2.26-r0              apk                      
 beautifulsoup4             4.12.3                 python                   
 beetcamp                   0.20.0                 python                   
-beets                      2.1.0                  python                   
+beets                      2.2.0                  python                   
 beets-extrafiles           0.0.7                  python                   
 blinker                    1.9.0                  python                   
 brotli-libs                1.1.0-r2               apk                      
