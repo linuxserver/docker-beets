@@ -105,6 +105,7 @@ jpeg                       9e-r1                  apk
 jq                         1.7.1-r0               apk                      
 lame                       3.100-r5               apk                      
 lame-libs                  3.100-r5               apk                      
+lap                        0.5.12                 python                   
 lcms2                      2.16-r0                apk                      
 libSvtAv1Enc               2.0.0-r1               apk                      
 libacl                     2.3.2-r0               apk                      
@@ -216,6 +217,7 @@ netcat-openbsd             1.226-r0               apk
 nettle                     3.9.1-r0               apk                      
 nghttp2-libs               1.62.1-r0              apk                      
 numactl                    2.0.18-r0              apk                      
+numpy                      2.2.1                  python                   
 oauthlib                   3.2.2                  python                   
 onevpl-libs                2023.3.1-r2            apk                      
 oniguruma                  6.9.9-r0               apk                      
