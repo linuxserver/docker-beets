@@ -233,7 +233,7 @@ p11-kit                    0.25.3-r0              apk
 packaging                  24.2                   python  (+1 duplicate)   
 pango                      1.52.2-r0              apk                      
 pcre2                      10.43-r0               apk                      
-pip                        24.3.1                 python                   
+pip                        25.0                   python                   
 pixman                     0.43.2-r0              apk                      
 pkgconf                    2.2.0-r0               apk                      
 platformdirs               4.2.2                  python                   
