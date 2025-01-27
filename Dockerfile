@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.20
+FROM ghcr.io/linuxserver/baseimage-alpine:3.21
 
 # set version label
 ARG BUILD_DATE
@@ -87,12 +87,12 @@ RUN \
     wheel && \
   echo "**** install beets ****" && \
   cd /tmp/beets && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ . && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ . && \
   echo "**** install pip packages ****" && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.20/ \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ \
     beautifulsoup4 \
     beets-extrafiles \
-    beetcamp==0.19.2 \
+    beetcamp \
     python3-discogs-client \
     flask \
     PyGObject \

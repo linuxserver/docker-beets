@@ -114,6 +114,8 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /config` | Persistent config files |
 | `-v /music` | Music library |
 | `-v /downloads` | Non processed music |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
+| `--user=1000:1000` | Run container with a non-root user. Please [read the docs](https://docs.linuxserver.io/misc/non-root/). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -277,6 +279,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.08.24:** - Rebase to Alpine 3.21, unpin beetcamp.
 * **22.10.24:** - Pin beetcamp to 0.19.2 until upstream requirements fixed.
 * **01.10.24:** - Add packages required for Discogs plugin.
 * **28.08.24:** - Rebase to Alpine 3.20.

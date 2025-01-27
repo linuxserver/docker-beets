@@ -7,6 +7,8 @@ cp -n /defaults/config.yaml /config/config.yaml
 
 chmod +x /config/beets.sh
 
-# permissions
-lsiown -R abc:abc \
-    /config
+if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    # permissions
+    lsiown -R abc:abc \
+        /config
+fi
