@@ -21,6 +21,20 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - {external_port: "8337", internal_port: "8337", port_desc: "Application WebUI"}
+readonly_supported: true
+nonroot_supported: true
+# application setup block
+app_setup_block_enabled: true
+app_setup_block: |
+  Edit the config file in /config
+
+  To edit the config from within the container use `beet config -e`
+
+  For a command prompt as user abc `docker exec -it -u abc beets bash`
+
+  See [Beets](http://beets.io/) for more info.
+
+  Contains [beets-extrafiles](https://github.com/Holzhaus/beets-extrafiles) plugin, [configuration details](https://github.com/Holzhaus/beets-extrafiles#usage)
 # init diagram
 init_diagram: |
   "beets:nightly": {
@@ -65,6 +79,7 @@ init_diagram: |
   "beets:nightly" <- Base Images
 # changelog
 changelogs:
+  - {date: "27.01.25:", desc: "Rebase to Alpine 3.21, unpin beetcamp."}
   - {date: "22.10.24:", desc: "Pin beetcamp to 0.19.2 until upstream requirements fixed."}
   - {date: "01.10.24:", desc: "Add packages required for Discogs plugin."}
   - {date: "28.08.24:", desc: "Rebase to Alpine 3.20."}

@@ -57,6 +57,26 @@ The architectures supported by this image are:
 | arm64 | ✅ | arm64v8-\<version tag\> |
 | armhf | ❌ | |
 
+## Application Setup
+
+Edit the config file in /config
+
+To edit the config from within the container use `beet config -e`
+
+For a command prompt as user abc `docker exec -it -u abc beets bash`
+
+See [Beets](http://beets.io/) for more info.
+
+Contains [beets-extrafiles](https://github.com/Holzhaus/beets-extrafiles) plugin, [configuration details](https://github.com/Holzhaus/beets-extrafiles#usage)
+
+## Read-Only Operation
+
+This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+## Non-Root Operation
+
+This image can be run with a non-root user. For details please [read the docs](https://docs.linuxserver.io/misc/non-root/).
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -114,6 +134,8 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /config` | Persistent config files |
 | `-v /music` | Music library |
 | `-v /downloads` | Non processed music |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
+| `--user=1000:1000` | Run container with a non-root user. Please [read the docs](https://docs.linuxserver.io/misc/non-root/). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -277,6 +299,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.01.25:** - Rebase to Alpine 3.21, unpin beetcamp.
 * **22.10.24:** - Pin beetcamp to 0.19.2 until upstream requirements fixed.
 * **01.10.24:** - Add packages required for Discogs plugin.
 * **28.08.24:** - Rebase to Alpine 3.20.
