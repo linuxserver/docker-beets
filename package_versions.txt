@@ -168,7 +168,7 @@ libssh                     0.11.1-r0         apk
 libssl3                    3.3.2-r4          apk                      
 libstdc++                  14.2.0-r4         apk                      
 libtag                     1.13.1-r0         apk                      
-libtasn1                   4.19.0-r2         apk                      
+libtasn1                   4.20.0-r0         apk                      
 libtheora                  1.1.1-r18         apk                      
 libturbojpeg               3.0.4-r0          apk                      
 libunibreak                6.1-r0            apk                      
