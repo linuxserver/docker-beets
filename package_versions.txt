@@ -39,7 +39,7 @@ coreutils                  9.5-r2            apk
 coreutils-env              9.5-r2            apk                      
 coreutils-fmt              9.5-r2            apk                      
 coreutils-sha512sum        9.5-r2            apk                      
-curl                       8.12.1-r0         apk                      
+curl                       8.12.1-r1         apk                      
 dbus-libs                  1.14.10-r4        apk                      
 duktape                    2.7.0-r1          apk                      
 eudev-libs                 3.2.14-r5         apk                      
@@ -121,7 +121,7 @@ libbsd                     0.12.2-r0         apk
 libbz2                     1.0.8-r6          apk                      
 libcap2                    2.71-r0           apk                      
 libcrypto3                 3.3.3-r0          apk                      
-libcurl                    8.12.1-r0         apk                      
+libcurl                    8.12.1-r1         apk                      
 libdav1d                   1.5.0-r0          apk                      
 libdeflate                 1.22-r0           apk                      
 libdovi                    3.3.1-r0          apk                      
@@ -264,7 +264,7 @@ requests-oauthlib          2.0.0             python
 scanelf                    1.3.8-r1          apk                      
 sdl2                       2.30.9-r0         apk                      
 serd-libs                  0.32.2-r0         apk                      
-setuptools                 77.0.3            python                   
+setuptools                 78.1.0            python                   
 shaderc                    2024.0-r2         apk                      
 shadow                     4.16.0-r1         apk                      
 shared-mime-info           2.4-r2            apk                      
@@ -284,7 +284,8 @@ tdb-libs                   1.4.12-r0         apk
 tiff                       4.7.0-r0          apk                      
 tomli                      2.0.1             python                   
 typeguard                  4.3.0             python                   
-typing-extensions          4.12.2            python  (+1 duplicate)   
+typing-extensions          4.12.2            python                   
+typing-extensions          4.13.0            python                   
 tzdata                     2025a-r0          apk                      
 unidecode                  1.3.8             python                   
 urllib3                    2.3.0             python                   
