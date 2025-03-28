@@ -198,7 +198,7 @@ libxxf86vm                 1.1.5-r6          apk
 libzmq                     4.3.5-r2          apk                      
 lilv-libs                  0.24.24-r1        apk                      
 linux-pam                  1.6.1-r1          apk                      
-llvm19-libs                19.1.4-r0         apk                      
+llvm19-libs                19.1.4-r1         apk                      
 markupsafe                 3.0.2             python                   
 mbedtls                    3.6.2-r0          apk                      
 mediafile                  0.13.0            python                   
