@@ -81,6 +81,7 @@ init_diagram: |
   "beets:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "09.04.25:", desc: "Add flask-cors required for [web plugin](https://beets.readthedocs.io/en/stable/plugins/web.html)."}
   - {date: "27.01.25:", desc: "Rebase to Alpine 3.21."}
   - {date: "01.10.24:", desc: "Add packages required for Discogs plugin."}
   - {date: "28.08.24:", desc: "Rebase to Alpine 3.20, switch from Pillow to Imagemagick."}
