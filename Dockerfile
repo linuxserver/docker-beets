@@ -82,6 +82,7 @@ RUN \
     beetcamp \
     python3-discogs-client \
     flask \
+    flask-cors \
     PyGObject \
     pyacoustid \
     pylast \
