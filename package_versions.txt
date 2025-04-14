@@ -237,7 +237,7 @@ p11-kit                    0.25.5-r2         apk
 packaging                  24.2              python  (+1 duplicate)  
 pango                      1.54.0-r1         apk                     
 pcre2                      10.43-r0          apk                     
-pillow                     11.1.0            python                  
+pillow                     11.2.1            python                  
 pip                        25.0.1            python                  
 pixman                     0.43.4-r1         apk                     
 pkgconf                    2.3.0-r0          apk                     
