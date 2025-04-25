@@ -77,9 +77,9 @@ gst-plugins-base           1.24.11-r0        apk
 gst-plugins-good           1.24.11-r0        apk       
 gstreamer                  1.24.11-r0        apk       
 gstreamer-ptp-helper       1.24.11-r0        apk       
-h11                        0.14.0            python    
+h11                        0.16.0            python    
 harfbuzz                   9.0.0-r1          apk       
-httpcore                   1.0.8             python    
+httpcore                   1.0.9             python    
 httpx                      0.28.1            python    
 hwdata-pci                 0.393-r0          apk       
 idna                       3.10              python    
@@ -152,7 +152,7 @@ libsharpyuv                1.4.0-r0          apk
 libshout                   2.4.6-r3          apk       
 libsndfile                 1.2.2-r2          apk       
 libsodium                  1.0.20-r0         apk       
-libsoup3                   3.6.1-r0          apk       
+libsoup3                   3.6.5-r0          apk       
 libsrt                     1.5.3-r0          apk       
 libssh                     0.11.1-r0         apk       
 libssl3                    3.3.3-r0          apk       
@@ -223,7 +223,7 @@ openjpeg                   2.5.2-r0          apk
 opus                       1.5.2-r1          apk       
 orc                        0.4.40-r1         apk       
 p11-kit                    0.25.5-r2         apk       
-packaging                  24.2              python    
+packaging                  25.0              python    
 pango                      1.54.0-r1         apk       
 pcre2                      10.43-r0          apk       
 pillow                     11.2.1            python    
@@ -258,7 +258,7 @@ six                        1.17.0            python
 skalibs-libs               2.14.3.0-r0       apk       
 sniffio                    1.3.1             python    
 sord-libs                  0.16.16-r0        apk       
-soupsieve                  2.6               python    
+soupsieve                  2.7               python    
 soxr                       0.1.3-r7          apk       
 speex                      1.2.1-r2          apk       
 speexdsp                   1.2.1-r2          apk       
@@ -270,7 +270,7 @@ tdb-libs                   1.4.12-r0         apk
 tiff                       4.7.0-r0          apk       
 typing-extensions          4.13.2            python    
 tzdata                     2025b-r0          apk       
-unidecode                  1.3.8             python    
+unidecode                  1.4.0             python    
 urllib3                    2.4.0             python    
 utmps-libs                 0.1.2.3-r2        apk       
 v4l-utils-libs             1.28.1-r1         apk       
