@@ -79,9 +79,9 @@ gst-plugins-base           1.24.11-r0        apk
 gst-plugins-good           1.24.11-r0        apk                     
 gstreamer                  1.24.11-r0        apk                     
 gstreamer-ptp-helper       1.24.11-r0        apk                     
-h11                        0.14.0            python                  
+h11                        0.16.0            python                  
 harfbuzz                   9.0.0-r1          apk                     
-httpcore                   1.0.8             python                  
+httpcore                   1.0.9             python                  
 httpx                      0.28.1            python                  
 hwdata-pci                 0.393-r0          apk                     
 idna                       3.10              python                  
@@ -161,7 +161,7 @@ libsharpyuv                1.4.0-r0          apk
 libshout                   2.4.6-r3          apk                     
 libsndfile                 1.2.2-r2          apk                     
 libsodium                  1.0.20-r0         apk                     
-libsoup3                   3.6.1-r0          apk                     
+libsoup3                   3.6.5-r0          apk                     
 libsrt                     1.5.3-r0          apk                     
 libssh                     0.11.1-r0         apk                     
 libssl3                    3.3.3-r0          apk                     
@@ -264,7 +264,7 @@ requests-oauthlib          2.0.0             python
 scanelf                    1.3.8-r1          apk                     
 sdl2                       2.30.9-r0         apk                     
 serd-libs                  0.32.2-r0         apk                     
-setuptools                 79.0.0            python                  
+setuptools                 79.0.1            python                  
 shaderc                    2024.0-r2         apk                     
 shadow                     4.16.0-r1         apk                     
 shared-mime-info           2.4-r2            apk                     
@@ -287,7 +287,7 @@ typeguard                  4.3.0             python
 typing-extensions          4.12.2            python                  
 typing-extensions          4.13.2            python                  
 tzdata                     2025b-r0          apk                     
-unidecode                  1.3.8             python                  
+unidecode                  1.4.0             python                  
 urllib3                    2.4.0             python                  
 utmps-libs                 0.1.2.3-r2        apk                     
 v4l-utils-libs             1.28.1-r1         apk                     
