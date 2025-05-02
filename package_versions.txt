@@ -25,8 +25,8 @@ cairo                      1.18.2-r1         apk
 cairo-gobject              1.18.2-r1         apk       
 catatonit                  0.2.0-r0          apk       
 cdparanoia-libs            10.2-r14          apk       
-certifi                    2025.1.31         python    
-charset-normalizer         3.4.1             python    
+certifi                    2025.4.26         python    
+charset-normalizer         3.4.2             python    
 chromaprint                1.5.1-r7          apk       
 chromaprint-libs           1.5.1-r7          apk       
 cjson                      1.7.18-r0         apk       
@@ -227,7 +227,7 @@ packaging                  25.0              python
 pango                      1.54.0-r1         apk       
 pcre2                      10.43-r0          apk       
 pillow                     11.2.1            python    
-pip                        25.0.1            python    
+pip                        25.1.1            python    
 pixman                     0.43.4-r1         apk       
 pkgconf                    2.3.0-r0          apk       
 platformdirs               4.3.7             python    
