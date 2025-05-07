@@ -12,7 +12,7 @@ audioread                  3.0.1             python
 bash                       5.2.37-r0         apk       
 beautifulsoup4             4.13.4            python    
 beetcamp                   0.21.0            python    
-beets                      2.2.0             python    
+beets                      2.3.0             python    
 beets-extrafiles           0.0.7             python    
 blinker                    1.9.0             python    
 brotli-libs                1.1.0-r2          apk       
@@ -99,6 +99,7 @@ jq                         1.7.1-r0          apk
 lame                       3.100-r5          apk       
 lame-libs                  3.100-r5          apk       
 langdetect                 1.0.9             python    
+lap                        0.5.12            python    
 lcms2                      2.16-r0           apk       
 libSvtAv1Enc               2.2.1-r0          apk       
 libass                     0.17.3-r0         apk       
@@ -200,7 +201,6 @@ mesa-glapi                 24.2.8-r0         apk
 mpdecimal                  4.0.0-r0          apk       
 mpg123                     1.32.9-r0         apk       
 mpg123-libs                1.32.9-r0         apk       
-munkres                    1.1.4             python    
 musicbrainzngs             0.7.1             python    
 musl                       1.2.5-r9          apk       
 musl-utils                 1.2.5-r9          apk       
@@ -211,6 +211,7 @@ netcat-openbsd             1.226.1.1-r0      apk
 nettle                     3.10-r1           apk       
 nghttp2-libs               1.64.0-r0         apk       
 numactl                    2.0.18-r0         apk       
+numpy                      2.2.5             python    
 oauthlib                   3.2.2             python    
 onevpl-libs                2023.3.1-r2       apk       
 oniguruma                  6.9.9-r0          apk       
@@ -230,7 +231,7 @@ pillow                     11.2.1            python
 pip                        25.1.1            python    
 pixman                     0.43.4-r1         apk       
 pkgconf                    2.3.0-r0          apk       
-platformdirs               4.3.7             python    
+platformdirs               4.3.8             python    
 procps-ng                  4.0.4-r2          apk       
 pyacoustid                 1.3.0             python    
 pyc                        3.12.10-r0        apk       
@@ -263,7 +264,7 @@ soxr                       0.1.3-r7          apk
 speex                      1.2.1-r2          apk       
 speexdsp                   1.2.1-r2          apk       
 spirv-tools                1.3.296.0-r0      apk       
-sqlite-libs                3.48.0-r1         apk       
+sqlite-libs                3.48.0-r2         apk       
 sratom                     0.6.16-r0         apk       
 ssl_client                 1.37.0-r12        apk       
 tdb-libs                   1.4.12-r0         apk       
