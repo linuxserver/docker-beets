@@ -14,7 +14,7 @@ backports-tarfile          1.2.0             python
 bash                       5.2.37-r0         apk                     
 beautifulsoup4             4.13.4            python                  
 beetcamp                   0.21.0            python                  
-beets                      2.3.0             python                  
+beets                      2.3.1             python                  
 beets-extrafiles           0.0.7             python                  
 blinker                    1.9.0             python                  
 brotli-libs                1.1.0-r2          apk                     
