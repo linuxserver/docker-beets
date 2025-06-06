@@ -22,8 +22,8 @@ busybox-binsh              1.37.0-r12        apk
 c-ares                     1.34.5-r0         apk                      
 ca-certificates            20241121-r1       apk                      
 ca-certificates-bundle     20241121-r1       apk                      
-cairo                      1.18.2-r1         apk                      
-cairo-gobject              1.18.2-r1         apk                      
+cairo                      1.18.4-r0         apk                      
+cairo-gobject              1.18.4-r0         apk                      
 catatonit                  0.2.0-r0          apk                      
 cdparanoia-libs            10.2-r14          apk                      
 certifi                    2025.4.26         python                   
@@ -270,7 +270,7 @@ sratom                     0.6.16-r0         apk
 ssl_client                 1.37.0-r12        apk                      
 tdb-libs                   1.4.12-r0         apk                      
 tiff                       4.7.0-r0          apk                      
-typing-extensions          4.13.2            python                   
+typing-extensions          4.14.0            python                   
 tzdata                     2025b-r0          apk                      
 unidecode                  1.4.0             python                   
 urllib3                    2.4.0             python                   
