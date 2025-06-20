@@ -12,7 +12,7 @@ apk-tools                  2.14.6-r3         apk
 audioread                  3.0.1             python                   
 bash                       5.2.37-r0         apk                      
 beautifulsoup4             4.13.4            python                   
-beetcamp                   0.21.0            python                   
+beetcamp                   0.22.0            python                   
 beets                      2.3.1             python                   
 beets-extrafiles           0.0.7             python                   
 blinker                    1.9.0             python                   
@@ -26,7 +26,7 @@ cairo                      1.18.4-r0         apk
 cairo-gobject              1.18.4-r0         apk                      
 catatonit                  0.2.0-r0          apk                      
 cdparanoia-libs            10.2-r14          apk                      
-certifi                    2025.4.26         python                   
+certifi                    2025.6.15         python                   
 charset-normalizer         3.4.2             python                   
 chromaprint                1.5.1-r7          apk                      
 chromaprint-libs           1.5.1-r7          apk                      
@@ -213,7 +213,7 @@ nettle                     3.10-r1           apk
 nghttp2-libs               1.64.0-r0         apk                      
 numactl                    2.0.18-r0         apk                      
 numpy                      2.3.0             python                   
-oauthlib                   3.2.2             python                   
+oauthlib                   3.3.1             python                   
 onevpl-libs                2023.3.1-r2       apk                      
 oniguruma                  6.9.9-r0          apk                      
 opencore-amr               0.1.6-r1          apk                      
@@ -273,7 +273,7 @@ tiff                       4.7.0-r0          apk
 typing-extensions          4.14.0            python                   
 tzdata                     2025b-r0          apk                      
 unidecode                  1.4.0             python                   
-urllib3                    2.4.0             python                   
+urllib3                    2.5.0             python                   
 utmps-libs                 0.1.2.3-r2        apk                      
 v4l-utils-libs             1.28.1-r1         apk                      
 vidstab                    1.1.1-r0          apk                      
