@@ -4,7 +4,7 @@ acl-libs                   2.3.2-r1          apk
 alpine-baselayout          3.6.8-r1          apk                      
 alpine-baselayout-data     3.6.8-r1          apk                      
 alpine-keys                2.5-r0            apk                      
-alpine-release             3.21.3-r0         apk                      
+alpine-release             3.21.4-r0         apk                      
 alsa-lib                   1.2.12-r0         apk                      
 anyio                      4.9.0             python                   
 aom-libs                   3.11.0-r0         apk                      
@@ -20,8 +20,8 @@ brotli-libs                1.1.0-r2          apk
 busybox                    1.37.0-r12        apk                      
 busybox-binsh              1.37.0-r12        apk                      
 c-ares                     1.34.5-r0         apk                      
-ca-certificates            20241121-r1       apk                      
-ca-certificates-bundle     20241121-r1       apk                      
+ca-certificates            20250619-r0       apk                      
+ca-certificates-bundle     20250619-r0       apk                      
 cairo                      1.18.4-r0         apk                      
 cairo-gobject              1.18.4-r0         apk                      
 catatonit                  0.2.0-r0          apk                      
@@ -192,7 +192,7 @@ lilv-libs                  0.24.24-r1        apk
 linux-pam                  1.6.1-r1          apk                      
 llvm19-libs                19.1.4-r1         apk                      
 markupsafe                 3.0.2             python                   
-mbedtls                    3.6.3-r0          apk                      
+mbedtls                    3.6.4-r0          apk                      
 mediafile                  0.13.0            python                   
 mesa                       24.2.8-r0         apk                      
 mesa-egl                   24.2.8-r0         apk                      
@@ -212,7 +212,7 @@ netcat-openbsd             1.226.1.1-r0      apk
 nettle                     3.10-r1           apk                      
 nghttp2-libs               1.64.0-r0         apk                      
 numactl                    2.0.18-r0         apk                      
-numpy                      2.3.1             python                   
+numpy                      2.3.2             python                   
 oauthlib                   3.3.1             python                   
 onevpl-libs                2023.3.1-r2       apk                      
 oniguruma                  6.9.9-r0          apk                      
