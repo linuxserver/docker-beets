@@ -37,7 +37,7 @@ cli                        UNKNOWN           binary
 cli-32                     UNKNOWN           binary                   
 cli-64                     UNKNOWN           binary                   
 cli-arm64                  UNKNOWN           binary                   
-click                      8.2.1             python                   
+click                      8.2.2             python                   
 confuse                    2.0.1             python                   
 coreutils                  9.5-r2            apk                      
 coreutils-env              9.5-r2            apk                      
