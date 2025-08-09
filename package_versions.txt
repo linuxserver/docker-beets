@@ -29,7 +29,7 @@ cairo-gobject              1.18.4-r0         apk
 catatonit                  0.2.0-r0          apk                      
 cdparanoia-libs            10.2-r14          apk                      
 certifi                    2025.8.3          python                   
-charset-normalizer         3.4.2             python                   
+charset-normalizer         3.4.3             python                   
 chromaprint                1.5.1-r7          apk                      
 chromaprint-libs           1.5.1-r7          apk                      
 cjson                      1.7.18-r0         apk                      
