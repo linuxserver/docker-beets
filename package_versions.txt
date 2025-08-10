@@ -19,8 +19,8 @@ beets                      2.3.1             python
 beets-extrafiles           0.0.7             python                   
 blinker                    1.9.0             python                   
 brotli-libs                1.1.0-r2          apk                      
-busybox                    1.37.0-r12        apk                      
-busybox-binsh              1.37.0-r12        apk                      
+busybox                    1.37.0-r13        apk                      
+busybox-binsh              1.37.0-r13        apk                      
 c-ares                     1.34.5-r0         apk                      
 ca-certificates            20250619-r0       apk                      
 ca-certificates-bundle     20250619-r0       apk                      
@@ -288,7 +288,7 @@ speexdsp                   1.2.1-r2          apk
 spirv-tools                1.3.296.0-r0      apk                      
 sqlite-libs                3.48.0-r3         apk                      
 sratom                     0.6.16-r0         apk                      
-ssl_client                 1.37.0-r12        apk                      
+ssl_client                 1.37.0-r13        apk                      
 tdb-libs                   1.4.12-r0         apk                      
 tiff                       4.7.0-r0          apk                      
 tomli                      2.0.1             python                   
