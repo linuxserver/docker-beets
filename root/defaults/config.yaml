@@ -1,4 +1,6 @@
-plugins: fetchart embedart convert scrub replaygain lastgenre chroma web
+plugins: fetchart embedart convert scrub replaygain lastgenre chroma web drop2beets
+drop2beets:
+    dropbox_path: /downloads
 directory: /music
 library: /config/musiclibrary.blb
 art_filename: albumart
@@ -21,8 +23,8 @@ paths:
         
 import:
     write: yes
-    copy: yes
-    move: no
+    copy: no
+    move: yes
     resume: ask
     incremental: yes
     quiet_fallback: skip
