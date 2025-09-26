@@ -6,13 +6,13 @@ alpine-baselayout-data     3.6.8-r1          apk
 alpine-keys                2.5-r0            apk                      
 alpine-release             3.21.4-r0         apk                      
 alsa-lib                   1.2.12-r0         apk                      
-anyio                      4.10.0            python                   
+anyio                      4.11.0            python                   
 aom-libs                   3.11.0-r0         apk                      
 apk-tools                  2.14.6-r3         apk                      
 audioread                  3.0.1             python                   
 bash                       5.2.37-r0         apk                      
 beautifulsoup4             4.13.5            python                   
-beetcamp                   0.22.0            python                   
+beetcamp                   0.23.0            python                   
 beets                      2.4.0             python                   
 beets-extrafiles           0.0.7             python                   
 blinker                    1.9.0             python                   
@@ -41,7 +41,7 @@ curl                       8.12.1-r1         apk
 dbus-libs                  1.14.10-r4        apk                      
 duktape                    2.7.0-r1          apk                      
 eudev-libs                 3.2.14-r5         apk                      
-expat                      2.7.0-r0          apk                      
+expat                      2.7.2-r0          apk                      
 ffmpeg                     6.1.2-r1          apk                      
 ffmpeg-libavcodec          6.1.2-r1          apk                      
 ffmpeg-libavdevice         6.1.2-r1          apk                      
@@ -121,7 +121,7 @@ libdrm                     2.4.123-r1        apk
 libdv                      1.0.0-r8          apk                      
 libeconf                   0.6.3-r0          apk                      
 libelf                     0.191-r0          apk                      
-libexpat                   2.7.0-r0          apk                      
+libexpat                   2.7.2-r0          apk                      
 libffi                     3.4.7-r0          apk                      
 libflac                    1.4.3-r1          apk                      
 libgcc                     14.2.0-r4         apk                      
@@ -245,7 +245,7 @@ python3                    3.12.11-r0        apk
 python3-discogs-client     2.8               python                   
 python3-pyc                3.12.11-r0        apk                      
 python3-pycache-pyc0       3.12.11-r0        apk                      
-pyyaml                     6.0.2             python                   
+pyyaml                     6.0.3             python                   
 rav1e-libs                 0.7.1-r0          apk                      
 readline                   8.2.13-r0         apk                      
 requests                   2.32.5            python                   
@@ -269,7 +269,7 @@ sqlite-libs                3.48.0-r4         apk
 sratom                     0.6.16-r0         apk                      
 ssl_client                 1.37.0-r13        apk                      
 tdb-libs                   1.4.12-r0         apk                      
-tiff                       4.7.0-r0          apk                      
+tiff                       4.7.1-r0          apk                      
 typing-extensions          4.15.0            python                   
 tzdata                     2025b-r0          apk                      
 unidecode                  1.4.0             python                   
