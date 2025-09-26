@@ -265,7 +265,7 @@ python3                    3.12.11-r0        apk
 python3-discogs-client     2.8               python                   
 python3-pyc                3.12.11-r0        apk                      
 python3-pycache-pyc0       3.12.11-r0        apk                      
-pyyaml                     6.0.2             python                   
+pyyaml                     6.0.3             python                   
 rav1e-libs                 0.7.1-r0          apk                      
 readline                   8.2.13-r0         apk                      
 requests                   2.32.5            python                   
