@@ -259,7 +259,7 @@ pyc                        3.12.11-r0        apk
 pycairo                    1.28.0            python                   
 pycountry                  24.6.1            python                   
 pygobject                  3.54.3            python                   
-pylast                     5.5.0             python                   
+pylast                     6.0.0             python                   
 python-dateutil            2.9.0.post0       python                   
 python3                    3.12.11-r0        apk                      
 python3-discogs-client     2.8               python                   
