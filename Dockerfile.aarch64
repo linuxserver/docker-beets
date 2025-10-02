@@ -47,17 +47,13 @@ RUN \
     python3 \
     sqlite-libs && \
   echo "**** install beets ****" && \
-  mkdir -p /tmp/beets && \
   if [ -z ${BEETS_VERSION+x} ] ; then \
     BEETS_VERSION=$(curl -sX GET "https://api.github.com/repos/beetbox/beets/commits/master" \
     | jq -r .sha); \
   fi && \
-  curl -o \
-    /tmp/beets.tar.gz -sL \
-    "https://github.com/beetbox/beets/archive/${BEETS_VERSION}.tar.gz" && \
-  tar xf \
-    /tmp/beets.tar.gz -C \
-    /tmp/beets --strip-components=1 && \
+  git clone https://github.com/beetbox/beets.git /tmp/beets && \
+  cd /tmp/beets && \
+  git checkout -f "${BEETS_VERSION}" && \
   echo "**** compile mp3gain ****" && \
   mkdir -p \
     /tmp/mp3gain-src && \
