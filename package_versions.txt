@@ -15,7 +15,7 @@ backports-tarfile          1.2.0                  python
 bash                       5.2.37-r0              apk                      
 beautifulsoup4             4.14.2                 python                   
 beetcamp                   0.23.0                 python                   
-beets                      2.5.0.dev20+77842b72d  python                   
+beets                      2.5.0.dev27+dc9b498ee  python                   
 beets-extrafiles           0.0.7                  python                   
 blinker                    1.9.0                  python                   
 brotli-libs                1.1.0-r2               apk                      
@@ -29,7 +29,7 @@ cairo-gobject              1.18.4-r0              apk
 catatonit                  0.2.0-r0               apk                      
 cdparanoia-libs            10.2-r14               apk                      
 certifi                    2025.10.5              python                   
-charset-normalizer         3.4.3                  python                   
+charset-normalizer         3.4.4                  python                   
 chromaprint                1.5.1-r7               apk                      
 chromaprint-libs           1.5.1-r7               apk                      
 cjson                      1.7.18-r0              apk                      
