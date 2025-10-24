@@ -238,7 +238,7 @@ pyacoustid                 1.3.0             python
 pyc                        3.12.12-r0        apk                      
 pycairo                    1.28.0            python                   
 pycountry                  24.6.1            python                   
-pygobject                  3.54.3            python                   
+pygobject                  3.54.5            python                   
 pylast                     6.0.0             python                   
 python-dateutil            2.9.0.post0       python                   
 python3                    3.12.12-r0        apk                      
