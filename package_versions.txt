@@ -9,7 +9,7 @@ alsa-lib                   1.2.12-r0         apk
 anyio                      4.11.0            python                   
 aom-libs                   3.11.0-r0         apk                      
 apk-tools                  2.14.6-r3         apk                      
-audioread                  3.0.1             python                   
+audioread                  3.1.0             python                   
 bash                       5.2.37-r0         apk                      
 beautifulsoup4             4.14.2            python                   
 beetcamp                   0.23.0            python                   
@@ -30,9 +30,9 @@ certifi                    2025.10.5         python
 charset-normalizer         3.4.4             python                   
 chromaprint                1.5.1-r7          apk                      
 chromaprint-libs           1.5.1-r7          apk                      
-cjson                      1.7.18-r0         apk                      
+cjson                      1.7.19-r0         apk                      
 click                      8.3.0             python                   
-confuse                    2.0.1             python                   
+confuse                    2.1.0             python                   
 coreutils                  9.5-r2            apk                      
 coreutils-env              9.5-r2            apk                      
 coreutils-fmt              9.5-r2            apk                      
@@ -229,7 +229,7 @@ packaging                  25.0              python
 pango                      1.54.0-r1         apk                      
 pcre2                      10.43-r0          apk                      
 pillow                     12.0.0            python                   
-pip                        25.2              python                   
+pip                        25.3              python                   
 pixman                     0.43.4-r1         apk                      
 pkgconf                    2.3.0-r0          apk                      
 platformdirs               4.5.0             python                   
