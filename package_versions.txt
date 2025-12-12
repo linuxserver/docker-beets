@@ -143,7 +143,7 @@ libopenmpt                 0.7.12-r0         apk
 libpanelw                  6.5_p20241006-r3  apk                      
 libpciaccess               0.18.1-r0         apk                      
 libplacebo                 6.338.2-r3        apk                      
-libpng                     1.6.47-r0         apk                      
+libpng                     1.6.53-r0         apk                      
 libproc2                   4.0.4-r2          apk                      
 libproxy                   0.5.9-r0          apk                      
 libpsl                     0.21.5-r3         apk                      
@@ -272,7 +272,7 @@ tiff                       4.7.1-r0          apk
 typing-extensions          4.15.0            python                   
 tzdata                     2025b-r0          apk                      
 unidecode                  1.4.0             python                   
-urllib3                    2.6.0             python                   
+urllib3                    2.6.2             python                   
 utmps-libs                 0.1.2.3-r2        apk                      
 v4l-utils-libs             1.28.1-r1         apk                      
 vidstab                    1.1.1-r0          apk                      
