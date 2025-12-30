@@ -256,6 +256,7 @@ serd-libs                  0.32.2-r0         apk
 shaderc                    2024.0-r2         apk                      
 shadow                     4.16.0-r1         apk                      
 shared-mime-info           2.4-r2            apk                      
+shyaml                     0.6.2             python                   
 six                        1.17.0            python                   
 skalibs-libs               2.14.3.0-r0       apk                      
 sord-libs                  0.16.16-r0        apk                      
