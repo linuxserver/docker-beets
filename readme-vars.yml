@@ -83,6 +83,7 @@ init_diagram: |
   "beets:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "30.12.25:", desc: "Add s6 overlay for drop2beets"}
   - {date: "30.12.25:", desc: "Check if plugin web is enabled before running"}
   - {date: "27.01.25:", desc: "Rebase to Alpine 3.21."}
   - {date: "01.10.24:", desc: "Add packages required for Discogs plugin."}
