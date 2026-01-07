@@ -297,7 +297,7 @@ typing-extensions          4.12.2            python
 typing-extensions          4.15.0            python                   
 tzdata                     2025c-r0          apk                      
 unidecode                  1.4.0             python                   
-urllib3                    2.6.2             python                   
+urllib3                    2.6.3             python                   
 utmps-libs                 0.1.2.3-r2        apk                      
 v4l-utils-libs             1.28.1-r1         apk                      
 vidstab                    1.1.1-r0          apk                      
