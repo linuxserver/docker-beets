@@ -6,7 +6,7 @@ alpine-baselayout-data     3.6.8-r1          apk
 alpine-keys                2.5-r0            apk                      
 alpine-release             3.21.5-r0         apk                      
 alsa-lib                   1.2.12-r0         apk                      
-anyio                      4.12.0            python                   
+anyio                      4.12.1            python                   
 aom-libs                   3.11.0-r0         apk                      
 apk-tools                  2.14.6-r3         apk                      
 audioread                  3.1.0             python                   
@@ -26,7 +26,7 @@ cairo                      1.18.4-r0         apk
 cairo-gobject              1.18.4-r0         apk                      
 catatonit                  0.2.0-r0          apk                      
 cdparanoia-libs            10.2-r14          apk                      
-certifi                    2025.11.12        python                   
+certifi                    2026.1.4          python                   
 charset-normalizer         3.4.4             python                   
 chromaprint                1.5.1-r7          apk                      
 chromaprint-libs           1.5.1-r7          apk                      
@@ -272,7 +272,7 @@ tiff                       4.7.1-r0          apk
 typing-extensions          4.15.0            python                   
 tzdata                     2025c-r0          apk                      
 unidecode                  1.4.0             python                   
-urllib3                    2.6.2             python                   
+urllib3                    2.6.3             python                   
 utmps-libs                 0.1.2.3-r2        apk                      
 v4l-utils-libs             1.28.1-r1         apk                      
 vidstab                    1.1.1-r0          apk                      
@@ -282,7 +282,7 @@ wayland-libs-client        1.23.1-r0         apk
 wayland-libs-cursor        1.23.1-r0         apk                      
 wayland-libs-egl           1.23.1-r0         apk                      
 wayland-libs-server        1.23.1-r0         apk                      
-werkzeug                   3.1.4             python                   
+werkzeug                   3.1.5             python                   
 wheel                      0.45.1            python                   
 x264-libs                  0.164.3108-r0     apk                      
 x265-libs                  3.6-r0            apk                      
