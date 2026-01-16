@@ -160,7 +160,7 @@ libssh                     0.11.1-r0         apk
 libssl3                    3.3.5-r0          apk                      
 libstdc++                  14.2.0-r4         apk                      
 libtag                     1.13.1-r0         apk                      
-libtasn1                   4.20.0-r0         apk                      
+libtasn1                   4.21.0-r0         apk                      
 libtheora                  1.1.1-r18         apk                      
 libturbojpeg               3.0.4-r0          apk                      
 libunibreak                6.1-r0            apk                      
@@ -212,7 +212,7 @@ netcat-openbsd             1.226.1.1-r0      apk
 nettle                     3.10-r1           apk                      
 nghttp2-libs               1.64.0-r0         apk                      
 numactl                    2.0.18-r0         apk                      
-numpy                      2.4.0             python                   
+numpy                      2.4.1             python                   
 oauthlib                   3.3.1             python                   
 onevpl-libs                2023.3.1-r2       apk                      
 oniguruma                  6.9.9-r0          apk                      
