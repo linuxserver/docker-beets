@@ -143,7 +143,7 @@ libopenmpt                 0.7.12-r0         apk
 libpanelw                  6.5_p20241006-r3  apk                      
 libpciaccess               0.18.1-r0         apk                      
 libplacebo                 6.338.2-r3        apk                      
-libpng                     1.6.53-r0         apk                      
+libpng                     1.6.54-r0         apk                      
 libproc2                   4.0.4-r2          apk                      
 libproxy                   0.5.9-r0          apk                      
 libpsl                     0.21.5-r3         apk                      
@@ -225,7 +225,7 @@ openjpeg                   2.5.2-r0          apk
 opus                       1.5.2-r1          apk                      
 orc                        0.4.40-r1         apk                      
 p11-kit                    0.25.5-r2         apk                      
-packaging                  25.0              python                   
+packaging                  26.0              python                   
 pango                      1.54.0-r1         apk                      
 pcre2                      10.43-r0          apk                      
 pillow                     12.1.0            python                   
@@ -239,7 +239,7 @@ pyc                        3.12.12-r0        apk
 pycairo                    1.29.0            python                   
 pycountry                  24.6.1            python                   
 pygobject                  3.54.5            python                   
-pylast                     7.0.1             python                   
+pylast                     7.0.2             python                   
 python-dateutil            2.9.0.post0       python                   
 python3                    3.12.12-r0        apk                      
 python3-discogs-client     2.8               python                   
@@ -259,7 +259,7 @@ shared-mime-info           2.4-r2            apk
 six                        1.17.0            python                   
 skalibs-libs               2.14.3.0-r0       apk                      
 sord-libs                  0.16.16-r0        apk                      
-soupsieve                  2.8.1             python                   
+soupsieve                  2.8.3             python                   
 soxr                       0.1.3-r7          apk                      
 speex                      1.2.1-r2          apk                      
 speexdsp                   1.2.1-r2          apk                      
@@ -283,7 +283,7 @@ wayland-libs-cursor        1.23.1-r0         apk
 wayland-libs-egl           1.23.1-r0         apk                      
 wayland-libs-server        1.23.1-r0         apk                      
 werkzeug                   3.1.5             python                   
-wheel                      0.45.1            python                   
+wheel                      0.46.3            python                   
 x264-libs                  0.164.3108-r0     apk                      
 x265-libs                  3.6-r0            apk                      
 xvidcore                   1.3.7-r2          apk                      
