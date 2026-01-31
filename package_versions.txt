@@ -244,7 +244,7 @@ packaging                  26.0              python  (+1 duplicate)
 pango                      1.54.0-r1         apk                      
 pcre2                      10.43-r0          apk                      
 pillow                     12.1.0            python                   
-pip                        25.3              python                   
+pip                        26.0              python                   
 pixman                     0.43.4-r1         apk                      
 pkgconf                    2.3.0-r0          apk                      
 platformdirs               4.4.0             python                   
