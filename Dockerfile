@@ -23,9 +23,9 @@ RUN \
     jpeg-dev \
     libedit-dev \
     libpng-dev \
+    llvm-dev \
     mpg123-dev \
     openjpeg-dev \
-    poetry \
     python3-dev && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
@@ -85,11 +85,21 @@ RUN \
     wheel && \
   echo "**** install beets ****" && \
   cd /tmp/beets && \
-  poetry install && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ . && \
   echo "**** install pip packages ****" && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ \
+    beautifulsoup4 \
     beets-extrafiles \
-    beetcamp && \
+    beetcamp \
+    python3-discogs-client \
+    flask \
+    PyGObject \
+    pyacoustid \
+    pylast \
+    requests \
+    requests_oauthlib \
+    typing-extensions \
+    unidecode && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
