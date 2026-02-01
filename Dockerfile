@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.21
+FROM ghcr.io/linuxserver/baseimage-alpine:3.23
 
 # set version label
 ARG BUILD_DATE
@@ -21,6 +21,7 @@ RUN \
     git \
     gobject-introspection-dev \
     jpeg-dev \
+    libedit-dev \
     libpng-dev \
     mpg123-dev \
     openjpeg-dev \
@@ -42,6 +43,7 @@ RUN \
     libffi \
     libpng \
     mpg123 \
+    mp3gain \
     nano \
     openjpeg \
     python3 \
@@ -54,17 +56,6 @@ RUN \
   git clone https://github.com/beetbox/beets.git /tmp/beets && \
   cd /tmp/beets && \
   git checkout -f "${BEETS_VERSION}" && \
-  echo "**** compile mp3gain ****" && \
-  mkdir -p \
-    /tmp/mp3gain-src && \
-  curl -o \
-    /tmp/mp3gain-src/mp3gain.zip -sL \
-    https://sourceforge.net/projects/mp3gain/files/mp3gain/1.6.2/mp3gain-1_6_2-src.zip && \
-  cd /tmp/mp3gain-src && \
-  unzip -qq /tmp/mp3gain-src/mp3gain.zip && \
-  sed -i "s#/usr/local/bin#/usr/bin#g" /tmp/mp3gain-src/Makefile && \
-  make && \
-  make install && \
   echo "**** compile mp3val ****" && \
   mkdir -p \
     /tmp/mp3val-src && \
@@ -79,18 +70,18 @@ RUN \
   python3 -m venv /lsiopy && \
   pip install -U --no-cache-dir \
     pip \
-    setuptools \
-    wheel && \
+    setuptools && \
   echo "**** install beets ****" && \
   cd /tmp/beets && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ . && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ . && \
   echo "**** install pip packages ****" && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ \
     beautifulsoup4 \
     beets-extrafiles \
     beetcamp \
     python3-discogs-client \
     flask \
+    flask-cors \
     PyGObject \
     pyacoustid \
     pylast \
