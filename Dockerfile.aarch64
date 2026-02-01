@@ -21,7 +21,7 @@ RUN \
     git \
     gobject-introspection-dev \
     jpeg-dev \
-    libedit-dev
+    libedit-dev \
     libpng-dev \
     mpg123-dev \
     openjpeg-dev \
