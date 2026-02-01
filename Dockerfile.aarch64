@@ -23,7 +23,6 @@ RUN \
     jpeg-dev \
     libedit-dev \
     libpng-dev \
-    llvm-dev \
     mpg123-dev \
     openjpeg-dev \
     python3-dev && \
