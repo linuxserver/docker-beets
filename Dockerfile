@@ -70,8 +70,7 @@ RUN \
   python3 -m venv /lsiopy && \
   pip install -U --no-cache-dir \
     pip \
-    setuptools \
-    wheel && \
+    setuptools && \
   echo "**** install beets ****" && \
   cd /tmp/beets && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ . && \
@@ -82,6 +81,7 @@ RUN \
     beetcamp \
     python3-discogs-client \
     flask \
+    flask-cors \
     PyGObject \
     pyacoustid \
     pylast \
