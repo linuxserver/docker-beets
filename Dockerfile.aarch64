@@ -31,7 +31,6 @@ RUN \
     chromaprint \
     expat \
     ffmpeg \
-    ffmpeg-libs \
     fftw \
     flac \
     gdbm \
@@ -48,6 +47,13 @@ RUN \
     openjpeg \
     python3 \
     sqlite-libs && \
+  echo "**** install beets ****" && \
+  if [ -z ${BEETS_VERSION+x} ]; then \
+    BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json |jq -r '. | .info.version'); \
+  fi && \
+  git clone https://github.com/beetbox/beets.git /tmp/beets && \
+  cd /tmp/beets && \
+  git checkout -f "v${BEETS_VERSION}" && \
   echo "**** compile mp3gain ****" && \
   mkdir -p \
     /tmp/mp3gain-src && \
@@ -70,16 +76,17 @@ RUN \
   make -f Makefile.linux && \
   cp -p mp3val /usr/bin && \
   echo "**** install pip packages ****" && \
-  if [ -z ${BEETS_VERSION+x} ]; then \
-    BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json |jq -r '. | .info.version'); \
-  fi && \
   python3 -m venv /lsiopy && \
   pip install -U --no-cache-dir \
     pip \
+    setuptools \
     wheel && \
-  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.21/ \
+  echo "**** install beets ****" && \
+  cd /tmp/beets && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ . && \
+  echo "**** install pip packages ****" && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.23/ \
     beautifulsoup4 \
-    beets==${BEETS_VERSION} \
     beets-extrafiles \
     beetcamp \
     python3-discogs-client \
