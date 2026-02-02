@@ -78,7 +78,7 @@ init_diagram: |
     svc-cron -> legacy-services
   }
   Base Images: {
-    "baseimage-alpine:3.21"
+    "baseimage-alpine:3.23"
   }
   "beets:latest" <- Base Images
 # changelog
