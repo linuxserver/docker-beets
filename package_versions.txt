@@ -14,7 +14,7 @@ anstyle-parse              0.2.7             rust-crate
 anstyle-query              1.1.3             rust-crate                   
 anyhow                     1.0.98            rust-crate  (+1 duplicate)   
 anyio                      4.12.1            python                       
-aom-libs                   3.13.1-r0         apk                          
+aom-libs                   3.13.1-r1         apk                          
 apk-tools                  3.0.3-r1          apk                          
 arg_enum_proc_macro        0.3.4             rust-crate                   
 arrayvec                   0.7.6             rust-crate                   
@@ -85,7 +85,7 @@ either                     1.15.0            rust-crate
 equator                    0.4.2             rust-crate                   
 errno                      0.3.12            rust-crate                   
 eudev-libs                 3.2.14-r6         apk                          
-expat                      2.7.3-r0          apk                          
+expat                      2.7.4-r0          apk                          
 fern                       0.7.1             rust-crate                   
 ffmpeg                     8.0.1-r1          apk                          
 ffmpeg-libavcodec          8.0.1-r1          apk                          
@@ -183,7 +183,7 @@ libdrm                     2.4.131-r0        apk
 libdv                      1.0.0-r8          apk                          
 libeconf                   0.8.3-r0          apk                          
 libelf                     0.194-r0          apk                          
-libexpat                   2.7.3-r0          apk                          
+libexpat                   2.7.4-r0          apk                          
 libffi                     3.5.2-r0          apk                          
 libflac                    1.4.3-r2          apk                          
 libgcc                     15.2.0-r2         apk                          
@@ -233,7 +233,7 @@ libva                      2.22.0-r1         apk
 libvdpau                   1.5-r4            apk                          
 libvorbis                  1.3.7-r2          apk                          
 libvpl                     2.15.0-r1         apk                          
-libvpx                     1.15.2-r0         apk                          
+libvpx                     1.15.2-r1         apk                          
 libwebp                    1.6.0-r0          apk                          
 libwebpdemux               1.6.0-r0          apk                          
 libwebpmux                 1.6.0-r0          apk                          
@@ -309,7 +309,7 @@ paste                      1.0.15            rust-crate
 pastey                     0.1.0             rust-crate                   
 pcre2                      10.47-r0          apk                          
 pillow                     12.1.0            python                       
-pip                        26.0              python                       
+pip                        26.0.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
 platformdirs               4.4.0             python                       
