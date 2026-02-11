@@ -323,7 +323,7 @@ pycairo                    1.29.0            python
 pycountry                  24.6.1            python                       
 pygobject                  3.54.5            python                       
 pylast                     7.0.2             python                       
-pyrate-limiter             2.10.0            python                       
+pyrate-limiter             4.0.2             python                       
 python-dateutil            2.9.0.post0       python                       
 python3                    3.12.12-r0        apk                          
 python3-discogs-client     2.8               python                       
@@ -342,7 +342,7 @@ rayon-core                 1.12.1            rust-crate
 readline                   8.3.1-r0          apk                          
 requests                   2.32.5            python                       
 requests-oauthlib          2.0.0             python                       
-requests-ratelimiter       0.8.0             python                       
+requests-ratelimiter       0.9.0             python                       
 rustix                     1.0.7             rust-crate                   
 scan_fmt                   0.2.6             rust-crate                   
 scanelf                    1.3.8-r2          apk                          
