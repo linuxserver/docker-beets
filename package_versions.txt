@@ -307,7 +307,7 @@ pango                      1.56.4-r0         apk
 paste                      1.0.15            rust-crate                   
 pastey                     0.1.0             rust-crate                   
 pcre2                      10.47-r0          apk                          
-pillow                     12.1.0            python                       
+pillow                     12.1.1            python                       
 pip                        26.0.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
