@@ -28,7 +28,7 @@ backports-tarfile          1.2.0             python
 bash                       5.3.3-r1          apk                          
 beautifulsoup4             4.14.3            python                       
 beetcamp                   0.24.0            python                       
-beets                      2.6.2             python                       
+beets                      2.7.0             python                       
 beets-extrafiles           0.0.7             python                       
 bitflags                   2.9.1             rust-crate                   
 bitstream-io               2.6.0             rust-crate                   
@@ -376,7 +376,7 @@ tiff                       4.7.1-r0          apk
 tinyvec                    1.9.0             rust-crate                   
 tomli                      2.4.0             python                       
 typing-extensions          4.15.0            python                       
-tzdata                     2025c-r0          apk                          
+tzdata                     2026a-r0          apk                          
 unicode-ident              1.0.18            rust-crate                   
 unicode-width              0.2.1             rust-crate                   
 unidecode                  1.4.0             python                       
