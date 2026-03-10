@@ -293,7 +293,7 @@ num-integer                0.1.46            rust-crate
 num-rational               0.4.2             rust-crate                   
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
-numpy                      2.4.2             python                       
+numpy                      2.4.3             python                       
 oauthlib                   3.3.1             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
@@ -347,7 +347,7 @@ rustix                     1.0.7             rust-crate
 scan_fmt                   0.2.6             rust-crate                   
 scanelf                    1.3.8-r2          apk                          
 serd-libs                  0.32.4-r0         apk                          
-setuptools                 82.0.0            python                       
+setuptools                 82.0.1            python                       
 shaderc                    2025.3-r0         apk                          
 shadow                     4.18.0-r0         apk                          
 shared-mime-info           2.4-r6            apk                          
