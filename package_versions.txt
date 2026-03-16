@@ -48,7 +48,7 @@ catatonit                  0.2.1-r0          apk
 cdparanoia-libs            10.2-r14          apk                          
 certifi                    2026.2.25         python                       
 cfg-if                     1.0.1             rust-crate                   
-charset-normalizer         3.4.5             python                       
+charset-normalizer         3.4.6             python                       
 chromaprint                1.6.0-r0          apk                          
 chromaprint-libs           1.6.0-r0          apk                          
 cjson                      1.7.19-r1         apk                          
