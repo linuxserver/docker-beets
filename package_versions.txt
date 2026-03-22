@@ -323,7 +323,7 @@ pycairo                    1.29.0            python
 pycountry                  26.2.16           python                       
 pygobject                  3.56.1            python                       
 pylast                     7.0.2             python                       
-pyrate-limiter             4.0.2             python                       
+pyrate-limiter             4.1.0             python                       
 python-dateutil            2.9.0.post0       python                       
 python3                    3.12.12-r0        apk                          
 python3-discogs-client     2.8               python                       
