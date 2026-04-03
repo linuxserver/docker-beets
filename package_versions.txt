@@ -27,7 +27,7 @@ av1-grain                  0.2.4             rust-crate
 backports-tarfile          1.2.0             python                       
 bash                       5.3.3-r1          apk                          
 beautifulsoup4             4.14.3            python                       
-beetcamp                   0.24.0            python                       
+beetcamp                   0.24.1            python                       
 beets                      2.8.0             python                       
 beets-extrafiles           0.0.7             python                       
 bitflags                   2.9.1             rust-crate                   
@@ -48,7 +48,7 @@ catatonit                  0.2.1-r0          apk
 cdparanoia-libs            10.2-r14          apk                          
 certifi                    2026.2.25         python                       
 cfg-if                     1.0.1             rust-crate                   
-charset-normalizer         3.4.6             python                       
+charset-normalizer         3.4.7             python                       
 chromaprint                1.6.0-r0          apk                          
 chromaprint-libs           1.6.0-r0          apk                          
 cjson                      1.7.19-r1         apk                          
@@ -260,8 +260,8 @@ llvm21-libs                21.1.2-r1         apk
 log                        0.4.27            rust-crate                   
 markupsafe                 3.0.3             python                       
 maybe-rayon                0.1.1             rust-crate                   
-mbedtls                    3.6.5-r0          apk                          
-mediafile                  0.14.0            python                       
+mbedtls                    3.6.6-r0          apk                          
+mediafile                  0.15.0            python                       
 memchr                     2.7.5             rust-crate                   
 mesa                       25.2.7-r1         apk                          
 mesa-egl                   25.2.7-r1         apk                          
@@ -307,7 +307,7 @@ pango                      1.56.4-r0         apk
 paste                      1.0.15            rust-crate                   
 pastey                     0.1.0             rust-crate                   
 pcre2                      10.47-r0          apk                          
-pillow                     12.1.1            python                       
+pillow                     12.2.0            python                       
 pip                        26.0.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
@@ -342,7 +342,7 @@ rayon-core                 1.12.1            rust-crate
 readline                   8.3.1-r0          apk                          
 requests                   2.33.1            python                       
 requests-oauthlib          2.0.0             python                       
-requests-ratelimiter       0.9.2             python                       
+requests-ratelimiter       0.9.3             python                       
 rustix                     1.0.7             rust-crate                   
 scan_fmt                   0.2.6             rust-crate                   
 scanelf                    1.3.8-r2          apk                          
@@ -391,7 +391,7 @@ wavpack-libs               5.8.1-r0          apk
 wayland-libs-client        1.24.0-r0         apk                          
 wayland-libs-cursor        1.24.0-r0         apk                          
 wayland-libs-egl           1.24.0-r0         apk                          
-werkzeug                   3.1.7             python                       
+werkzeug                   3.1.8             python                       
 wheel                      0.46.3            python                       
 wyz                        0.5.1             rust-crate                   
 x264-libs                  0.164.3108-r1     apk                          
