@@ -28,7 +28,7 @@ backports-tarfile          1.2.0             python
 bash                       5.3.3-r1          apk                          
 beautifulsoup4             4.14.3            python                       
 beetcamp                   0.24.1            python                       
-beets                      2.8.0             python                       
+beets                      2.9.0             python                       
 beets-extrafiles           0.0.7             python                       
 bitflags                   2.9.1             rust-crate                   
 bitstream-io               2.6.0             rust-crate                   
@@ -174,7 +174,7 @@ libbluray                  1.4.0-r0          apk
 libbsd                     0.12.2-r0         apk                          
 libbz2                     1.0.8-r6          apk                          
 libc                       0.2.172           rust-crate  (+1 duplicate)   
-libcap2                    2.77-r0           apk                          
+libcap2                    2.78-r0           apk                          
 libcrypto3                 3.5.5-r0          apk                          
 libcurl                    8.17.0-r1         apk                          
 libdav1d                   1.5.2-r0          apk                          
@@ -205,7 +205,7 @@ libopenmpt                 0.8.6-r0          apk
 libpanelw                  6.5_p20251123-r0  apk                          
 libpciaccess               0.18.1-r1         apk                          
 libplacebo                 7.351.0-r0        apk                          
-libpng                     1.6.56-r0         apk                          
+libpng                     1.6.57-r0         apk                          
 libproc2                   4.0.5-r0          apk                          
 libproxy                   0.5.12-r0         apk                          
 libpsl                     0.21.5-r3         apk                          
