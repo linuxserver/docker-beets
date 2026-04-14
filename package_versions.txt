@@ -261,7 +261,7 @@ log                        0.4.27            rust-crate
 markupsafe                 3.0.3             python                       
 maybe-rayon                0.1.1             rust-crate                   
 mbedtls                    3.6.6-r0          apk                          
-mediafile                  0.16.0            python                       
+mediafile                  0.16.1            python                       
 memchr                     2.7.5             rust-crate                   
 mesa                       25.2.7-r1         apk                          
 mesa-egl                   25.2.7-r1         apk                          
