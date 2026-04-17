@@ -27,7 +27,7 @@ av1-grain                  0.2.4             rust-crate
 backports-tarfile          1.2.0             python                       
 bash                       5.3.3-r1          apk                          
 beautifulsoup4             4.14.3            python                       
-beetcamp                   0.24.1            python                       
+beetcamp                   0.24.3            python                       
 beets                      2.9.0             python                       
 beets-extrafiles           0.0.7             python                       
 bitflags                   2.9.1             rust-crate                   
@@ -134,14 +134,14 @@ httpcore                   1.0.9             python
 httpx                      0.28.1            python                       
 hwdata-pci                 0.401-r0          apk                          
 idna                       3.11              python                       
-imagemagick                7.1.2.17-r0       apk                          
-imagemagick-jp2            7.1.2.17-r0       apk                          
-imagemagick-jpeg           7.1.2.17-r0       apk                          
-imagemagick-jxl            7.1.2.17-r0       apk                          
-imagemagick-libs           7.1.2.17-r0       apk                          
-imagemagick-pango          7.1.2.17-r0       apk                          
-imagemagick-tiff           7.1.2.17-r0       apk                          
-imagemagick-webp           7.1.2.17-r0       apk                          
+imagemagick                7.1.2.19-r0       apk                          
+imagemagick-jp2            7.1.2.19-r0       apk                          
+imagemagick-jpeg           7.1.2.19-r0       apk                          
+imagemagick-jxl            7.1.2.19-r0       apk                          
+imagemagick-libs           7.1.2.19-r0       apk                          
+imagemagick-pango          7.1.2.19-r0       apk                          
+imagemagick-tiff           7.1.2.19-r0       apk                          
+imagemagick-webp           7.1.2.19-r0       apk                          
 importlib-metadata         8.7.1             python                       
 interpolate_name           0.2.4             rust-crate                   
 is_terminal_polyfill       1.70.1            rust-crate                   
@@ -175,7 +175,7 @@ libbsd                     0.12.2-r0         apk
 libbz2                     1.0.8-r6          apk                          
 libc                       0.2.172           rust-crate  (+1 duplicate)   
 libcap2                    2.78-r0           apk                          
-libcrypto3                 3.5.5-r0          apk                          
+libcrypto3                 3.5.6-r0          apk                          
 libcurl                    8.17.0-r1         apk                          
 libdav1d                   1.5.2-r0          apk                          
 libdovi                    3.3.2-r0          apk                          
@@ -219,8 +219,8 @@ libsndfile                 1.2.2-r2          apk
 libsodium                  1.0.20-r1         apk                          
 libsoup3                   3.6.5-r1          apk                          
 libsrt                     1.5.3-r1          apk                          
-libssh                     0.11.3-r0         apk                          
-libssl3                    3.5.5-r0          apk                          
+libssh                     0.11.4-r0         apk                          
+libssl3                    3.5.6-r0          apk                          
 libstdc++                  15.2.0-r2         apk                          
 libtag                     2.1.1-r0          apk                          
 libtasn1                   4.21.0-r0         apk                          
@@ -261,7 +261,7 @@ log                        0.4.27            rust-crate
 markupsafe                 3.0.3             python                       
 maybe-rayon                0.1.1             rust-crate                   
 mbedtls                    3.6.6-r0          apk                          
-mediafile                  0.16.0            python                       
+mediafile                  0.16.1            python                       
 memchr                     2.7.5             rust-crate                   
 mesa                       25.2.7-r1         apk                          
 mesa-egl                   25.2.7-r1         apk                          
@@ -275,7 +275,7 @@ mpdecimal                  4.0.1-r0          apk
 mpg123                     1.33.3-r0         apk                          
 mpg123-libs                1.33.3-r0         apk                          
 musl                       1.2.5-r23         apk                          
-musl-utils                 1.2.5-r21         apk                          
+musl-utils                 1.2.5-r23         apk                          
 mutagen                    1.47.0            python                       
 nano                       8.7-r0            apk                          
 ncurses-terminfo-base      6.5_p20251123-r0  apk                          
@@ -302,7 +302,8 @@ openjpeg                   2.5.4-r1          apk
 opus                       1.5.2-r1          apk                          
 orc                        0.4.41-r0         apk                          
 p11-kit                    0.25.5-r2         apk                          
-packaging                  26.0              python      (+1 duplicate)   
+packaging                  26.0              python                       
+packaging                  26.1              python                       
 pango                      1.56.4-r0         apk                          
 paste                      1.0.15            rust-crate                   
 pastey                     0.1.0             rust-crate                   
