@@ -6,7 +6,7 @@ aligned-vec                0.6.4             rust-crate
 alpine-baselayout          3.7.2-r0          apk                          
 alpine-baselayout-data     3.7.2-r0          apk                          
 alpine-keys                2.6-r0            apk                          
-alpine-release             3.23.3-r0         apk                          
+alpine-release             3.23.4-r0         apk                          
 alsa-lib                   1.2.14-r2         apk                          
 anstream                   0.6.19            rust-crate                   
 anstyle                    1.0.11            rust-crate                   
@@ -15,7 +15,7 @@ anstyle-query              1.1.3             rust-crate
 anyhow                     1.0.98            rust-crate  (+1 duplicate)   
 anyio                      4.13.0            python                       
 aom-libs                   3.13.1-r1         apk                          
-apk-tools                  3.0.5-r0          apk                          
+apk-tools                  3.0.6-r0          apk                          
 arg_enum_proc_macro        0.3.4             rust-crate                   
 arrayvec                   0.7.6             rust-crate                   
 as-slice                   0.2.1             rust-crate                   
@@ -40,8 +40,8 @@ brotli-libs                1.2.0-r0          apk
 busybox                    1.37.0-r30        apk                          
 busybox-binsh              1.37.0-r30        apk                          
 c-ares                     1.34.6-r0         apk                          
-ca-certificates            20251003-r0       apk                          
-ca-certificates-bundle     20251003-r0       apk                          
+ca-certificates            20260413-r0       apk                          
+ca-certificates-bundle     20260413-r0       apk                          
 cairo                      1.18.4-r0         apk                          
 cairo-gobject              1.18.4-r0         apk                          
 catatonit                  0.2.1-r0          apk                          
@@ -164,7 +164,7 @@ langdetect                 1.0.9             python
 lap                        0.5.13            python                       
 lcms2                      2.17-r0           apk                          
 libSvtAv1Enc               3.1.2-r0          apk                          
-libapk                     3.0.5-r0          apk                          
+libapk                     3.0.6-r0          apk                          
 libass                     0.17.4-r0         apk                          
 libasyncns                 0.8-r4            apk                          
 libattr                    2.5.2-r2          apk                          
@@ -261,7 +261,7 @@ log                        0.4.27            rust-crate
 markupsafe                 3.0.3             python                       
 maybe-rayon                0.1.1             rust-crate                   
 mbedtls                    3.6.6-r0          apk                          
-mediafile                  0.16.1            python                       
+mediafile                  0.16.2            python                       
 memchr                     2.7.5             rust-crate                   
 mesa                       25.2.7-r1         apk                          
 mesa-egl                   25.2.7-r1         apk                          
