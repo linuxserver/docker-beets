@@ -162,7 +162,7 @@ lame                       3.100-r5          apk
 lame-libs                  3.100-r5          apk                          
 langdetect                 1.0.9             python                       
 lap                        0.5.13            python                       
-lcms2                      2.17-r0           apk                          
+lcms2                      2.19-r0           apk                          
 libSvtAv1Enc               3.1.2-r0          apk                          
 libapk                     3.0.6-r0          apk                          
 libass                     0.17.4-r0         apk                          
@@ -309,7 +309,7 @@ paste                      1.0.15            rust-crate
 pastey                     0.1.0             rust-crate                   
 pcre2                      10.47-r0          apk                          
 pillow                     12.2.0            python                       
-pip                        26.0.1            python                       
+pip                        26.1              python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
 platformdirs               4.4.0             python                       
@@ -398,7 +398,7 @@ wyz                        0.5.1             rust-crate
 x264-libs                  0.164.3108-r1     apk                          
 x265-libs                  4.1-r0            apk                          
 xvidcore                   1.3.7-r2          apk                          
-xz-libs                    5.8.2-r0          apk                          
+xz-libs                    5.8.3-r0          apk                          
 y4m                        0.8.0             rust-crate                   
 zerocopy                   0.8.25            rust-crate                   
 zimg                       3.0.6-r0          apk                          
