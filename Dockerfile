@@ -53,9 +53,9 @@ RUN \
   if [ -z ${BEETS_VERSION+x} ]; then \
     BEETS_VERSION=$(curl -sL  https://pypi.python.org/pypi/beets/json |jq -r '. | .info.version'); \
   fi && \
-  git clone https://github.com/beetbox/beets.git /tmp/beets && \
+  git clone https://github.com/MartinCa/beets.git /tmp/beets && \
   cd /tmp/beets && \
-  git checkout -f "v${BEETS_VERSION}" && \
+  git checkout -f "fix/mbpseudo-raw-data" && \
   echo "**** compile mp3val ****" && \
   mkdir -p \
     /tmp/mp3val-src && \
