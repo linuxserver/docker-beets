@@ -205,7 +205,7 @@ libopenmpt                 0.8.6-r0          apk
 libpanelw                  6.5_p20251123-r0  apk                          
 libpciaccess               0.18.1-r1         apk                          
 libplacebo                 7.351.0-r0        apk                          
-libpng                     1.6.57-r0         apk                          
+libpng                     1.6.58-r1         apk                          
 libproc2                   4.0.5-r0          apk                          
 libproxy                   0.5.12-r0         apk                          
 libpsl                     0.21.5-r3         apk                          
@@ -292,7 +292,7 @@ num-integer                0.1.46            rust-crate
 num-rational               0.4.2             rust-crate                   
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
-numpy                      2.4.5             python                       
+numpy                      2.4.6             python                       
 oauthlib                   3.3.1             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
