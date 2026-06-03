@@ -133,7 +133,7 @@ harfbuzz                   12.2.0-r0         apk
 httpcore                   1.0.9             python                       
 httpx                      0.28.1            python                       
 hwdata-pci                 0.401-r0          apk                          
-idna                       3.17              python                       
+idna                       3.18              python                       
 imagemagick                7.1.2.24-r0       apk                          
 imagemagick-jp2            7.1.2.24-r0       apk                          
 imagemagick-jpeg           7.1.2.24-r0       apk                          
