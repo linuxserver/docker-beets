@@ -28,7 +28,7 @@ backports-tarfile          1.2.0             python
 bash                       5.3.3-r1          apk                          
 beautifulsoup4             4.15.0            python                       
 beetcamp                   0.24.3            python                       
-beets                      2.11.0            python                       
+beets                      2.12.0            python                       
 beets-extrafiles           0.0.7             python                       
 bitflags                   2.9.1             rust-crate                   
 bitstream-io               2.6.0             rust-crate                   
@@ -40,8 +40,8 @@ brotli-libs                1.2.0-r0          apk
 busybox                    1.37.0-r30        apk                          
 busybox-binsh              1.37.0-r30        apk                          
 c-ares                     1.34.6-r0         apk                          
-ca-certificates            20260413-r0       apk                          
-ca-certificates-bundle     20260413-r0       apk                          
+ca-certificates            20260611-r0       apk                          
+ca-certificates-bundle     20260611-r0       apk                          
 cairo                      1.18.4-r0         apk                          
 cairo-gobject              1.18.4-r0         apk                          
 catatonit                  0.2.1-r0          apk                          
@@ -85,7 +85,7 @@ either                     1.15.0            rust-crate
 equator                    0.4.2             rust-crate                   
 errno                      0.3.12            rust-crate                   
 eudev-libs                 3.2.14-r6         apk                          
-expat                      2.7.5-r0          apk                          
+expat                      2.8.1-r0          apk                          
 fern                       0.7.1             rust-crate                   
 ffmpeg                     8.0.1-r1          apk                          
 ffmpeg-libavcodec          8.0.1-r1          apk                          
@@ -183,7 +183,7 @@ libdrm                     2.4.131-r0        apk
 libdv                      1.0.0-r8          apk                          
 libeconf                   0.8.3-r0          apk                          
 libelf                     0.194-r0          apk                          
-libexpat                   2.7.5-r0          apk                          
+libexpat                   2.8.1-r0          apk                          
 libffi                     3.5.2-r0          apk                          
 libflac                    1.4.3-r2          apk                          
 libgcc                     15.2.0-r2         apk                          
@@ -276,7 +276,7 @@ mpg123                     1.33.3-r0         apk
 mpg123-libs                1.33.3-r0         apk                          
 musl                       1.2.5-r23         apk                          
 musl-utils                 1.2.5-r23         apk                          
-mutagen                    1.47.0            python                       
+mutagen                    1.48.0            python                       
 nano                       8.7-r0            apk                          
 ncurses-terminfo-base      6.5_p20251123-r0  apk                          
 netcat-openbsd             1.234.1-r0        apk                          
@@ -292,7 +292,7 @@ num-integer                0.1.46            rust-crate
 num-rational               0.4.2             rust-crate                   
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
-numpy                      2.4.6             python                       
+numpy                      2.5.0             python                       
 oauthlib                   3.3.1             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
