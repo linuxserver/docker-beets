@@ -88,7 +88,8 @@ RUN \
     requests \
     requests_oauthlib \
     typing-extensions \
-    unidecode && \
+    unidecode \
+    drop2beets && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   apk del --purge \
@@ -102,6 +103,8 @@ RUN \
 ENV BEETSDIR="/config" \
 EDITOR="nano" \
 HOME="/config"
+
+RUN mkdir /downloads #it freaked out without this :(
 
 # copy local files
 COPY root/ /
