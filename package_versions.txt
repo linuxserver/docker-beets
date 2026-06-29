@@ -6,7 +6,7 @@ aligned-vec                0.6.4             rust-crate
 alpine-baselayout          3.7.2-r0          apk                          
 alpine-baselayout-data     3.7.2-r0          apk                          
 alpine-keys                2.6-r0            apk                          
-alpine-release             3.23.4-r0         apk                          
+alpine-release             3.23.5-r0         apk                          
 alsa-lib                   1.2.14-r2         apk                          
 anstream                   0.6.19            rust-crate                   
 anstyle                    1.0.11            rust-crate                   
@@ -85,7 +85,7 @@ either                     1.15.0            rust-crate
 equator                    0.4.2             rust-crate                   
 errno                      0.3.12            rust-crate                   
 eudev-libs                 3.2.14-r6         apk                          
-expat                      2.8.1-r0          apk                          
+expat                      2.8.2-r0          apk                          
 fern                       0.7.1             rust-crate                   
 ffmpeg                     8.0.1-r1          apk                          
 ffmpeg-libavcodec          8.0.1-r1          apk                          
@@ -183,7 +183,7 @@ libdrm                     2.4.131-r0        apk
 libdv                      1.0.0-r8          apk                          
 libeconf                   0.8.3-r0          apk                          
 libelf                     0.194-r0          apk                          
-libexpat                   2.8.1-r0          apk                          
+libexpat                   2.8.2-r0          apk                          
 libffi                     3.5.2-r0          apk                          
 libflac                    1.4.3-r2          apk                          
 libgcc                     15.2.0-r2         apk                          
