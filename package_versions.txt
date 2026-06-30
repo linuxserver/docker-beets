@@ -131,7 +131,9 @@ gui-arm64                  UNKNOWN           binary
 h11                        0.16.0            python                       
 harfbuzz                   12.2.0-r0         apk                          
 httpcore                   1.0.9             python                       
+httpcore2                  2.5.0             python                       
 httpx                      0.28.1            python                       
+httpx2                     2.5.0             python                       
 hwdata-pci                 0.401-r0          apk                          
 idna                       3.18              python                       
 imagemagick                7.1.2.24-r0       apk                          
@@ -322,7 +324,7 @@ pyc                        3.12.13-r0        apk
 pycairo                    1.29.0            python                       
 pycountry                  26.2.16           python                       
 pygobject                  3.56.3            python                       
-pylast                     7.0.2             python                       
+pylast                     7.1.0             python                       
 pyrate-limiter             4.4.0             python                       
 python-dateutil            2.9.0.post0       python                       
 python3                    3.12.13-r0        apk                          
@@ -375,6 +377,7 @@ thiserror                  2.0.12            rust-crate
 tiff                       4.7.1-r0          apk                          
 tinyvec                    1.9.0             rust-crate                   
 tomli                      2.4.0             python                       
+truststore                 0.10.4            python                       
 typing-extensions          4.15.0            python                       
 tzdata                     2026b-r0          apk                          
 unicode-ident              1.0.18            rust-crate                   
