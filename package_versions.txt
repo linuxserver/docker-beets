@@ -131,9 +131,9 @@ gui-arm64                  UNKNOWN           binary
 h11                        0.16.0            python                       
 harfbuzz                   12.2.0-r0         apk                          
 httpcore                   1.0.9             python                       
-httpcore2                  2.6.0             python                       
+httpcore2                  2.7.0             python                       
 httpx                      0.28.1            python                       
-httpx2                     2.6.0             python                       
+httpx2                     2.7.0             python                       
 hwdata-pci                 0.401-r0          apk                          
 idna                       3.18              python                       
 imagemagick                7.1.2.24-r0       apk                          
