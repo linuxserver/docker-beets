@@ -328,7 +328,7 @@ pylast                     7.1.0             python
 pyrate-limiter             4.4.0             python                       
 python-dateutil            2.9.0.post0       python                       
 python3                    3.12.13-r0        apk                          
-python3-discogs-client     2.8               python                       
+python3-discogs-client     2.9               python                       
 python3-pyc                3.12.13-r0        apk                          
 python3-pycache-pyc0       3.12.13-r0        apk                          
 pyyaml                     6.0.3             python                       
