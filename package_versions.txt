@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.1.2            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.10.1            python                       
+platformdirs               4.11.0            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
