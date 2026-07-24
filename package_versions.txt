@@ -46,7 +46,7 @@ cairo                      1.18.4-r0         apk
 cairo-gobject              1.18.4-r0         apk                          
 catatonit                  0.2.1-r0          apk                          
 cdparanoia-libs            10.2-r14          apk                          
-certifi                    2026.6.17         python                       
+certifi                    2026.7.22         python                       
 cfg-if                     1.0.1             rust-crate                   
 charset-normalizer         3.4.9             python                       
 chromaprint                1.6.0-r0          apk                          
@@ -62,7 +62,7 @@ cli-64                     UNKNOWN           binary
 cli-arm64                  UNKNOWN           binary                       
 click                      8.4.2             python                       
 colorchoice                1.0.4             rust-crate                   
-confuse                    2.2.0             python                       
+confuse                    2.2.1             python                       
 console                    0.15.11           rust-crate                   
 core2                      0.4.0             rust-crate                   
 coreutils                  9.8-r1            apk                          
@@ -77,7 +77,7 @@ crossbeam-deque            0.8.6             rust-crate
 crossbeam-epoch            0.9.18            rust-crate                   
 crossbeam-queue            0.3.12            rust-crate                   
 crossbeam-utils            0.8.21            rust-crate                   
-curl                       8.19.0-r0         apk                          
+curl                       8.20.0-r0         apk                          
 dbus-libs                  1.16.2-r1         apk                          
 dolby_vision               3.3.2             rust-crate                   
 duktape-libs               2.7.0-r2          apk                          
@@ -131,9 +131,9 @@ gui-arm64                  UNKNOWN           binary
 h11                        0.16.0            python                       
 harfbuzz                   12.2.0-r0         apk                          
 httpcore                   1.0.9             python                       
-httpcore2                  2.7.0             python                       
+httpcore2                  2.9.1             python                       
 httpx                      0.28.1            python                       
-httpx2                     2.7.0             python                       
+httpx2                     2.9.1             python                       
 hwdata-pci                 0.401-r0          apk                          
 idna                       3.18              python                       
 imagemagick                7.1.2.24-r0       apk                          
@@ -178,7 +178,7 @@ libbz2                     1.0.8-r6          apk
 libc                       0.2.172           rust-crate  (+1 duplicate)   
 libcap2                    2.78-r0           apk                          
 libcrypto3                 3.5.7-r0          apk                          
-libcurl                    8.19.0-r0         apk                          
+libcurl                    8.20.0-r0         apk                          
 libdav1d                   1.5.2-r0          apk                          
 libdovi                    3.3.2-r0          apk                          
 libdrm                     2.4.131-r0        apk                          
@@ -262,7 +262,7 @@ llvm21-libs                21.1.2-r1         apk
 log                        0.4.27            rust-crate                   
 markupsafe                 3.0.3             python                       
 maybe-rayon                0.1.1             rust-crate                   
-mbedtls                    3.6.6-r0          apk                          
+mbedtls                    3.6.7-r0          apk                          
 mediafile                  0.17.0            python                       
 memchr                     2.7.5             rust-crate                   
 mesa                       25.2.7-r1         apk                          
@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.1.2            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.10.0            python                       
+platformdirs               4.11.0            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
@@ -359,7 +359,7 @@ simd_helpers               0.1.0             rust-crate
 six                        1.17.0            python                       
 skalibs-libs               2.14.4.0-r0       apk                          
 sord-libs                  0.16.18-r0        apk                          
-soupsieve                  2.8.4             python                       
+soupsieve                  2.9.1             python                       
 soxr                       0.1.3-r7          apk                          
 speex                      1.2.1-r2          apk                          
 speexdsp                   1.2.1-r2          apk                          
@@ -379,7 +379,7 @@ tinyvec                    1.9.0             rust-crate
 tomli                      2.4.0             python                       
 truststore                 0.10.4            python                       
 typing-extensions          4.16.0            python                       
-tzdata                     2026b-r0          apk                          
+tzdata                     2026c-r0          apk                          
 unicode-ident              1.0.18            rust-crate                   
 unicode-width              0.2.1             rust-crate                   
 unidecode                  1.4.0             python                       
