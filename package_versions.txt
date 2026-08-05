@@ -304,13 +304,13 @@ opus                       1.5.2-r1          apk
 orc                        0.4.41-r0         apk                          
 p11-kit                    0.26.2-r0         apk                          
 packaging                  26.0              python                       
-packaging                  26.2              python                       
+packaging                  26.3              python                       
 pango                      1.56.4-r0         apk                          
 paste                      1.0.15            rust-crate                   
 pastey                     0.1.0             rust-crate                   
 pcre2                      10.47-r0          apk                          
 pillow                     12.3.0            python                       
-pip                        26.2              python                       
+pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
 platformdirs               4.11.0            python                       
