@@ -131,9 +131,9 @@ gui-arm64                  UNKNOWN           binary
 h11                        0.16.0            python                       
 harfbuzz                   12.2.0-r0         apk                          
 httpcore                   1.0.9             python                       
-httpcore2                  2.9.1             python                       
+httpcore2                  2.10.0            python                       
 httpx                      0.28.1            python                       
-httpx2                     2.9.1             python                       
+httpx2                     2.10.0            python                       
 hwdata-pci                 0.401-r0          apk                          
 idna                       3.18              python                       
 imagemagick                7.1.2.24-r0       apk                          
@@ -294,7 +294,7 @@ num-integer                0.1.46            rust-crate
 num-rational               0.4.2             rust-crate                   
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
-numpy                      2.5.1             python                       
+numpy                      2.5.2             python                       
 oauthlib                   3.3.1             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.11.0            python                       
+platformdirs               4.11.2            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
@@ -349,7 +349,7 @@ rustix                     1.0.7             rust-crate
 scan_fmt                   0.2.6             rust-crate                   
 scanelf                    1.3.8-r2          apk                          
 serd-libs                  0.32.4-r0         apk                          
-setuptools                 83.0.0            python                       
+setuptools                 84.0.0            python                       
 shaderc                    2025.3-r0         apk                          
 shadow                     4.18.0-r0         apk                          
 shared-mime-info           2.4-r6            apk                          
