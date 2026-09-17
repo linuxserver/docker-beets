@@ -135,7 +135,7 @@ httpcore2                  2.13.0            python
 httpx                      0.28.1            python                       
 httpx2                     2.13.0            python                       
 hwdata-pci                 0.401-r0          apk                          
-idna                       3.19              python                       
+idna                       3.20              python                       
 imagemagick                7.1.2.29-r0       apk                          
 imagemagick-jp2            7.1.2.29-r0       apk                          
 imagemagick-jpeg           7.1.2.29-r0       apk                          
