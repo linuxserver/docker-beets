@@ -85,7 +85,7 @@ either                     1.15.0            rust-crate
 equator                    0.4.2             rust-crate                   
 errno                      0.3.12            rust-crate                   
 eudev-libs                 3.2.14-r6         apk                          
-expat                      2.8.4-r0          apk                          
+expat                      2.8.5-r0          apk                          
 fern                       0.7.1             rust-crate                   
 ffmpeg                     8.0.1-r1          apk                          
 ffmpeg-libavcodec          8.0.1-r1          apk                          
@@ -185,7 +185,7 @@ libdrm                     2.4.131-r0        apk
 libdv                      1.0.0-r8          apk                          
 libeconf                   0.8.3-r0          apk                          
 libelf                     0.194-r0          apk                          
-libexpat                   2.8.4-r0          apk                          
+libexpat                   2.8.5-r0          apk                          
 libffi                     3.5.2-r0          apk                          
 libflac                    1.4.3-r2          apk                          
 libgcc                     15.2.0-r2         apk                          
@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.11.12           python                       
+platformdirs               4.11.13           python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
@@ -359,7 +359,7 @@ simd_helpers               0.1.0             rust-crate
 six                        1.17.0            python                       
 skalibs-libs               2.14.4.0-r0       apk                          
 sord-libs                  0.16.18-r0        apk                          
-soupsieve                  2.9.2             python                       
+soupsieve                  2.10              python                       
 soxr                       0.1.3-r7          apk                          
 speex                      1.2.1-r2          apk                          
 speexdsp                   1.2.1-r2          apk                          
