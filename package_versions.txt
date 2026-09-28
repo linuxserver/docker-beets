@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.11.14           python                       
+platformdirs               4.12.0            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
@@ -394,7 +394,7 @@ wavpack-libs               5.8.1-r0          apk
 wayland-libs-client        1.24.0-r0         apk                          
 wayland-libs-cursor        1.24.0-r0         apk                          
 wayland-libs-egl           1.24.0-r0         apk                          
-werkzeug                   3.1.8             python                       
+werkzeug                   3.1.9             python                       
 wheel                      0.46.3            python                       
 wyz                        0.5.1             rust-crate                   
 x264-libs                  0.164.3108-r1     apk                          
