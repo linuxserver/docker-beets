@@ -295,7 +295,7 @@ num-rational               0.4.2             rust-crate
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
 numpy                      2.5.3             python                       
-oauthlib                   3.3.1             python                       
+oauthlib                   4.0.0             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
 opencore-amr               0.1.6-r1          apk                          
@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.12.0            python                       
+platformdirs               4.12.1            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
