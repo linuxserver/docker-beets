@@ -48,7 +48,7 @@ catatonit                  0.2.1-r0          apk
 cdparanoia-libs            10.2-r14          apk                          
 certifi                    2026.7.22         python                       
 cfg-if                     1.0.1             rust-crate                   
-charset-normalizer         3.5.1             python                       
+charset-normalizer         3.5.2             python                       
 chromaprint                1.6.0-r0          apk                          
 chromaprint-libs           1.6.0-r0          apk                          
 cjson                      1.7.19-r1         apk                          
@@ -207,7 +207,7 @@ libopenmpt                 0.8.6-r0          apk
 libpanelw                  6.5_p20251123-r0  apk                          
 libpciaccess               0.18.1-r1         apk                          
 libplacebo                 7.351.0-r0        apk                          
-libpng                     1.6.58-r1         apk                          
+libpng                     1.6.59-r0         apk                          
 libproc2                   4.0.5-r0          apk                          
 libproxy                   0.5.12-r0         apk                          
 libpsl                     0.21.5-r3         apk                          
@@ -328,7 +328,7 @@ pylast                     7.2.0             python
 pyrate-limiter             4.5.0             python                       
 python-dateutil            2.9.0.post0       python                       
 python3                    3.12.14-r0        apk                          
-python3-discogs-client     2.9               python                       
+python3-discogs-client     2.10              python                       
 python3-pyc                3.12.14-r0        apk                          
 python3-pycache-pyc0       3.12.14-r0        apk                          
 pyyaml                     6.0.3             python                       
