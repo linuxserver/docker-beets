@@ -260,7 +260,7 @@ linux-pam                  1.7.1-r2          apk
 linux-raw-sys              0.9.4             rust-crate                   
 llvm21-libs                21.1.2-r1         apk                          
 log                        0.4.27            rust-crate                   
-markupsafe                 3.0.3             python                       
+markupsafe                 3.0.4             python                       
 maybe-rayon                0.1.1             rust-crate                   
 mbedtls                    3.6.7-r0          apk                          
 mediafile                  0.17.0            python                       
