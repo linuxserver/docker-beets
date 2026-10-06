@@ -406,5 +406,5 @@ zerocopy                   0.8.25            rust-crate
 zimg                       3.0.6-r0          apk                          
 zipp                       3.23.0            python                       
 zix-libs                   0.6.2-r0          apk                          
-zlib                       1.3.2-r0          apk                          
+zlib                       1.3.2-r1          apk                          
 zstd-libs                  1.5.7-r2          apk                          
