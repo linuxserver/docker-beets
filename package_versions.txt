@@ -177,7 +177,7 @@ libbsd                     0.12.2-r0         apk
 libbz2                     1.0.8-r6          apk                          
 libc                       0.2.172           rust-crate  (+1 duplicate)   
 libcap2                    2.78-r0           apk                          
-libcrypto3                 3.5.8-r0          apk                          
+libcrypto3                 3.5.9-r0          apk                          
 libcurl                    8.22.0-r0         apk                          
 libdav1d                   1.5.2-r0          apk                          
 libdovi                    3.3.2-r0          apk                          
@@ -222,7 +222,7 @@ libsodium                  1.0.20-r1         apk
 libsoup3                   3.6.5-r1          apk                          
 libsrt                     1.5.3-r1          apk                          
 libssh                     0.11.4-r0         apk                          
-libssl3                    3.5.8-r0          apk                          
+libssl3                    3.5.9-r0          apk                          
 libstdc++                  15.2.0-r2         apk                          
 libtag                     2.1.1-r0          apk                          
 libtasn1                   4.21.0-r0         apk                          
@@ -260,7 +260,7 @@ linux-pam                  1.7.1-r2          apk
 linux-raw-sys              0.9.4             rust-crate                   
 llvm21-libs                21.1.2-r1         apk                          
 log                        0.4.27            rust-crate                   
-markupsafe                 3.0.3             python                       
+markupsafe                 3.0.4             python                       
 maybe-rayon                0.1.1             rust-crate                   
 mbedtls                    3.6.7-r0          apk                          
 mediafile                  0.17.0            python                       
@@ -299,7 +299,7 @@ oauthlib                   4.0.0             python
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
 opencore-amr               0.1.6-r1          apk                          
-openjpeg                   2.5.4-r1          apk                          
+openjpeg                   2.5.4-r2          apk                          
 opus                       1.5.2-r1          apk                          
 orc                        0.4.41-r0         apk                          
 p11-kit                    0.26.2-r0         apk                          
@@ -313,7 +313,7 @@ pillow                     12.3.0            python
 pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.12.2            python                       
+platformdirs               4.12.4            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
@@ -321,9 +321,9 @@ procps-ng                  4.0.5-r0          apk
 profiling                  1.0.16            rust-crate                   
 pyacoustid                 1.3.1             python                       
 pyc                        3.12.15-r0        apk                          
-pycairo                    1.29.1            python                       
+pycairo                    1.29.2            python                       
 pycountry                  26.2.16           python                       
-pygobject                  3.58.0            python                       
+pygobject                  3.58.1            python                       
 pylast                     7.2.0             python                       
 pyrate-limiter             4.5.0             python                       
 python-dateutil            2.9.0.post0       python                       
@@ -374,7 +374,7 @@ tdb-libs                   1.4.14-r0         apk
 terminal_size              0.4.2             rust-crate                   
 thiserror                  1.0.69            rust-crate                   
 thiserror                  2.0.12            rust-crate                   
-tiff                       4.7.1-r0          apk                          
+tiff                       4.7.2-r0          apk                          
 tinyvec                    1.9.0             rust-crate                   
 tomli                      2.4.0             python                       
 truststore                 0.10.4            python                       
@@ -406,5 +406,5 @@ zerocopy                   0.8.25            rust-crate
 zimg                       3.0.6-r0          apk                          
 zipp                       3.23.0            python                       
 zix-libs                   0.6.2-r0          apk                          
-zlib                       1.3.2-r0          apk                          
+zlib                       1.3.2-r1          apk                          
 zstd-libs                  1.5.7-r2          apk                          
