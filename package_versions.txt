@@ -154,7 +154,7 @@ ivf                        0.1.4             rust-crate
 jaraco-context             6.1.0             python                       
 jaraco-functools           4.4.0             python                       
 jaraco-text                4.0.0             python                       
-jellyfish                  1.2.1             python                       
+jellyfish                  1.3.0             python                       
 jinja2                     3.1.6             python                       
 jpeg                       9f-r0             apk                          
 jq                         1.8.2-r0          apk                          
@@ -294,7 +294,7 @@ num-integer                0.1.46            rust-crate
 num-rational               0.4.2             rust-crate                   
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
-numpy                      2.5.3             python                       
+numpy                      2.5.4             python                       
 oauthlib                   4.0.0             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
@@ -309,11 +309,11 @@ pango                      1.56.4-r0         apk
 paste                      1.0.15            rust-crate                   
 pastey                     0.1.0             rust-crate                   
 pcre2                      10.49-r0          apk                          
-pillow                     12.3.0            python                       
+pillow                     13.0.0            python                       
 pip                        26.2.1            python                       
 pixman                     0.46.4-r0         apk                          
 pkgconf                    2.5.1-r0          apk                          
-platformdirs               4.12.4            python                       
+platformdirs               4.13.3            python                       
 platformdirs               4.4.0             python                       
 ppv-lite86                 0.2.21            rust-crate                   
 proc-macro2                1.0.95            rust-crate                   
@@ -359,7 +359,7 @@ simd_helpers               0.1.0             rust-crate
 six                        1.17.0            python                       
 skalibs-libs               2.14.4.0-r0       apk                          
 sord-libs                  0.16.18-r0        apk                          
-soupsieve                  2.10              python                       
+soupsieve                  3.0.3             python                       
 soxr                       0.1.3-r7          apk                          
 speex                      1.2.1-r2          apk                          
 speexdsp                   1.2.1-r2          apk                          
@@ -377,9 +377,9 @@ thiserror                  2.0.12            rust-crate
 tiff                       4.7.2-r0          apk                          
 tinyvec                    1.9.0             rust-crate                   
 tomli                      2.4.0             python                       
-truststore                 0.10.4            python                       
+truststore                 0.10.5            python                       
 typing-extensions          4.16.0            python                       
-tzdata                     2026d-r0          apk                          
+tzdata                     2026e-r0          apk                          
 unicode-ident              1.0.18            rust-crate                   
 unicode-width              0.2.1             rust-crate                   
 unidecode                  1.4.0             python                       
