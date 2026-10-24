@@ -6,7 +6,7 @@ aligned-vec                0.6.4             rust-crate
 alpine-baselayout          3.7.2-r0          apk                          
 alpine-baselayout-data     3.7.2-r0          apk                          
 alpine-keys                2.6-r0            apk                          
-alpine-release             3.23.6-r0         apk                          
+alpine-release             3.23.7-r0         apk                          
 alsa-lib                   1.2.14-r2         apk                          
 anstream                   0.6.19            rust-crate                   
 anstyle                    1.0.11            rust-crate                   
@@ -277,7 +277,7 @@ mpdecimal                  4.0.1-r0          apk
 mpg123                     1.33.3-r0         apk                          
 mpg123-libs                1.33.3-r0         apk                          
 musl                       1.2.5-r24         apk                          
-musl-utils                 1.2.5-r23         apk                          
+musl-utils                 1.2.5-r24         apk                          
 mutagen                    1.48.1            python                       
 nano                       8.7-r0            apk                          
 ncurses-terminfo-base      6.5_p20251123-r0  apk                          
