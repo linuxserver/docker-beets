@@ -358,7 +358,7 @@ simd_helpers               0.1.0             rust-crate
 six                        1.17.0            python                       
 skalibs-libs               2.14.4.0-r0       apk                          
 sord-libs                  0.16.18-r0        apk                          
-soupsieve                  4.0.1             python                       
+soupsieve                  4.1               python                       
 soxr                       0.1.3-r7          apk                          
 speex                      1.2.1-r2          apk                          
 speexdsp                   1.2.1-r2          apk                          
