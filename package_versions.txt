@@ -294,7 +294,7 @@ num-integer                0.1.46            rust-crate
 num-rational               0.4.2             rust-crate                   
 num-traits                 0.2.19            rust-crate                   
 numactl                    2.0.18-r0         apk                          
-numpy                      2.5.4             python                       
+numpy                      2.5.5             python                       
 oauthlib                   4.0.1             python                       
 once_cell                  1.21.3            rust-crate                   
 oniguruma                  6.9.10-r0         apk                          
@@ -358,7 +358,7 @@ simd_helpers               0.1.0             rust-crate
 six                        1.17.0            python                       
 skalibs-libs               2.14.4.0-r0       apk                          
 sord-libs                  0.16.18-r0        apk                          
-soupsieve                  4.1               python                       
+soupsieve                  4.1.1             python                       
 soxr                       0.1.3-r7          apk                          
 speex                      1.2.1-r2          apk                          
 speexdsp                   1.2.1-r2          apk                          
