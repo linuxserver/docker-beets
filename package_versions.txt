@@ -323,7 +323,7 @@ pyc                        3.12.16-r0        apk
 pycairo                    1.29.2            python                       
 pycountry                  26.2.16           python                       
 pygobject                  3.58.1            python                       
-pylast                     7.2.0             python                       
+pylast                     7.3.0             python                       
 pyrate-limiter             4.5.1             python                       
 python-dateutil            4.0.0             python                       
 python3                    3.12.16-r0        apk                          
