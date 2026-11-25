@@ -48,7 +48,7 @@ catatonit                  0.2.1-r0          apk
 cdparanoia-libs            10.2-r14          apk                          
 certifi                    2026.11.20        python                       
 cfg-if                     1.0.1             rust-crate                   
-charset-normalizer         3.5.2             python                       
+charset-normalizer         3.5.3             python                       
 chromaprint                1.6.0-r0          apk                          
 chromaprint-libs           1.6.0-r0          apk                          
 cjson                      1.7.19-r1         apk                          
@@ -85,7 +85,7 @@ either                     1.15.0            rust-crate
 equator                    0.4.2             rust-crate                   
 errno                      0.3.12            rust-crate                   
 eudev-libs                 3.2.14-r6         apk                          
-expat                      2.10.0-r0         apk                          
+expat                      2.11.0-r0         apk                          
 fern                       0.7.1             rust-crate                   
 ffmpeg                     8.0.1-r1          apk                          
 ffmpeg-libavcodec          8.0.1-r1          apk                          
@@ -185,8 +185,8 @@ libdrm                     2.4.131-r0        apk
 libdv                      1.0.0-r8          apk                          
 libeconf                   0.8.3-r0          apk                          
 libelf                     0.194-r0          apk                          
-libexpat                   2.10.0-r0         apk                          
-libffi                     3.5.2-r0          apk                          
+libexpat                   2.11.0-r0         apk                          
+libffi                     3.8.1-r0          apk                          
 libflac                    1.4.3-r2          apk                          
 libgcc                     15.2.0-r2         apk                          
 libgomp                    15.2.0-r2         apk                          
@@ -303,7 +303,8 @@ openjpeg                   2.5.4-r2          apk
 opus                       1.5.2-r1          apk                          
 orc                        0.4.41-r0         apk                          
 p11-kit                    0.26.2-r0         apk                          
-packaging                  26.3              python      (+1 duplicate)   
+packaging                  26.3              python                       
+packaging                  26.4              python                       
 pango                      1.56.4-r0         apk                          
 paste                      1.0.15            rust-crate                   
 pastey                     0.1.0             rust-crate                   
